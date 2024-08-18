@@ -1,0 +1,48 @@
+.homeContainer {
+  margin: 9vmax 3vmax;
+
+  height: 100vh;
+  width: calc(100vw - 6vmax);
+}
+
+#Currencies,
+#metal {
+  width: 93%;
+  height: 84%;
+  margin: 0 auto;
+  margin-bottom: 2vmax;
+  background-color: #554348;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#local {
+  width: 93%;
+  height: 52%;
+  margin: 0 auto;
+  margin-top: 2vmax;
+  margin-bottom: 2vmax;
+  background-color: #554348;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .homeContainer {
+    margin: 9vmax 0;
+    width: 100%;
+  }
+  #local {
+    height: 50%;
+    width: 100%;
+  }
+  #metal {
+    height: 75vmax;
+    width: 100%;
+  }
+  #Currencies {
+    height: 115vmax;
+    width: 100%;
+  }
+}

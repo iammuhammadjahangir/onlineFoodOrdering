@@ -1,0 +1,211 @@
+.myordersContainer {
+  margin-top: 1rem;
+  // height: max-content;
+
+  > .detailOrderContainer {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 90%;
+    height: 70vh;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    > .itemContainer {
+      background-color: $white;
+      padding: 0.5rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      @include flex(column, flex-start, flex-start, 1rem);
+
+      > .mainDetailContainer {
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        h1 {
+          font-family: "Roboto";
+          font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+          color: $lightgrey;
+          font-weight: 800;
+          margin: 0;
+
+          span {
+            color: $tertiary;
+            opacity: 0.7;
+          }
+        }
+        p {
+          font-family: "Roboto";
+          font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+          color: $lightgrey;
+          font-weight: 800;
+          margin: 0;
+        }
+      }
+      > .productsContainer {
+        width: 100%;
+        @include flex(row, space-between, flex-start, 0);
+
+        > .mainDetails {
+          width: 45%;
+          @include flex(row, flex-start, flex-start, 1rem);
+          > img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+          }
+
+          > .productDetail {
+            width: 100%;
+            @include flex(column, flex-start, flex-start, 0);
+
+            > h1 {
+              font-family: "Roboto";
+              font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1.2rem);
+              text-transform: capitalize;
+              color: $grey;
+              font-weight: 800;
+              margin: 0;
+            }
+            > p {
+              font-family: "Roboto";
+              font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+              color: $lightgrey;
+              font-weight: 800;
+              margin: 0;
+            }
+
+            > .variations {
+              @include flex(column, space-between, flex-start, 0);
+
+              h5 {
+                font-family: "Roboto";
+                font-size: 1rem;
+                color: rgba(0, 0, 0, 0.8);
+                font-weight: bold;
+                padding-left: 0.3rem;
+              }
+
+              p {
+                font-family: "Roboto";
+                font-size: 0.9rem;
+                color: rgba(0, 0, 0, 0.7);
+                padding-left: 0.6rem;
+              }
+            }
+          }
+        }
+
+        > .secondaryDetails {
+          width: 55%;
+          @include flex(row, space-between, flex-start, 0);
+          > .purchasesItems {
+            @include flex;
+            h1 {
+              align-items: center;
+              font-family: "Roboto";
+              font-size: clamp(0.6rem, 0.3043rem + 3.4783vw, 0.9rem);
+              color: $lightgrey;
+              font-weight: 800;
+              margin: 0;
+              span {
+                color: $tertiary;
+                font-size: clamp(0.6rem, 0.3043rem + 3.4783vw, 1rem);
+                opacity: 0.7;
+              }
+            }
+          }
+
+          > .statusName {
+            background-color: rgba(0, 0, 0, 0.1);
+            padding: 0.1rem 0.4rem;
+            border-radius: 5px;
+          }
+
+          > .red {
+            background-color: rgba(255, 0, 0, 0.1);
+            color: red;
+          }
+
+          > .green {
+            background-color: rgba(0, 255, 0, 0.1);
+            color: green;
+          }
+
+          > .statusDate {
+            h1 {
+              font-family: "Roboto";
+              font-size: clamp(0.6rem, 0.3043rem + 3.4783vw, 0.9rem);
+              color: $lightgrey;
+              font-weight: 800;
+              margin: 0;
+              span {
+                color: $tertiary;
+                font-size: clamp(0.6rem, 0.3043rem + 3.4783vw, 1rem);
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+    > .pagination {
+      padding-bottom: 3rem;
+      article {
+        @include flex;
+        > button {
+          @include flex;
+          @include btn(0.5rem 1rem, $navyBlue, $white);
+          border-radius: 10px;
+          &:disabled {
+            cursor: not-allowed;
+            opacity: 0.5;
+            color: $lightgrey;
+          }
+        }
+      }
+    }
+
+    > .noOrder {
+      @include flex(column, center, center, 0);
+      height: 100%;
+      h1 {
+        font-family: "Roboto";
+        font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1.2rem);
+        color: $lightgrey;
+        font-weight: 800;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .detailOrderContainer {
+    margin: 0 auto;
+    width: 96% !important;
+    height: 100dvh !important;
+    margin-bottom: 5rem;
+
+    > .itemContainer {
+      .productsContainer {
+        flex-direction: column !important;
+        padding: 0.2rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+        .mainDetails {
+          width: 100% !important;
+        }
+
+        .secondaryDetails {
+          margin: 0 auto;
+          width: 95% !important;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}

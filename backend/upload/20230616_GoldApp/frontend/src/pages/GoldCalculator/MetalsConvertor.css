@@ -1,0 +1,54 @@
+.calculatorsubHeadingMetal > input {
+  width: 5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all 0.5s ease;
+  font-family: "Roboto";
+  padding: 10px 0;
+  margin: 0 20px;
+  font-size: 1vmax;
+  color: #474747;
+  height: 100%;
+  text-align: center;
+}
+
+.calculatorsubHeadingMetal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8vmax;
+  font-family: "Roboto";
+  color: #474747;
+  margin: 0;
+}
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  margin-top: 10px;
+  background-color: #e9e9e9;
+  padding: 0 7vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 7px double #474747;
+  font-family: "Roboto";
+}
+.card > h1 {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: #946f29;
+}
+
+/* @media (max-width: 700px) {
+  .card {
+  }
+} */

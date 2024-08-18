@@ -1,0 +1,130 @@
+/* .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  background-color: #699e67 !important;
+} */
+
+.tableComponent {
+  height: 80vh;
+}
+
+.border-Right {
+  border-right: 1px solid #707070;
+}
+.customTable {
+  border-collapse: separate;
+  border-spacing: 0 10px; /* Adjust the spacing between rows */
+  width: 100%; /* Make the table take full width */
+}
+
+.customTable .TableRow {
+  border-right: 1px solid #707070; /* Adjust the color as needed */
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.customTable .TableCell {
+  border-bottom: none; /* Remove the bottom border */
+}
+
+.customTable .oddRow {
+  background-color: #fbf4f4;
+  padding: 10px; /* Set the background color for odd rows */
+}
+
+.customTable .evenRow {
+  background-color: white; /* Set the background color for even rows */
+  padding: 10px;
+}
+
+.custom-table-pagination .MuiSelect-select {
+  display: none;
+}
+
+/* Add a more specific selector to hide the "Rows per page" dropdown */
+.custom-table-pagination .MuiTablePagination-input {
+  display: none;
+}
+
+.customTable .TableRow {
+  font-size: 13px;
+  font-family: "Roboto"; /* Set the font size for the table rows */
+  color: #393939; /* Set the text color for the table rows */
+}
+
+.customTable .lastRowCell {
+  border-bottom: 2px solid red;
+  border-right: 1px solid #707070; /* Adjust the border style and color */
+}
+
+.tableHead {
+  background-color: #707070;
+  z-index: 1;
+  font-size: 13px;
+  font-family: "Poppins, sans-serif"; /* Set the font size for the table header */
+  font-weight: 550; /* Set the font weight (500 for medium) */
+  color: #393939; /* Set the text color for the table header */
+  white-space: nowrap;
+}
+
+.tableHead .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  height: 0;
+  width: 0;
+}
+
+#style-13::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  background-color: #cccccc;
+}
+
+#style-13::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+#style-13::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #454545;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.4) 50%,
+    transparent,
+    transparent
+  );
+}
+
+.bidAskColumn .tableCellContent {
+  background-color: #2a3037;
+  color: white !important;
+  padding: 1vmax 1vmax;
+  text-align: right;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .bidAskColumn .tableCellContent {
+    background-color: #2a3037;
+    color: white !important;
+    padding: 1vmax 1vmax;
+    text-align: right;
+    width: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .css-vtdehq-MuiTableCell-root {
+    padding: 6px 2px !important;
+  }
+  .textClip {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 20vw;
+  }
+}

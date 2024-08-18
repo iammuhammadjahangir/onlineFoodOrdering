@@ -1,0 +1,40 @@
+.Hello{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; 
+    font-size: 1.2rem;
+}
+
+
+.Hello2{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; 
+    
+}
+.Hello3{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    padding-top: 100px 40px !important;
+
+}
+/* .padding{
+   padding: 400px 30px;
+} */
+.clicked {
+    background: linear-gradient(to right, #d6fad2, #0a713a);
+  color: #fff;
+    /* Add any other styles you want to apply when the button is clicked */
+  }
+  .stylee {
+    color: green;
+    gap: 50px;
+    padding: 0 7px;
+    margin-bottom: 10px;
+  }
+  .custom-swal-popup {
+    background-color: #d1cbcb; /* Set the background color here */
+  }
+  

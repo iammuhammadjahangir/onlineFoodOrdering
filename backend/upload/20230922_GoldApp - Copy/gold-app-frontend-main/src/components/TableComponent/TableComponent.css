@@ -1,0 +1,38 @@
+css-li73ss-MuiTableCell-root {
+  width: auto !important;
+}
+
+.css-vtdehq-MuiTableCell-root {
+  padding: 0 !important;
+  /* padding-top: 20px !important; */
+}
+.css-4phl5w-MuiTableCell-root {
+  text-align: left !important;
+}
+/* .css-vtdehq-MuiTableCell-root {
+  display: flex;
+  justify-content: center !important ;
+  align-items: center !important;
+} */
+.css-1cw9iba-MuiButtonBase-root-MuiButton-root {
+  padding: 6px 0px !important;
+}
+.css-gwur9m-MuiButtonBase-root-MuiButton-root {
+  font-size: 12px !important;
+  padding: 2px 2px !important;
+}
+/* Add this CSS to your stylesheet or component */
+.customTableCell {
+  position: relative; /* Make the cell a positioned container */
+  padding-right: 10px; /* Add some padding to the right to accommodate buttons */
+}
+
+.css-gwur9m-MuiButtonBase-root-MuiButton-root,
+.css-1tbxn0u-MuiButtonBase-root-MuiButton-root {
+  background-color: #1976d2 !important;
+}
+
+.css-gwur9m-MuiButtonBase-root-MuiButton-root:hover,
+.css-1tbxn0u-MuiButtonBase-root-MuiButton-root:hover {
+  background: #42a5f5 !important ;
+}

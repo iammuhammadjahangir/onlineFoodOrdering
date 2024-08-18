@@ -1,0 +1,2934 @@
+[{
+  "_id": {
+    "$oid": "6698e783f045789524f07161"
+  },
+  "orderId": "Order_10136",
+  "customerId": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738c12168f17b9eb229d1"
+      },
+      "name": "Daleem Dal Chawal",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 200,
+      "offerPrice": 0,
+      "finalPrice": 200,
+      "productImage": "upload\\c94f6570-363b-4454-b1ae-4c1be6bcd3de.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738f62168f17b9eb229d3"
+      },
+      "name": "Daleem Dal Chawal ( 1 Shami Kabab) (240)",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 240,
+      "offerPrice": 0,
+      "finalPrice": 240,
+      "productImage": "upload\\0d418f86-59c2-4087-a603-e4577bf10605.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c7392d2168f17b9eb229d5"
+      },
+      "name": "Masala Biryani (100)",
+      "description": "Single Plate Of Rice With 1 Potato",
+      "actualPrice": 100,
+      "offerPrice": 0,
+      "finalPrice": 100,
+      "productImage": "upload\\3bb48925-a9e5-4686-86d7-f568c8074a67.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c747704377aba19f42a67d"
+      },
+      "name": "Chicken Piece",
+      "description": "Chicken Piece",
+      "actualPrice": 380,
+      "offerPrice": 0,
+      "finalPrice": 380,
+      "productImage": "upload\\f4205213-8707-4732-9a5d-1779c23b7045.jpeg",
+      "variations": [
+        {
+          "_id": "65c739ff2168f17b9eb229db",
+          "name": "Variation",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c739b22168f17b9eb229d7",
+              "name": "Leg Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:10.629Z",
+              "updatedAt": "2024-02-10T08:54:10.629Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c739b82168f17b9eb229d9",
+              "name": "Chest Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:16.598Z",
+              "updatedAt": "2024-02-10T08:54:16.598Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-10T08:55:27.430Z",
+          "updatedAt": "2024-02-10T08:55:27.430Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65c7e4b0ad8ce1e2c5bc5c66"
+      },
+      "name": "Seekh Kabab",
+      "description": "Beef",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 1700,
+      "productImage": "upload\\79cb5cd2-e3ba-4eae-8183-769c7b9d38ed.jpeg",
+      "variations": [
+        {
+          "_id": "65c6221476036988e701917a",
+          "name": "Soft Drink",
+          "description": "testing",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c61fd39a18a9ebb295fdec",
+              "name": "7 Up",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:31.087Z",
+              "updatedAt": "2024-02-09T12:51:31.087Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fdb9a18a9ebb295fdee",
+              "name": "Pepsi",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:39.139Z",
+              "updatedAt": "2024-02-09T12:51:39.139Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fe19a18a9ebb295fdf0",
+              "name": "Dew",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:45.530Z",
+              "updatedAt": "2024-02-09T12:51:45.530Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-09T13:01:08.393Z",
+          "updatedAt": "2024-02-09T13:28:26.589Z",
+          "__v": 3
+        },
+        {
+          "_id": "65ca182a8c86b248a7c68d02",
+          "name": "soft drink",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:07:54.978Z",
+          "updatedAt": "2024-02-12T13:07:54.978Z",
+          "__v": 0
+        },
+        {
+          "_id": "65ca183b8c86b248a7c68d04",
+          "name": "topping",
+          "description": "Variation",
+          "isRequired": false,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:08:11.075Z",
+          "updatedAt": "2024-02-12T13:08:11.075Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [
+        {
+          "index": 2,
+          "varName": "topping",
+          "varId": "65ca183b8c86b248a7c68d04",
+          "variation": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            }
+          ]
+        }
+      ],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        },
+        {
+          "_id": "65c61fdb9a18a9ebb295fdee",
+          "name": "Pepsi",
+          "price": 180,
+          "createdAt": "2024-02-09T12:51:39.139Z",
+          "updatedAt": "2024-02-09T12:51:39.139Z",
+          "__v": 0,
+          "variationName": "Soft Drink",
+          "variationId": "65c6221476036988e701917a"
+        },
+        {
+          "_id": "65c7480e4377aba19f42a681",
+          "name": "3 kabab",
+          "price": 370,
+          "createdAt": "2024-02-10T09:55:26.784Z",
+          "updatedAt": "2024-02-10T09:55:26.784Z",
+          "__v": 0,
+          "variationName": "soft drink",
+          "variationId": "65ca182a8c86b248a7c68d02"
+        }
+      ]
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "ewewwe",
+    "city": "Islamabad Ali Pur",
+    "area": "Balti Colony"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 6420,
+  "discountPrice": 6420,
+  "grandTotalPrice": 6620,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T09:59:31.563Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698e783f045789524f07162"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T09:59:31.572Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T09:59:31.575Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T09:59:31.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698e7dcf045789524f07170"
+  },
+  "orderId": "Order_10137",
+  "customerId": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738c12168f17b9eb229d1"
+      },
+      "name": "Daleem Dal Chawal",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 200,
+      "offerPrice": 0,
+      "finalPrice": 200,
+      "productImage": "upload\\c94f6570-363b-4454-b1ae-4c1be6bcd3de.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738f62168f17b9eb229d3"
+      },
+      "name": "Daleem Dal Chawal ( 1 Shami Kabab) (240)",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 240,
+      "offerPrice": 0,
+      "finalPrice": 240,
+      "productImage": "upload\\0d418f86-59c2-4087-a603-e4577bf10605.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c7392d2168f17b9eb229d5"
+      },
+      "name": "Masala Biryani (100)",
+      "description": "Single Plate Of Rice With 1 Potato",
+      "actualPrice": 100,
+      "offerPrice": 0,
+      "finalPrice": 100,
+      "productImage": "upload\\3bb48925-a9e5-4686-86d7-f568c8074a67.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c747704377aba19f42a67d"
+      },
+      "name": "Chicken Piece",
+      "description": "Chicken Piece",
+      "actualPrice": 380,
+      "offerPrice": 0,
+      "finalPrice": 380,
+      "productImage": "upload\\f4205213-8707-4732-9a5d-1779c23b7045.jpeg",
+      "variations": [
+        {
+          "_id": "65c739ff2168f17b9eb229db",
+          "name": "Variation",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c739b22168f17b9eb229d7",
+              "name": "Leg Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:10.629Z",
+              "updatedAt": "2024-02-10T08:54:10.629Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c739b82168f17b9eb229d9",
+              "name": "Chest Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:16.598Z",
+              "updatedAt": "2024-02-10T08:54:16.598Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-10T08:55:27.430Z",
+          "updatedAt": "2024-02-10T08:55:27.430Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65c7e4b0ad8ce1e2c5bc5c66"
+      },
+      "name": "Seekh Kabab",
+      "description": "Beef",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 1700,
+      "productImage": "upload\\79cb5cd2-e3ba-4eae-8183-769c7b9d38ed.jpeg",
+      "variations": [
+        {
+          "_id": "65c6221476036988e701917a",
+          "name": "Soft Drink",
+          "description": "testing",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c61fd39a18a9ebb295fdec",
+              "name": "7 Up",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:31.087Z",
+              "updatedAt": "2024-02-09T12:51:31.087Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fdb9a18a9ebb295fdee",
+              "name": "Pepsi",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:39.139Z",
+              "updatedAt": "2024-02-09T12:51:39.139Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fe19a18a9ebb295fdf0",
+              "name": "Dew",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:45.530Z",
+              "updatedAt": "2024-02-09T12:51:45.530Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-09T13:01:08.393Z",
+          "updatedAt": "2024-02-09T13:28:26.589Z",
+          "__v": 3
+        },
+        {
+          "_id": "65ca182a8c86b248a7c68d02",
+          "name": "soft drink",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:07:54.978Z",
+          "updatedAt": "2024-02-12T13:07:54.978Z",
+          "__v": 0
+        },
+        {
+          "_id": "65ca183b8c86b248a7c68d04",
+          "name": "topping",
+          "description": "Variation",
+          "isRequired": false,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:08:11.075Z",
+          "updatedAt": "2024-02-12T13:08:11.075Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [
+        {
+          "index": 2,
+          "varName": "topping",
+          "varId": "65ca183b8c86b248a7c68d04",
+          "variation": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            }
+          ]
+        }
+      ],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        },
+        {
+          "_id": "65c61fdb9a18a9ebb295fdee",
+          "name": "Pepsi",
+          "price": 180,
+          "createdAt": "2024-02-09T12:51:39.139Z",
+          "updatedAt": "2024-02-09T12:51:39.139Z",
+          "__v": 0,
+          "variationName": "Soft Drink",
+          "variationId": "65c6221476036988e701917a"
+        },
+        {
+          "_id": "65c7480e4377aba19f42a681",
+          "name": "3 kabab",
+          "price": 370,
+          "createdAt": "2024-02-10T09:55:26.784Z",
+          "updatedAt": "2024-02-10T09:55:26.784Z",
+          "__v": 0,
+          "variationName": "soft drink",
+          "variationId": "65ca182a8c86b248a7c68d02"
+        }
+      ]
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "ewewwe",
+    "city": "Islamabad Ali Pur",
+    "area": "Balti Colony"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 6420,
+  "discountPrice": 6420,
+  "grandTotalPrice": 6620,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T10:01:00.400Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698e7dcf045789524f07171"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T10:01:00.403Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T10:01:00.407Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:01:00.407Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698e7fbf045789524f0717c"
+  },
+  "orderId": "Order_10138",
+  "customerId": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738c12168f17b9eb229d1"
+      },
+      "name": "Daleem Dal Chawal",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 200,
+      "offerPrice": 0,
+      "finalPrice": 200,
+      "productImage": "upload\\c94f6570-363b-4454-b1ae-4c1be6bcd3de.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738f62168f17b9eb229d3"
+      },
+      "name": "Daleem Dal Chawal ( 1 Shami Kabab) (240)",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 240,
+      "offerPrice": 0,
+      "finalPrice": 240,
+      "productImage": "upload\\0d418f86-59c2-4087-a603-e4577bf10605.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c7392d2168f17b9eb229d5"
+      },
+      "name": "Masala Biryani (100)",
+      "description": "Single Plate Of Rice With 1 Potato",
+      "actualPrice": 100,
+      "offerPrice": 0,
+      "finalPrice": 100,
+      "productImage": "upload\\3bb48925-a9e5-4686-86d7-f568c8074a67.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c747704377aba19f42a67d"
+      },
+      "name": "Chicken Piece",
+      "description": "Chicken Piece",
+      "actualPrice": 380,
+      "offerPrice": 0,
+      "finalPrice": 380,
+      "productImage": "upload\\f4205213-8707-4732-9a5d-1779c23b7045.jpeg",
+      "variations": [
+        {
+          "_id": "65c739ff2168f17b9eb229db",
+          "name": "Variation",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c739b22168f17b9eb229d7",
+              "name": "Leg Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:10.629Z",
+              "updatedAt": "2024-02-10T08:54:10.629Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c739b82168f17b9eb229d9",
+              "name": "Chest Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:16.598Z",
+              "updatedAt": "2024-02-10T08:54:16.598Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-10T08:55:27.430Z",
+          "updatedAt": "2024-02-10T08:55:27.430Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65c7e4b0ad8ce1e2c5bc5c66"
+      },
+      "name": "Seekh Kabab",
+      "description": "Beef",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 1700,
+      "productImage": "upload\\79cb5cd2-e3ba-4eae-8183-769c7b9d38ed.jpeg",
+      "variations": [
+        {
+          "_id": "65c6221476036988e701917a",
+          "name": "Soft Drink",
+          "description": "testing",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c61fd39a18a9ebb295fdec",
+              "name": "7 Up",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:31.087Z",
+              "updatedAt": "2024-02-09T12:51:31.087Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fdb9a18a9ebb295fdee",
+              "name": "Pepsi",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:39.139Z",
+              "updatedAt": "2024-02-09T12:51:39.139Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fe19a18a9ebb295fdf0",
+              "name": "Dew",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:45.530Z",
+              "updatedAt": "2024-02-09T12:51:45.530Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-09T13:01:08.393Z",
+          "updatedAt": "2024-02-09T13:28:26.589Z",
+          "__v": 3
+        },
+        {
+          "_id": "65ca182a8c86b248a7c68d02",
+          "name": "soft drink",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:07:54.978Z",
+          "updatedAt": "2024-02-12T13:07:54.978Z",
+          "__v": 0
+        },
+        {
+          "_id": "65ca183b8c86b248a7c68d04",
+          "name": "topping",
+          "description": "Variation",
+          "isRequired": false,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:08:11.075Z",
+          "updatedAt": "2024-02-12T13:08:11.075Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [
+        {
+          "index": 2,
+          "varName": "topping",
+          "varId": "65ca183b8c86b248a7c68d04",
+          "variation": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            }
+          ]
+        }
+      ],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        },
+        {
+          "_id": "65c61fdb9a18a9ebb295fdee",
+          "name": "Pepsi",
+          "price": 180,
+          "createdAt": "2024-02-09T12:51:39.139Z",
+          "updatedAt": "2024-02-09T12:51:39.139Z",
+          "__v": 0,
+          "variationName": "Soft Drink",
+          "variationId": "65c6221476036988e701917a"
+        },
+        {
+          "_id": "65c7480e4377aba19f42a681",
+          "name": "3 kabab",
+          "price": 370,
+          "createdAt": "2024-02-10T09:55:26.784Z",
+          "updatedAt": "2024-02-10T09:55:26.784Z",
+          "__v": 0,
+          "variationName": "soft drink",
+          "variationId": "65ca182a8c86b248a7c68d02"
+        }
+      ]
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "ewewwe",
+    "city": "Islamabad Ali Pur",
+    "area": "Balti Colony"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 6420,
+  "discountPrice": 6420,
+  "grandTotalPrice": 6620,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T10:01:31.028Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698e7fbf045789524f0717d"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T10:01:31.036Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T10:01:31.043Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:01:31.043Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698e810f045789524f07189"
+  },
+  "orderId": "Order_10139",
+  "customerId": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738c12168f17b9eb229d1"
+      },
+      "name": "Daleem Dal Chawal",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 200,
+      "offerPrice": 0,
+      "finalPrice": 200,
+      "productImage": "upload\\c94f6570-363b-4454-b1ae-4c1be6bcd3de.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738f62168f17b9eb229d3"
+      },
+      "name": "Daleem Dal Chawal ( 1 Shami Kabab) (240)",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 240,
+      "offerPrice": 0,
+      "finalPrice": 240,
+      "productImage": "upload\\0d418f86-59c2-4087-a603-e4577bf10605.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c7392d2168f17b9eb229d5"
+      },
+      "name": "Masala Biryani (100)",
+      "description": "Single Plate Of Rice With 1 Potato",
+      "actualPrice": 100,
+      "offerPrice": 0,
+      "finalPrice": 100,
+      "productImage": "upload\\3bb48925-a9e5-4686-86d7-f568c8074a67.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c747704377aba19f42a67d"
+      },
+      "name": "Chicken Piece",
+      "description": "Chicken Piece",
+      "actualPrice": 380,
+      "offerPrice": 0,
+      "finalPrice": 380,
+      "productImage": "upload\\f4205213-8707-4732-9a5d-1779c23b7045.jpeg",
+      "variations": [
+        {
+          "_id": "65c739ff2168f17b9eb229db",
+          "name": "Variation",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c739b22168f17b9eb229d7",
+              "name": "Leg Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:10.629Z",
+              "updatedAt": "2024-02-10T08:54:10.629Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c739b82168f17b9eb229d9",
+              "name": "Chest Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:16.598Z",
+              "updatedAt": "2024-02-10T08:54:16.598Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-10T08:55:27.430Z",
+          "updatedAt": "2024-02-10T08:55:27.430Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65c7e4b0ad8ce1e2c5bc5c66"
+      },
+      "name": "Seekh Kabab",
+      "description": "Beef",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 1700,
+      "productImage": "upload\\79cb5cd2-e3ba-4eae-8183-769c7b9d38ed.jpeg",
+      "variations": [
+        {
+          "_id": "65c6221476036988e701917a",
+          "name": "Soft Drink",
+          "description": "testing",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c61fd39a18a9ebb295fdec",
+              "name": "7 Up",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:31.087Z",
+              "updatedAt": "2024-02-09T12:51:31.087Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fdb9a18a9ebb295fdee",
+              "name": "Pepsi",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:39.139Z",
+              "updatedAt": "2024-02-09T12:51:39.139Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fe19a18a9ebb295fdf0",
+              "name": "Dew",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:45.530Z",
+              "updatedAt": "2024-02-09T12:51:45.530Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-09T13:01:08.393Z",
+          "updatedAt": "2024-02-09T13:28:26.589Z",
+          "__v": 3
+        },
+        {
+          "_id": "65ca182a8c86b248a7c68d02",
+          "name": "soft drink",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:07:54.978Z",
+          "updatedAt": "2024-02-12T13:07:54.978Z",
+          "__v": 0
+        },
+        {
+          "_id": "65ca183b8c86b248a7c68d04",
+          "name": "topping",
+          "description": "Variation",
+          "isRequired": false,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:08:11.075Z",
+          "updatedAt": "2024-02-12T13:08:11.075Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [
+        {
+          "index": 2,
+          "varName": "topping",
+          "varId": "65ca183b8c86b248a7c68d04",
+          "variation": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            }
+          ]
+        }
+      ],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        },
+        {
+          "_id": "65c61fdb9a18a9ebb295fdee",
+          "name": "Pepsi",
+          "price": 180,
+          "createdAt": "2024-02-09T12:51:39.139Z",
+          "updatedAt": "2024-02-09T12:51:39.139Z",
+          "__v": 0,
+          "variationName": "Soft Drink",
+          "variationId": "65c6221476036988e701917a"
+        },
+        {
+          "_id": "65c7480e4377aba19f42a681",
+          "name": "3 kabab",
+          "price": 370,
+          "createdAt": "2024-02-10T09:55:26.784Z",
+          "updatedAt": "2024-02-10T09:55:26.784Z",
+          "__v": 0,
+          "variationName": "soft drink",
+          "variationId": "65ca182a8c86b248a7c68d02"
+        }
+      ]
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "ewewwe",
+    "city": "Islamabad Ali Pur",
+    "area": "Balti Colony"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 6420,
+  "discountPrice": 6420,
+  "grandTotalPrice": 6620,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T10:01:52.730Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698e810f045789524f0718a"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T10:01:52.734Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T10:01:52.737Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:01:52.737Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698e81bf045789524f0719f"
+  },
+  "orderId": "Order_10140",
+  "customerId": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738c12168f17b9eb229d1"
+      },
+      "name": "Daleem Dal Chawal",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 200,
+      "offerPrice": 0,
+      "finalPrice": 200,
+      "productImage": "upload\\c94f6570-363b-4454-b1ae-4c1be6bcd3de.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738f62168f17b9eb229d3"
+      },
+      "name": "Daleem Dal Chawal ( 1 Shami Kabab) (240)",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 240,
+      "offerPrice": 0,
+      "finalPrice": 240,
+      "productImage": "upload\\0d418f86-59c2-4087-a603-e4577bf10605.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c7392d2168f17b9eb229d5"
+      },
+      "name": "Masala Biryani (100)",
+      "description": "Single Plate Of Rice With 1 Potato",
+      "actualPrice": 100,
+      "offerPrice": 0,
+      "finalPrice": 100,
+      "productImage": "upload\\3bb48925-a9e5-4686-86d7-f568c8074a67.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c747704377aba19f42a67d"
+      },
+      "name": "Chicken Piece",
+      "description": "Chicken Piece",
+      "actualPrice": 380,
+      "offerPrice": 0,
+      "finalPrice": 380,
+      "productImage": "upload\\f4205213-8707-4732-9a5d-1779c23b7045.jpeg",
+      "variations": [
+        {
+          "_id": "65c739ff2168f17b9eb229db",
+          "name": "Variation",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c739b22168f17b9eb229d7",
+              "name": "Leg Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:10.629Z",
+              "updatedAt": "2024-02-10T08:54:10.629Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c739b82168f17b9eb229d9",
+              "name": "Chest Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:16.598Z",
+              "updatedAt": "2024-02-10T08:54:16.598Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-10T08:55:27.430Z",
+          "updatedAt": "2024-02-10T08:55:27.430Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65c7e4b0ad8ce1e2c5bc5c66"
+      },
+      "name": "Seekh Kabab",
+      "description": "Beef",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 1700,
+      "productImage": "upload\\79cb5cd2-e3ba-4eae-8183-769c7b9d38ed.jpeg",
+      "variations": [
+        {
+          "_id": "65c6221476036988e701917a",
+          "name": "Soft Drink",
+          "description": "testing",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c61fd39a18a9ebb295fdec",
+              "name": "7 Up",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:31.087Z",
+              "updatedAt": "2024-02-09T12:51:31.087Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fdb9a18a9ebb295fdee",
+              "name": "Pepsi",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:39.139Z",
+              "updatedAt": "2024-02-09T12:51:39.139Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fe19a18a9ebb295fdf0",
+              "name": "Dew",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:45.530Z",
+              "updatedAt": "2024-02-09T12:51:45.530Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-09T13:01:08.393Z",
+          "updatedAt": "2024-02-09T13:28:26.589Z",
+          "__v": 3
+        },
+        {
+          "_id": "65ca182a8c86b248a7c68d02",
+          "name": "soft drink",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:07:54.978Z",
+          "updatedAt": "2024-02-12T13:07:54.978Z",
+          "__v": 0
+        },
+        {
+          "_id": "65ca183b8c86b248a7c68d04",
+          "name": "topping",
+          "description": "Variation",
+          "isRequired": false,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:08:11.075Z",
+          "updatedAt": "2024-02-12T13:08:11.075Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [
+        {
+          "index": 2,
+          "varName": "topping",
+          "varId": "65ca183b8c86b248a7c68d04",
+          "variation": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            }
+          ]
+        }
+      ],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        },
+        {
+          "_id": "65c61fdb9a18a9ebb295fdee",
+          "name": "Pepsi",
+          "price": 180,
+          "createdAt": "2024-02-09T12:51:39.139Z",
+          "updatedAt": "2024-02-09T12:51:39.139Z",
+          "__v": 0,
+          "variationName": "Soft Drink",
+          "variationId": "65c6221476036988e701917a"
+        },
+        {
+          "_id": "65c7480e4377aba19f42a681",
+          "name": "3 kabab",
+          "price": 370,
+          "createdAt": "2024-02-10T09:55:26.784Z",
+          "updatedAt": "2024-02-10T09:55:26.784Z",
+          "__v": 0,
+          "variationName": "soft drink",
+          "variationId": "65ca182a8c86b248a7c68d02"
+        }
+      ]
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "ewewwe",
+    "city": "Islamabad Ali Pur",
+    "area": "Balti Colony"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 6420,
+  "discountPrice": 6420,
+  "grandTotalPrice": 6620,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T10:02:03.717Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698e81bf045789524f071a0"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T10:02:03.721Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T10:02:03.723Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:02:03.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698e83bf045789524f071ae"
+  },
+  "orderId": "Order_10141",
+  "customerId": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738c12168f17b9eb229d1"
+      },
+      "name": "Daleem Dal Chawal",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 200,
+      "offerPrice": 0,
+      "finalPrice": 200,
+      "productImage": "upload\\c94f6570-363b-4454-b1ae-4c1be6bcd3de.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738f62168f17b9eb229d3"
+      },
+      "name": "Daleem Dal Chawal ( 1 Shami Kabab) (240)",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 240,
+      "offerPrice": 0,
+      "finalPrice": 240,
+      "productImage": "upload\\0d418f86-59c2-4087-a603-e4577bf10605.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c7392d2168f17b9eb229d5"
+      },
+      "name": "Masala Biryani (100)",
+      "description": "Single Plate Of Rice With 1 Potato",
+      "actualPrice": 100,
+      "offerPrice": 0,
+      "finalPrice": 100,
+      "productImage": "upload\\3bb48925-a9e5-4686-86d7-f568c8074a67.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c747704377aba19f42a67d"
+      },
+      "name": "Chicken Piece",
+      "description": "Chicken Piece",
+      "actualPrice": 380,
+      "offerPrice": 0,
+      "finalPrice": 380,
+      "productImage": "upload\\f4205213-8707-4732-9a5d-1779c23b7045.jpeg",
+      "variations": [
+        {
+          "_id": "65c739ff2168f17b9eb229db",
+          "name": "Variation",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c739b22168f17b9eb229d7",
+              "name": "Leg Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:10.629Z",
+              "updatedAt": "2024-02-10T08:54:10.629Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c739b82168f17b9eb229d9",
+              "name": "Chest Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:16.598Z",
+              "updatedAt": "2024-02-10T08:54:16.598Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-10T08:55:27.430Z",
+          "updatedAt": "2024-02-10T08:55:27.430Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65c7e4b0ad8ce1e2c5bc5c66"
+      },
+      "name": "Seekh Kabab",
+      "description": "Beef",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 1700,
+      "productImage": "upload\\79cb5cd2-e3ba-4eae-8183-769c7b9d38ed.jpeg",
+      "variations": [
+        {
+          "_id": "65c6221476036988e701917a",
+          "name": "Soft Drink",
+          "description": "testing",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c61fd39a18a9ebb295fdec",
+              "name": "7 Up",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:31.087Z",
+              "updatedAt": "2024-02-09T12:51:31.087Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fdb9a18a9ebb295fdee",
+              "name": "Pepsi",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:39.139Z",
+              "updatedAt": "2024-02-09T12:51:39.139Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fe19a18a9ebb295fdf0",
+              "name": "Dew",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:45.530Z",
+              "updatedAt": "2024-02-09T12:51:45.530Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-09T13:01:08.393Z",
+          "updatedAt": "2024-02-09T13:28:26.589Z",
+          "__v": 3
+        },
+        {
+          "_id": "65ca182a8c86b248a7c68d02",
+          "name": "soft drink",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:07:54.978Z",
+          "updatedAt": "2024-02-12T13:07:54.978Z",
+          "__v": 0
+        },
+        {
+          "_id": "65ca183b8c86b248a7c68d04",
+          "name": "topping",
+          "description": "Variation",
+          "isRequired": false,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:08:11.075Z",
+          "updatedAt": "2024-02-12T13:08:11.075Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [
+        {
+          "index": 2,
+          "varName": "topping",
+          "varId": "65ca183b8c86b248a7c68d04",
+          "variation": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            }
+          ]
+        }
+      ],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        },
+        {
+          "_id": "65c61fdb9a18a9ebb295fdee",
+          "name": "Pepsi",
+          "price": 180,
+          "createdAt": "2024-02-09T12:51:39.139Z",
+          "updatedAt": "2024-02-09T12:51:39.139Z",
+          "__v": 0,
+          "variationName": "Soft Drink",
+          "variationId": "65c6221476036988e701917a"
+        },
+        {
+          "_id": "65c7480e4377aba19f42a681",
+          "name": "3 kabab",
+          "price": 370,
+          "createdAt": "2024-02-10T09:55:26.784Z",
+          "updatedAt": "2024-02-10T09:55:26.784Z",
+          "__v": 0,
+          "variationName": "soft drink",
+          "variationId": "65ca182a8c86b248a7c68d02"
+        }
+      ]
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "ewewwe",
+    "city": "Islamabad Ali Pur",
+    "area": "Balti Colony"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 6420,
+  "discountPrice": 6420,
+  "grandTotalPrice": 6620,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T10:02:35.240Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698e83bf045789524f071af"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T10:02:35.242Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T10:02:35.245Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:02:35.245Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698e898f045789524f071be"
+  },
+  "orderId": "Order_10142",
+  "customerId": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738c12168f17b9eb229d1"
+      },
+      "name": "Daleem Dal Chawal",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 200,
+      "offerPrice": 0,
+      "finalPrice": 200,
+      "productImage": "upload\\c94f6570-363b-4454-b1ae-4c1be6bcd3de.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738f62168f17b9eb229d3"
+      },
+      "name": "Daleem Dal Chawal ( 1 Shami Kabab) (240)",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 240,
+      "offerPrice": 0,
+      "finalPrice": 240,
+      "productImage": "upload\\0d418f86-59c2-4087-a603-e4577bf10605.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c7392d2168f17b9eb229d5"
+      },
+      "name": "Masala Biryani (100)",
+      "description": "Single Plate Of Rice With 1 Potato",
+      "actualPrice": 100,
+      "offerPrice": 0,
+      "finalPrice": 100,
+      "productImage": "upload\\3bb48925-a9e5-4686-86d7-f568c8074a67.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c747704377aba19f42a67d"
+      },
+      "name": "Chicken Piece",
+      "description": "Chicken Piece",
+      "actualPrice": 380,
+      "offerPrice": 0,
+      "finalPrice": 380,
+      "productImage": "upload\\f4205213-8707-4732-9a5d-1779c23b7045.jpeg",
+      "variations": [
+        {
+          "_id": "65c739ff2168f17b9eb229db",
+          "name": "Variation",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c739b22168f17b9eb229d7",
+              "name": "Leg Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:10.629Z",
+              "updatedAt": "2024-02-10T08:54:10.629Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c739b82168f17b9eb229d9",
+              "name": "Chest Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:16.598Z",
+              "updatedAt": "2024-02-10T08:54:16.598Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-10T08:55:27.430Z",
+          "updatedAt": "2024-02-10T08:55:27.430Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65c7e4b0ad8ce1e2c5bc5c66"
+      },
+      "name": "Seekh Kabab",
+      "description": "Beef",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 1700,
+      "productImage": "upload\\79cb5cd2-e3ba-4eae-8183-769c7b9d38ed.jpeg",
+      "variations": [
+        {
+          "_id": "65c6221476036988e701917a",
+          "name": "Soft Drink",
+          "description": "testing",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c61fd39a18a9ebb295fdec",
+              "name": "7 Up",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:31.087Z",
+              "updatedAt": "2024-02-09T12:51:31.087Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fdb9a18a9ebb295fdee",
+              "name": "Pepsi",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:39.139Z",
+              "updatedAt": "2024-02-09T12:51:39.139Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fe19a18a9ebb295fdf0",
+              "name": "Dew",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:45.530Z",
+              "updatedAt": "2024-02-09T12:51:45.530Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-09T13:01:08.393Z",
+          "updatedAt": "2024-02-09T13:28:26.589Z",
+          "__v": 3
+        },
+        {
+          "_id": "65ca182a8c86b248a7c68d02",
+          "name": "soft drink",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:07:54.978Z",
+          "updatedAt": "2024-02-12T13:07:54.978Z",
+          "__v": 0
+        },
+        {
+          "_id": "65ca183b8c86b248a7c68d04",
+          "name": "topping",
+          "description": "Variation",
+          "isRequired": false,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:08:11.075Z",
+          "updatedAt": "2024-02-12T13:08:11.075Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [
+        {
+          "index": 2,
+          "varName": "topping",
+          "varId": "65ca183b8c86b248a7c68d04",
+          "variation": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            }
+          ]
+        }
+      ],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        },
+        {
+          "_id": "65c61fdb9a18a9ebb295fdee",
+          "name": "Pepsi",
+          "price": 180,
+          "createdAt": "2024-02-09T12:51:39.139Z",
+          "updatedAt": "2024-02-09T12:51:39.139Z",
+          "__v": 0,
+          "variationName": "Soft Drink",
+          "variationId": "65c6221476036988e701917a"
+        },
+        {
+          "_id": "65c7480e4377aba19f42a681",
+          "name": "3 kabab",
+          "price": 370,
+          "createdAt": "2024-02-10T09:55:26.784Z",
+          "updatedAt": "2024-02-10T09:55:26.784Z",
+          "__v": 0,
+          "variationName": "soft drink",
+          "variationId": "65ca182a8c86b248a7c68d02"
+        }
+      ]
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "ewewwe",
+    "city": "Islamabad Ali Pur",
+    "area": "Balti Colony"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 6420,
+  "discountPrice": 6420,
+  "grandTotalPrice": 6620,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T10:04:08.204Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698e898f045789524f071bf"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T10:04:08.207Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T10:04:08.210Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:04:08.210Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698e8ccf045789524f071cf"
+  },
+  "orderId": "Order_10143",
+  "customerId": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738c12168f17b9eb229d1"
+      },
+      "name": "Daleem Dal Chawal",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 200,
+      "offerPrice": 0,
+      "finalPrice": 200,
+      "productImage": "upload\\c94f6570-363b-4454-b1ae-4c1be6bcd3de.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c738f62168f17b9eb229d3"
+      },
+      "name": "Daleem Dal Chawal ( 1 Shami Kabab) (240)",
+      "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+      "actualPrice": 240,
+      "offerPrice": 0,
+      "finalPrice": 240,
+      "productImage": "upload\\0d418f86-59c2-4087-a603-e4577bf10605.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c7392d2168f17b9eb229d5"
+      },
+      "name": "Masala Biryani (100)",
+      "description": "Single Plate Of Rice With 1 Potato",
+      "actualPrice": 100,
+      "offerPrice": 0,
+      "finalPrice": 100,
+      "productImage": "upload\\3bb48925-a9e5-4686-86d7-f568c8074a67.jpeg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c747704377aba19f42a67d"
+      },
+      "name": "Chicken Piece",
+      "description": "Chicken Piece",
+      "actualPrice": 380,
+      "offerPrice": 0,
+      "finalPrice": 380,
+      "productImage": "upload\\f4205213-8707-4732-9a5d-1779c23b7045.jpeg",
+      "variations": [
+        {
+          "_id": "65c739ff2168f17b9eb229db",
+          "name": "Variation",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c739b22168f17b9eb229d7",
+              "name": "Leg Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:10.629Z",
+              "updatedAt": "2024-02-10T08:54:10.629Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c739b82168f17b9eb229d9",
+              "name": "Chest Piece",
+              "price": 0,
+              "createdAt": "2024-02-10T08:54:16.598Z",
+              "updatedAt": "2024-02-10T08:54:16.598Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-10T08:55:27.430Z",
+          "updatedAt": "2024-02-10T08:55:27.430Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65c7e4b0ad8ce1e2c5bc5c66"
+      },
+      "name": "Seekh Kabab",
+      "description": "Beef",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 1700,
+      "productImage": "upload\\79cb5cd2-e3ba-4eae-8183-769c7b9d38ed.jpeg",
+      "variations": [
+        {
+          "_id": "65c6221476036988e701917a",
+          "name": "Soft Drink",
+          "description": "testing",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c61fd39a18a9ebb295fdec",
+              "name": "7 Up",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:31.087Z",
+              "updatedAt": "2024-02-09T12:51:31.087Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fdb9a18a9ebb295fdee",
+              "name": "Pepsi",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:39.139Z",
+              "updatedAt": "2024-02-09T12:51:39.139Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c61fe19a18a9ebb295fdf0",
+              "name": "Dew",
+              "price": 180,
+              "createdAt": "2024-02-09T12:51:45.530Z",
+              "updatedAt": "2024-02-09T12:51:45.530Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-09T13:01:08.393Z",
+          "updatedAt": "2024-02-09T13:28:26.589Z",
+          "__v": 3
+        },
+        {
+          "_id": "65ca182a8c86b248a7c68d02",
+          "name": "soft drink",
+          "description": "Variation",
+          "isRequired": true,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:07:54.978Z",
+          "updatedAt": "2024-02-12T13:07:54.978Z",
+          "__v": 0
+        },
+        {
+          "_id": "65ca183b8c86b248a7c68d04",
+          "name": "topping",
+          "description": "Variation",
+          "isRequired": false,
+          "variationOptions": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0
+            }
+          ],
+          "createdAt": "2024-02-12T13:08:11.075Z",
+          "updatedAt": "2024-02-12T13:08:11.075Z",
+          "__v": 0
+        }
+      ],
+      "quantity": 1,
+      "variationOptions": [
+        {
+          "index": 2,
+          "varName": "topping",
+          "varId": "65ca183b8c86b248a7c68d04",
+          "variation": [
+            {
+              "_id": "65c7480e4377aba19f42a681",
+              "name": "3 kabab",
+              "price": 370,
+              "createdAt": "2024-02-10T09:55:26.784Z",
+              "updatedAt": "2024-02-10T09:55:26.784Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            },
+            {
+              "_id": "65c748194377aba19f42a683",
+              "name": "6 kabab",
+              "price": 780,
+              "createdAt": "2024-02-10T09:55:37.742Z",
+              "updatedAt": "2024-02-10T09:55:37.742Z",
+              "__v": 0,
+              "variationName": "topping",
+              "variationId": "65ca183b8c86b248a7c68d04",
+              "index": 2
+            }
+          ]
+        }
+      ],
+      "variationRequired": [
+        {
+          "_id": "65c739b22168f17b9eb229d7",
+          "name": "Leg Piece",
+          "price": 0,
+          "createdAt": "2024-02-10T08:54:10.629Z",
+          "updatedAt": "2024-02-10T08:54:10.629Z",
+          "__v": 0,
+          "variationName": "Variation",
+          "variationId": "65c739ff2168f17b9eb229db"
+        },
+        {
+          "_id": "65c61fdb9a18a9ebb295fdee",
+          "name": "Pepsi",
+          "price": 180,
+          "createdAt": "2024-02-09T12:51:39.139Z",
+          "updatedAt": "2024-02-09T12:51:39.139Z",
+          "__v": 0,
+          "variationName": "Soft Drink",
+          "variationId": "65c6221476036988e701917a"
+        },
+        {
+          "_id": "65c7480e4377aba19f42a681",
+          "name": "3 kabab",
+          "price": 370,
+          "createdAt": "2024-02-10T09:55:26.784Z",
+          "updatedAt": "2024-02-10T09:55:26.784Z",
+          "__v": 0,
+          "variationName": "soft drink",
+          "variationId": "65ca182a8c86b248a7c68d02"
+        }
+      ]
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "ewewwe",
+    "city": "Islamabad Ali Pur",
+    "area": "Balti Colony"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 6420,
+  "discountPrice": 6420,
+  "grandTotalPrice": 6620,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T10:05:00.024Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698e8ccf045789524f071d0"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T10:05:00.027Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T10:05:00.029Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:05:00.029Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698eb13f045789524f071e9"
+  },
+  "orderId": "Order_10144",
+  "customerId": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "ewewwe",
+    "city": "Islamabad Ali Pur",
+    "area": "Balti Colony"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 3800,
+  "discountPrice": 3800,
+  "grandTotalPrice": 4000,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T10:14:43.217Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698eb13f045789524f071ea"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T10:14:43.219Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T10:14:43.220Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:14:43.220Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698eb17f045789524f071fc"
+  },
+  "orderId": "Order_10145",
+  "customerId": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "ewewwe",
+    "city": "Islamabad Ali Pur",
+    "area": "Balti Colony"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 3800,
+  "discountPrice": 3800,
+  "grandTotalPrice": 4000,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T10:14:47.555Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698eb17f045789524f071fd"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T10:14:47.556Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T10:14:47.557Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:14:47.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698eb36f045789524f0720f"
+  },
+  "orderId": "Order_10146",
+  "customerId": "S00xXwsbjGQcoePQnheKY7cv7SE2",
+  "paymentStatus": "Pending",
+  "items": [
+    {
+      "_id": {
+        "$oid": "65c735e62168f17b9eb229c5"
+      },
+      "name": "Platter",
+      "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 0,
+      "offerPrice": 0,
+      "finalPrice": 0,
+      "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    },
+    {
+      "_id": {
+        "$oid": "65c737092168f17b9eb229c7"
+      },
+      "name": "Family Platter Half",
+      "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+      "actualPrice": 3800,
+      "offerPrice": 0,
+      "finalPrice": 3800,
+      "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+      "variations": [],
+      "quantity": 1,
+      "variationOptions": [],
+      "variationRequired": []
+    }
+  ],
+  "deliveryAddress": {
+    "addressDetail": "test Data 2",
+    "city": "Islamabad Bahria Enclave",
+    "area": "Sector I"
+  },
+  "customerShippingFee": 200,
+  "ownerShippingFee": 0,
+  "couponDiscountCode": "",
+  "paymentMethod": "CASH ON DELIVERY",
+  "subTotal": 3800,
+  "discountPrice": 3800,
+  "grandTotalPrice": 4000,
+  "status": [
+    {
+      "statusName": "Recieved",
+      "statusDate": {
+        "$date": "2024-07-18T10:15:18.147Z"
+      },
+      "statusComment": "we will confirm the order soon.",
+      "_id": {
+        "$oid": "6698eb36f045789524f07210"
+      }
+    }
+  ],
+  "placedOn": {
+    "$date": "2024-07-18T10:15:18.148Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-18T10:15:18.149Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:15:18.149Z"
+  },
+  "__v": 0
+}]

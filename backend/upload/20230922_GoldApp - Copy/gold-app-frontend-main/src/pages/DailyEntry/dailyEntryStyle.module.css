@@ -1,0 +1,22 @@
+.RowDiv {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  gap: 50px;
+  flex: 1;
+}
+
+.multiItemsStyle {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  width: "100%";
+}
+
+.errorMessageShow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

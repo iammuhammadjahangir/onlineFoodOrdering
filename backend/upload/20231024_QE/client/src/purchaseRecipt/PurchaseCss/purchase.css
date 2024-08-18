@@ -1,0 +1,673 @@
+.purchase {
+  height: 100%;
+  padding-top: 10px;
+}
+
+.purchase.theme-blue .productActivity-Heading-container {
+  display: flex; /* Display h3 and h5 in a row */
+  flex-direction: row; /* Align h3 and h5 vertically */
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+.purchase.theme-blue .productActivity-Heading-container h3 {
+  line-height: 1.3;
+  margin-left: 100px;
+  font: #ffffff;
+  font-weight: 600;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.purchase.theme-blue .react-datepicker-wrapper {
+  margin-left: 20px;
+}
+
+.purchase.theme-blue .productActivityFormInput {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 188vh;
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: fit-content;
+  margin-left: 100px;
+  margin-right: 200px;
+  /* margin-top: 50px; */
+}
+
+.purchase.theme-blue .productActivityRow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.purchase.theme-blue .productActivityRow input {
+  width: fit-content; /* Adjust the width of each input field as needed */
+  /* padding: 10px; */
+  border: 1px solid #ccc;
+  /* margin-bottom: 10px; */
+  margin: 0 20px 0 0;
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+
+.purchase.theme-blue .productActivityform1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0px 10px 0;
+  width: 60%;
+}
+
+.purchase.theme-blue .productActivityLabel {
+  margin-left: 20px;
+}
+
+.purchase.theme-blue .productActivityDropdown {
+  width: 80%; /* Adjust the width of each input field as needed */
+  height: 5vh;
+  padding: 10px;
+  margin-left: 20px;
+  color: black;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+
+.purchase.theme-blue .ui.active.selection.dropdown .menu .selected.item span {
+  color: black;
+}
+
+.purchase.theme-blue .ui.selection.dropdown .menu > .item span {
+  color: black;
+}
+
+.purchase.theme-blue .productActivityDatePicker {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  /* margin: 0px 10px 10px 10px; */
+  margin: 0 20px 0 0;
+  width: fit-content;
+}
+
+.purchase.theme-blue .product-Activity-table-section {
+  padding: 20px;
+  width: 188vh;
+  margin-left: 100px;
+  margin-right: 200px;
+  border: 1px solid #ccc;
+  height: 70vh;
+  background-color: #ffffff;
+}
+
+.productActivityTableSection {
+  margin: 0 30px 30px 30px;
+}
+
+.purchase.theme-blue .search-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  max-width: 1000px;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.purchase.theme-blue .search-box input {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.purchase.theme-blue .search-box input:last-child {
+  margin-right: 0; /* Remove the margin on the last input field */
+}
+
+.purchase.theme-blue .table-container {
+  max-width: 1200px;
+  margin-left: 350px;
+}
+
+.purchase.theme-blue .table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.purchase.theme-blue .table-container th {
+  background-color: #a4b1df;
+  padding: 0px;
+  font: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.purchase.theme-blue .table-container td {
+  padding: 0px;
+  text-align: center;
+  font: #393939;
+  font-size: 17px;
+}
+
+.purchase.theme-blue .loaderPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.purchase.theme-blue .formInput {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: fit-content;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+.purchase.theme-blue .row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.purchase.theme-blue .form1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.purchase.theme-blue .row input {
+  width: 80%; /* Adjust the width of each input field as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+
+.purchase.theme-blue .dropdown {
+  width: 80%; /* Adjust the width of each input field as needed */
+  height: 5vh;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+
+.purchase.theme-blue .purchaseButtons {
+  align-items: center !important;
+  margin-left: 450px;
+}
+
+.purchase.theme-blue .purchaseButtons .button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.purchase.theme-blue .loaderPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.purchase.theme-blue .purchaseButtons .button-back {
+  background-color: green;
+  color: white;
+  width: 120px;
+  height: 5vh;
+  /* float: left; */
+}
+
+.purchase.theme-blue .purchaseButtons .button-back:hover {
+  background-color: rgb(1, 76, 1);
+  /* float: left; */
+}
+
+.purchase.theme-blue .purchaseButtons .button-back:focus {
+  background-color: rgb(1, 76, 1);
+  /* float: left; */
+}
+
+.purchase.theme-blue .purchaseButtons .button-add-product {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  margin-top: 20px;
+  background-color: rgb(171, 171, 8);
+  margin-left: 20px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  height: 5vh;
+  text-align: center;
+}
+
+.purchase.theme-blue .purchaseButtons .button-add-product:hover {
+  background-color: rgb(206, 206, 12);
+}
+
+.purchase.theme-blue .purchaseButtons .button-add-product:focus {
+  background-color: rgb(206, 206, 12);
+}
+
+.purchase.theme-blue .purchaseSellBackButton {
+  background-color: rgb(171, 171, 8);
+  margin-left: 100px;
+}
+
+.purchase.theme-blue .purchaseSellBackButton:hover {
+  background-color: rgb(206, 206, 12);
+}
+
+.purchase.theme-blue .purchaseSellBackButton:focus {
+  background-color: rgb(206, 206, 12);
+}
+
+.productActivityTableSection table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.productActivityTableSection th {
+  background-color: #bec7e7;
+  padding: 8px;
+  text-align: center;
+}
+
+.productActivityTableSection td {
+  padding: 8px;
+  text-align: center;
+}
+
+.purchase.theme-blue .contentt-box {
+  margin: 0 auto;
+  /* background-color: #e2f6e1; */
+  color: #222;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.purchase.theme-blue .heading-container {
+  display: flex; /* Display h3 and h5 in a row */
+  flex-direction: row; /* Align h3 and h5 vertically */
+}
+
+.purchase.theme-blue .heading-container h3 {
+  line-height: 1.3;
+  margin: 0;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.purchase.theme-blue .heading-container h5 .total-records {
+  background-color: #7883e7; /* Add your desired background color here */
+  color: #393939; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.purchase.theme-blue .heading-container h5 {
+  line-height: 1.5;
+  margin: 0;
+  /* margin-left: 40px; */
+  font-size: 20px;
+}
+
+.purchase.theme-blue .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  /* margin-left: 10px; */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.purchase.theme-blue .search-withouInputfields-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  height: 10vh;
+  max-width: 1000px;
+  border-radius: 50px 50px 0 0;
+  /* margin-top: 5px; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-left: 350px;
+  margin-bottom: 10px;
+}
+
+.purchase.theme-blue .table-container {
+  max-width: 1000px;
+  margin-left: 350px;
+}
+
+.purchase.theme-blue .search-Purchase-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 10px 0 10px;
+  max-width: 1200px;
+  border-radius: 50px 50px 0 0;
+  /* margin-top: 5px; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 10px;
+}
+.purchase.theme-blue .datePicker {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  margin: 10px 10px 10px 10px;
+  z-index: 100;
+}
+
+/*consoliedated */
+.consolidateMainTableDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.consolidateLaserFirstRecordDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50vh;
+}
+
+.consolidateLaserQuantity {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.consolidateLaserProductCode {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+/*=============== Invoice Designing ===========*/
+
+.Purchase-table-container {
+  /* Add styles for the container that holds the table component */
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 4px;
+  max-width: 1200px;
+  padding: 10px;
+  align-items: center;
+}
+
+/* Additional styles for the table inside .table-container */
+.Purchase-table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.Purchase-table-container th {
+  background-color: #bec7e7;
+  padding: 8px;
+  text-align: center;
+}
+
+.Purchase-table-container td {
+  padding: 8px;
+  text-align: center;
+}
+
+.headerHeading {
+  display: "flex";
+  justify-content: "center";
+  font-size: "40";
+  font-weight: bold;
+  margin-top: "-15px";
+  text-align: center;
+  margin-bottom: "-5px";
+}
+
+.invoiceAddress {
+  display: "flex";
+  justify-content: "center";
+  font-size: "40";
+  font-weight: 100;
+  margin-top: "-15px";
+  text-align: center;
+  margin-bottom: "-5px";
+}
+
+.invoiceTitle {
+  display: "flex";
+  justify-content: "center";
+  font-size: "40";
+  flex-direction: row;
+  /* font-weight: bold; */
+  margin-top: "-15px";
+  text-align: center;
+  margin-bottom: "-5px";
+}
+
+.invoicePhoneNo {
+  display: "flex";
+  justify-content: "center";
+  font-weight: 300;
+  font-size: "40";
+  flex-direction: row;
+  /* font-weight: bold; */
+  margin-top: "-15px";
+  text-align: center;
+  margin-bottom: "-5px";
+}
+
+.headerHeading h4 {
+  display: "flex";
+  justify-content: "center";
+  /* font-size: "40"; */
+  font-weight: bold;
+  margin-top: "-15px";
+  text-align: center;
+  margin-bottom: "-5px";
+}
+
+.InvoiceLaserFirstRecordDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30px;
+  width: 50vh;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1430px) {
+  .purchase.theme-blue .productActivityFormInput {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 140vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: fit-content;
+    margin-left: 80px;
+    margin-right: 300px;
+  }
+
+  .purchase.theme-blue .productActivityform1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 30%;
+  }
+
+  .purchase.theme-blue .productActivityRow {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+
+  .purchase.theme-blue .productActivityRow input {
+    width: 23vh;
+    border: 1px solid #ccc;
+    margin-right: 0;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .purchase.theme-blue .dropdown {
+    width: 80%;
+  }
+
+  .purchase.theme-blue .productActivityDropdown {
+    margin-left: 0px;
+  }
+
+  .purchase.theme-blue .react-datepicker-wrapper {
+    margin-left: 0;
+  }
+
+  .purchase.theme-blue .product-Activity-table-section {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 140vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    height: 70vh;
+    margin-left: 80px;
+    margin-right: 300px;
+  }
+
+  .purchase.theme-blue .ui.button {
+    width: 25vh;
+  }
+  .purchase.theme-blue .search-withouInputfields-box {
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #222;
+    border-radius: 8px;
+    padding: 30px 20px 0 20px;
+    height: 10vh;
+    max-width: 1000px;
+    border-radius: 50px 50px 0 0;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    max-width: 1000px;
+    margin-left: 185px;
+    margin-bottom: 10px;
+  }
+  .purchase.theme-blue .table-container {
+    max-width: 1000px;
+    margin-left: 185px;
+  }
+
+  .purchase.theme-blue .search-box {
+    background-color: #ffffff;
+    color: #222;
+    border-radius: 8px;
+    padding: 30px 20px 0 20px;
+    max-width: 1000px;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 185px;
+    margin-top: 30px;
+  }
+
+  .purchase.theme-blue .purchaseButtons {
+    align-items: center !important;
+    margin-left: 250px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .purchase.theme-blue .productActivityFormInput {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 140vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: fit-content;
+    margin-left: 80px;
+    margin-right: 300px;
+  }
+
+  .purchase.theme-blue .productActivityform1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 30%;
+  }
+
+  .purchase.theme-blue .productActivityRow {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+
+  .purchase.theme-blue .productActivityRow input {
+    width: 23vh;
+    border: 1px solid #ccc;
+    margin-right: 0;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .purchase.theme-blue .dropdown {
+    width: 80%;
+  }
+
+  .purchase.theme-blue .productActivityDropdown {
+    margin-left: 0px;
+  }
+
+  .purchase.theme-blue .react-datepicker-wrapper {
+    margin-left: 0;
+  }
+  .purchase.theme-blue .purchaseButtons {
+    align-items: center !important;
+    margin-left: 100px;
+  }
+}

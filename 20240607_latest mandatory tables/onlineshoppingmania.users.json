@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6646e9fa366611f00f2258af"
+  },
+  "name": "Muhammad Ali",
+  "email": "muhammadjahangir643@gmail.com",
+  "avatar": {
+    "url": "upload/user/compressed_fff02dc3-a8e6-4477-9a3e-81d6c71691b6.jpeg",
+    "blurHash": "USPgz6xuQ8#S{zS#s:n*ujaKW.i_#Rr@kqRi"
+  },
+  "password": "$2a$10$0PeHbf6Dzn3Bj6avmqRwOutIbGfoF6b5JXAX.pmZL80maQv3Cgp2m",
+  "gender": "male",
+  "role": {
+    "$oid": "657ad9baa55562062018248a"
+  },
+  "dob": {
+    "$date": "2001-06-08T19:00:00.000Z"
+  },
+  "active": true,
+  "shopNo": {
+    "$oid": "66459c727fd16ca6f3a0b5cf"
+  },
+  "printer": "laser",
+  "tableRows": 10,
+  "phoneNo": "+923129486808",
+  "whatsappNo": "+923129486808",
+  "createdAt": {
+    "$date": "2024-05-17T05:24:10.595Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-26T10:33:55.229Z"
+  },
+  "__v": 0,
+  "posId": "undefined"
+},
+{
+  "_id": {
+    "$oid": "665a0d1e463957823e3019be"
+  },
+  "name": "Talha Abbas",
+  "email": "TalhaAbbas112@gmail.com",
+  "avatar": {
+    "url": "upload\\user\\155c6e81-9e0b-4b6f-9fcd-cbfc0d056eb5.png",
+    "blurHash": "U8EnIk1*03,oKh0N|E^%J8wJ?EKP-UNwoeRk"
+  },
+  "password": "$2a$10$tuFYSj9.YnXCL40oOesbkuQgEqW5AHBSPMm3Qkb7O1Mof2hg.PWTC",
+  "gender": "male",
+  "role": {
+    "$oid": "66597b8bc0908c9df0afc983"
+  },
+  "dob": {
+    "$date": "2024-04-30T19:00:00.000Z"
+  },
+  "active": true,
+  "shopNo": {
+    "$oid": "66459c727fd16ca6f3a0b5cf"
+  },
+  "printer": "laser",
+  "tableRows": 20,
+  "posId": "111",
+  "phoneNo": "+923405965073",
+  "whatsappNo": "+923405965073",
+  "createdAt": {
+    "$date": "2024-05-31T17:47:10.956Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T17:47:10.956Z"
+  },
+  "__v": 0
+}]

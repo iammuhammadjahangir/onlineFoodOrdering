@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "65fdc3296c184d8eaa95cf49"
+  },
+  "shopCode": "S_001",
+  "shopAddress": "Shop # 03, Upper Ground Floor, Emporium Mobile Plaza, Bank Road, Saddar Rwp.",
+  "shopDescription": "Shop # 03, Upper Ground Floor, Emporium Mobile Plaza, Bank Road, Saddar Rwp.",
+  "shopType": "shop",
+  "shopPhoneNo": "03128637527",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65fdc3646c184d8eaa95cf4e"
+  },
+  "shopCode": "S_003",
+  "shopAddress": "Shop # 03, Upper Ground Floor, Emporium Mobile Plaza, Bank Road, Saddar Rwp.",
+  "shopDescription": "Shop # 03, Upper Ground Floor, Emporium Mobile Plaza, Bank Road, Saddar Rwp.",
+  "wareHouseId": "65fdb1f480e289260dad1e3d",
+  "shopType": "shop",
+  "shopPhoneNo": "323333323322332",
+  "__v": 0
+}]

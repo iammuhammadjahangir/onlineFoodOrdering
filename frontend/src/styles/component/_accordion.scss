@@ -1,0 +1,111 @@
+.accordionContainer {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-in-out;
+
+  .accordionHeader {
+    @include flex(row, space-between, center, 0);
+    padding: 10px 15px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #e0e0e0;
+    }
+
+    > article {
+      @include flex;
+
+      h2 {
+        margin: 0;
+        font-size: 1.2rem;
+        color: #333;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: "Roboto";
+      }
+
+      .required,
+      .selected {
+        color: $white;
+        padding: 5px;
+        border-radius: 5px;
+        // font-weight: bold;
+        letter-spacing: 4px;
+        margin-left: 10px;
+        font-family: "Roboto";
+      }
+
+      .required {
+        background-color: $lightRed;
+      }
+
+      .selected {
+        background-color: $lightGreen;
+      }
+    }
+    .arrow {
+      transition: transform 0.3s ease;
+      transform: scale(2);
+
+      &.openHeader {
+        transform: rotate(180deg) scale(2);
+        // transform: scale(2);
+      }
+    }
+  }
+
+  .accordionBody {
+    // height: 500px;
+    // padding: 0 15px;
+
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    transition: all 0.3s ease-in-out, opacity 0.3s ease, padding 0.3s ease,
+      visibility 0.3s ease;
+
+    @include flex(column, unset, unset, 0.5rem);
+
+    > div {
+      @include flex(row, space-between, center, 1rem);
+      padding: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      > label {
+        font-size: 1.1rem;
+        font-weight: bold;
+        opacity: 0.7;
+        margin: 1rem 0 !important;
+        input {
+          margin-right: 2rem;
+        }
+      }
+      > p {
+        font-size: 1.1rem;
+        font-weight: bold;
+        opacity: 0.7;
+      }
+    }
+  }
+  .open {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .accordionContainer {
+    > .accordionHeader {
+      > article {
+        h2 {
+          font-size: 1rem;
+        }
+        span {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

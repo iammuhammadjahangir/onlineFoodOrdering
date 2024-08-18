@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    height: 100px;
+    flex-direction: row;
+}
+
+.container>div {
+    border: 3px solid green;
+    align-self: flex-end;
+    flex-grow: 1;
+}

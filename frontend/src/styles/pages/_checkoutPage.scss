@@ -1,0 +1,395 @@
+.checkoutContainer {
+  margin-top: 0.5rem;
+  @include flex(row, flex-start, flex-start, 0);
+  height: max-content;
+  width: 100%;
+
+  .left {
+    width: 55%;
+    height: max-content;
+    background-color: $white;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+    > .innerLeftCartContainer {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      width: 85%;
+      margin-left: auto;
+
+      h2 {
+        font-family: "Roboto";
+        font-size: clamp(1rem, 0.3043rem + 3.4783vw, 1.3rem);
+        font-weight: 600;
+        color: $black;
+        margin-bottom: 0.5 rem;
+      }
+
+      > .userDetails {
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+
+        > .seperatePhone {
+          margin-top: 0.7rem;
+          label {
+            font-size: clamp(1.3rem, 0.3043rem + 3.4783vw, 1.3rem);
+            font-family: "Roboto";
+            color: $black;
+            font-weight: bold;
+          }
+          // background-color: black;
+        }
+
+        > h4 {
+          font-family: "Roboto";
+          font-size: clamp(1rem, 0.3043rem + 3.4783vw, 1.5rem);
+          font-weight: 500;
+          color: $black;
+        }
+        p {
+          margin-bottom: 0.3rem;
+          font-family: "Roboto";
+          margin-left: 0.5rem;
+        }
+      }
+
+      > .shipping {
+        width: 98%;
+
+        input {
+          font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1.1rem);
+          font-family: "Roboto";
+          font-weight: 800;
+          color: $grey;
+        }
+      }
+
+      > .payments {
+        // @include flex(column);
+        width: 98%;
+
+        input {
+          font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1.1rem);
+          font-family: "Roboto";
+          font-weight: 800;
+          color: $grey;
+        }
+      }
+
+      > .sameAddressContainer {
+        @include flex(column, flex-start, center, 1rem);
+        width: 98%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.2588235294);
+        border-radius: 10px;
+        padding: 1rem;
+
+        input[type="radio"] {
+          margin-right: 0.5rem;
+        }
+
+        label {
+          font-size: 1rem;
+          font-family: "Roboto";
+          color: #333;
+        }
+      }
+
+      .payments {
+        @include flex(column, flex-start, flex-start, 0.3rem);
+        margin: 0;
+
+        > .paymentMethod {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .right {
+    position: sticky;
+    width: 45%;
+    background-color: #f5f5f5;
+    padding: 3rem 1rem;
+
+    > .innerRightCartContainer {
+      width: 80%;
+      //   to Cart Items
+      > .checkoutItemCart {
+        padding: 1rem 0;
+        @include flex(row, flex-start, flex-start, 0.4rem);
+
+        > .checkoutCartImage {
+          position: relative;
+
+          > img {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 5px;
+          }
+
+          > span {
+            position: absolute;
+            top: -15px;
+            right: -10px;
+            background-color: $lightgrey;
+            color: white;
+            font-family: "Roboto";
+            padding: 0.3rem;
+            height: 25px;
+            min-width: 25px;
+            text-align: center;
+            @include flex;
+          }
+          > .borderLess {
+            border-radius: 25px;
+          }
+          > .roundBorder {
+            border-radius: 100%;
+          }
+        }
+
+        > .detailsItem {
+          width: 100%;
+          @include flex(row, flex-start, flex-start 0.2rem);
+          > .checkoutCartDetails {
+            padding-left: 0.3rem;
+            @include flex(column, flex-start, flex-start, 0);
+            width: 70%;
+
+            > h2 {
+              font-family: "Roboto";
+              font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+              font-weight: 500;
+              color: $black;
+              text-transform: capitalize;
+            }
+            p {
+              font-family: "Roboto";
+              font-size: clamp(0.7rem, 0.3043rem + 3.4783vw, 0.9rem);
+              font-weight: 400;
+              color: $lightgrey;
+              text-transform: capitalize;
+            }
+
+            > span {
+              @include flex(row, unset, center, 0.5rem);
+              font-family: "Roboto";
+              font-size: clamp(0.7rem, 0.3043rem + 3.4783vw, 0.9rem);
+              font-weight: 800;
+              color: $lightgrey;
+              text-transform: capitalize;
+              svg {
+                transform: scale(1.2);
+                color: $black;
+              }
+            }
+          }
+
+          > .checkoutCartPrices {
+            width: 30%;
+            align-self: center;
+            > div {
+              @include flex(column, center, flex-start, 0);
+              color: $tertiary;
+            }
+            .cartPrice {
+              font-family: "Roboto";
+              font-weight: 600;
+              font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+              color: $black;
+              margin-bottom: 0.5rem;
+            }
+            .cartNewPrice {
+              font-family: "Roboto";
+              font-weight: 600;
+              font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+              color: $black;
+              margin-bottom: 0.5rem;
+              opacity: 0.8;
+            }
+            .cartActualPrice {
+              font-family: "Roboto";
+              font-weight: 600;
+              font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+              color: $lightgrey;
+              margin-bottom: 0.5rem;
+              text-decoration: line-through;
+              opacity: 0.8;
+            }
+          }
+        }
+      }
+
+      //   to other Details
+      > .couponContainer {
+        @include flex(row, flex-start, flex-start, 1rem);
+
+        > .discountApplyButton {
+          margin-top: 0.4rem;
+          padding: 0.7rem;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+          background-color: $background;
+          color: $tertiary;
+          font-family: "Roboto";
+          font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+          font-weight: 500;
+        }
+      }
+
+      //   subtotals Style
+      > .totalAmounts {
+        width: 100%;
+        @include flex(column, flex-start, flex-start, 0.5rem);
+
+        > .nestedAmount {
+          width: 100%;
+          @include flex(row, space-between, center);
+
+          h3,
+          p {
+            color: $lightgrey;
+            font-family: "Roboto";
+            font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+            font-weight: 300;
+          }
+
+          .pkr {
+            font-family: "Roboto";
+            font-size: clamp(0.5rem, 0.3043rem + 3.4783vw, 0.7rem);
+            font-weight: 300;
+            color: $lightgrey;
+            margin-right: 0.3rem;
+          }
+
+          h2,
+          h4 {
+            color: $black;
+            font-family: "Roboto";
+            font-size: clamp(1rem, 0.3043rem + 3.4783vw, 1.2rem);
+            font-weight: 700;
+          }
+        }
+
+        > .totalSavings {
+          @include flex(row, flex-start, center, 0.5rem);
+          font-size: clamp(1rem, 0.3043rem + 3.4783vw, 1.2rem);
+          color: $lightgrey;
+          font-weight: 700;
+          svg {
+            transform: scale(1.1);
+          }
+        }
+      }
+
+      > button {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+.AddressCartCheckout {
+  width: 98%;
+  margin: 1rem 0;
+  @include flex(column, flex-start, flex-start, 0);
+  background-color: $white;
+  padding: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 10px;
+
+  > .nameContainerCheckout {
+    width: 95%;
+    @include flex(row, space-between, center);
+    h3 {
+      @include heading;
+      font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+      font-family: "Roboto";
+      font-weight: 500;
+    }
+
+    > button {
+      color: $tertiary;
+      cursor: pointer;
+      font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+      font-weight: 500;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  > p {
+    font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 0.8rem);
+    font-family: "Roboto";
+    color: rgba(50, 50, 93, 0.7);
+    margin-left: 0.3rem;
+    font-weight: 400;
+  }
+  > .addressContainerCheckout {
+    width: 100%;
+    @include flex(row, space-between, center, 0rem);
+    margin-top: 0.5rem;
+    > p {
+      font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 0.9rem);
+      font-family: "Roboto";
+      color: rgba(50, 50, 93, 0.7);
+      margin-left: 0.3rem;
+      font-weight: 400;
+    }
+  }
+}
+
+.addContainer {
+  margin: 0 auto;
+  @include flex(column, flex-start, flex-start);
+
+  > button {
+    margin: 0 auto;
+    width: 90%;
+    height: 100px;
+    padding: 0.1rem 0.5rem !important;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.07);
+      color: $tertiary;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .checkoutContainer {
+    flex-direction: column;
+
+    .left {
+      width: 100%;
+
+      > .innerLeftCartContainer {
+        padding: 1rem 2rem;
+        margin-bottom: 0;
+        width: 100%;
+      }
+    }
+
+    .right {
+      padding-top: 0;
+      width: 100%;
+
+      > .innerRightCartContainer {
+        width: 100%;
+        padding: 1rem 2rem;
+
+        > button {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

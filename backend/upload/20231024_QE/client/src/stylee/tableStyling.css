@@ -1,0 +1,23 @@
+/* Add this CSS to your stylesheet */
+.table1 {
+  width: 100%;
+  table-layout: fixed;
+  margin: 40px 0;
+}
+
+.td1 {
+  text-align: left;
+}
+
+.tr1 {
+  width: 50%;
+  height: 40px;
+}
+
+tr:first-child {
+  width: 33%;
+}
+/* 
+.td1:nth-child(odd) {
+  background-color: black;
+} */

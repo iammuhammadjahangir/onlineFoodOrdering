@@ -1,0 +1,33 @@
+.main_heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 5px;
+  background-color: transparent !important;
+  font-family: "Times New Roman", Times, serif !important;
+  border-radius: 15px;
+  padding: 0 10px;
+  display: inline-block;
+  color: #f1b248 !important;
+  margin: 20px 0 !important;
+}
+
+.custom-dropdown {
+  position: relative;
+  z-index: 2;
+}
+
+.style {
+  display: flex;
+  gap: 50px;
+  padding: 0 7px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}

@@ -1,0 +1,56 @@
+.labeAndInputDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+  // width: 80%;
+  // width: auto;
+  height: max-content;
+
+  label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+  }
+
+  > .inputDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    > svg {
+      position: absolute;
+      left: 0.5rem;
+      top: 32%;
+      transform: translateY(-50%);
+      font-size: 1.5rem;
+      opacity: 0.8;
+    }
+
+    > .custom-input {
+      width: 100%;
+      height: 3rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid #00000042;
+      border-radius: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #000;
+      outline: none;
+      transition: all 0.3s ease;
+      &::placeholder {
+        color: #000;
+        opacity: 0.6;
+      }
+      // &:focus {
+      //   border: 1px solid #000;
+      //   box-shadow: 0 0 0 2px #000;
+      // }
+    }
+    > .marginIcon {
+      padding-left: 3rem;
+    }
+  }
+}

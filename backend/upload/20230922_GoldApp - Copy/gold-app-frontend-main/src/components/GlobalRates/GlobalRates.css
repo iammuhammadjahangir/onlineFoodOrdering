@@ -1,0 +1,109 @@
+.GlobalRates {
+  margin-top: 2vmax;
+  margin: 30px auto;
+  width: 80%;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 5px solid #36454f;
+  display: flex;
+  flex-direction: column;
+}
+
+.GlobalHeaderheading {
+  flex: 1;
+  color: #c3a350;
+  font-family: "Noto Nastaliq Urdu";
+  font-size: 2.5vmax;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2vmax;
+}
+
+.HighLowCards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Rateslow,
+.RatesHigh {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-size: 1vmax;
+  font-weight: bold;
+}
+.ratesRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0.4vmax auto;
+  font-size: 1vmax;
+  border-bottom: 1px solid grey;
+}
+
+.RatesHighLow {
+  flex: 5;
+  text-align: center;
+}
+.Rateslow {
+  color: red;
+}
+.RatesHigh {
+  color: #006400;
+}
+.RatesValue {
+  flex: 5;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: right;
+  color: #5b7474;
+  font-weight: bold;
+}
+/* .RateHeading {
+  flex: 3;
+  text-align: right;
+  font-family: "Noto Nastaliq Urdu";
+  color: #006400;
+} */
+
+.blueBorder,
+.redborder {
+  padding: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  width: 10vmax;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent; /* Set the default background color to transparent */
+  color: white;
+  border-radius: 0 15px 0 15px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transition: background-color 0.4s; /* Add a transition to smooth the background-color change */
+}
+
+.blueBorder {
+  background-color: #00008b;
+  /* border-bottom: 5px solid #00008b; */
+  /* background-color: #00008b; Set the background color for the .blue class */
+}
+
+.redborder {
+  background-color: red;
+  /* border-bottom: 5px solid red; */
+  /* background-color: red; Set the background color for the .red class */
+}
+
+.transparent {
+  background-color: white;
+}

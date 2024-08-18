@@ -1,0 +1,39 @@
+
+.page-container {
+  page-break-after: always; 
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    right: 30px; 
+    font-size: 12px;
+  }
+  
+  .page-number::before {
+    content: "Page " counter(page);
+  }
+  
+  .page-number::after {
+    content: " of " counter(pages);
+  }
+  
+  .date-time::before {
+    content: "Printed on ";
+  }
+  
+
+  @page {
+    size: A4;
+    margin: 30px;
+    counter-increment: pages;
+  }
+  
+ 
+  .print-container {
+    /* border: 2px solid black; */
+    /* margin: 30px; */
+    padding: 15px;
+    page-break-inside: avoid;
+    position: relative;
+  }
+  

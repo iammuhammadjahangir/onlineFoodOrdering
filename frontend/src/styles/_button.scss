@@ -1,0 +1,48 @@
+.filled {
+  background-color: $tertiary;
+  white-space: nowrap;
+  color: $white;
+  font-weight: bold;
+  font-family: "Roboto";
+  @include heading;
+  @include flex;
+  font-size: 1rem;
+  border: 1px solid $tertiary;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    opacity: 0.7;
+  }
+  svg {
+    transform: scale(1.5);
+  }
+}
+
+.outlined {
+  background-color: transparent;
+  white-space: nowrap;
+
+  color: $tertiary;
+  font-weight: bold;
+  font-family: "Roboto";
+  @include heading;
+  @include flex;
+  font-size: 1rem;
+  border: 1px solid $tertiary;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $tertiary;
+    color: $white;
+  }
+  svg {
+    transform: scale(1.5);
+  }
+}

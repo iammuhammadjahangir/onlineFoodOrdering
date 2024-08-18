@@ -1,0 +1,770 @@
+[{
+  "_id": {
+    "$oid": "6659ce1c71427a13488c1ad3"
+  },
+  "name": "View Product",
+  "description": "View Product",
+  "createdAt": {
+    "$date": "2024-05-31T13:18:20.369Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:18:20.369Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659ce2471427a13488c1ad7"
+  },
+  "name": "Create Product",
+  "description": "Create Product",
+  "createdAt": {
+    "$date": "2024-05-31T13:18:28.054Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:18:28.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659ce2b71427a13488c1adb"
+  },
+  "name": "Update Product",
+  "description": "Update Product",
+  "createdAt": {
+    "$date": "2024-05-31T13:18:35.655Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:18:35.655Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659ce3371427a13488c1adf"
+  },
+  "name": "Delete Product",
+  "description": "Delete Product",
+  "createdAt": {
+    "$date": "2024-05-31T13:18:43.189Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:18:43.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659ce5471427a13488c1ae3"
+  },
+  "name": "View Product Details",
+  "description": "View Product Details",
+  "createdAt": {
+    "$date": "2024-05-31T13:19:16.725Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:19:16.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659ce5e71427a13488c1ae7"
+  },
+  "name": "Create Product Details",
+  "description": "Create Product Details",
+  "createdAt": {
+    "$date": "2024-05-31T13:19:26.056Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:19:26.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659ce6771427a13488c1aeb"
+  },
+  "name": "Update Product Details",
+  "description": "Update Product Details",
+  "createdAt": {
+    "$date": "2024-05-31T13:19:35.011Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:19:35.011Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659ce7071427a13488c1aef"
+  },
+  "name": "Delete Product Details",
+  "description": "Delete Product Details",
+  "createdAt": {
+    "$date": "2024-05-31T13:19:44.695Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:19:44.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659ce8271427a13488c1af3"
+  },
+  "name": "Create Category",
+  "description": "Create Category",
+  "createdAt": {
+    "$date": "2024-05-31T13:20:02.640Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:20:02.640Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659ce8c71427a13488c1af7"
+  },
+  "name": "Update Category",
+  "description": "Update Category",
+  "createdAt": {
+    "$date": "2024-05-31T13:20:12.455Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:20:12.455Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659ced071427a13488c1afb"
+  },
+  "name": "View Category",
+  "description": "View Category",
+  "createdAt": {
+    "$date": "2024-05-31T13:21:20.568Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:21:20.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cee671427a13488c1aff"
+  },
+  "name": "Delete Category",
+  "description": "Delete Category",
+  "createdAt": {
+    "$date": "2024-05-31T13:21:42.901Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:21:42.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cef371427a13488c1b03"
+  },
+  "name": "View Color",
+  "description": "View Color",
+  "createdAt": {
+    "$date": "2024-05-31T13:21:55.395Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:21:55.395Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cefb71427a13488c1b07"
+  },
+  "name": "Create Color",
+  "description": "Create Color",
+  "createdAt": {
+    "$date": "2024-05-31T13:22:03.360Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:22:03.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf0471427a13488c1b0b"
+  },
+  "name": "Update Color",
+  "description": "Update Color",
+  "createdAt": {
+    "$date": "2024-05-31T13:22:12.734Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:22:12.734Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf0c71427a13488c1b0f"
+  },
+  "name": "Delete Color",
+  "description": "Delete Color",
+  "createdAt": {
+    "$date": "2024-05-31T13:22:20.514Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:22:20.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf1e71427a13488c1b13"
+  },
+  "name": "View Material",
+  "description": "View Material",
+  "createdAt": {
+    "$date": "2024-05-31T13:22:38.295Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:22:38.295Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf2671427a13488c1b17"
+  },
+  "name": "Create Material",
+  "description": "Create Material",
+  "createdAt": {
+    "$date": "2024-05-31T13:22:46.286Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:22:46.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf2d71427a13488c1b1b"
+  },
+  "name": "Update Material",
+  "description": "Update Material",
+  "createdAt": {
+    "$date": "2024-05-31T13:22:53.475Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:22:53.475Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf3671427a13488c1b1f"
+  },
+  "name": "Delete Material",
+  "description": "Delete Material",
+  "createdAt": {
+    "$date": "2024-05-31T13:23:02.765Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:23:02.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf4171427a13488c1b23"
+  },
+  "name": "View Size",
+  "description": "View Size",
+  "createdAt": {
+    "$date": "2024-05-31T13:23:13.938Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:23:13.938Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf5571427a13488c1b27"
+  },
+  "name": "Create Size",
+  "description": "Create Size",
+  "createdAt": {
+    "$date": "2024-05-31T13:23:33.366Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:23:33.366Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf5c71427a13488c1b2b"
+  },
+  "name": "Update Size",
+  "description": "Update Size",
+  "createdAt": {
+    "$date": "2024-05-31T13:23:40.586Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:23:40.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf6971427a13488c1b2f"
+  },
+  "name": "Delete Size",
+  "description": "Delete Size",
+  "createdAt": {
+    "$date": "2024-05-31T13:23:53.192Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:23:53.192Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf7371427a13488c1b33"
+  },
+  "name": "View Style",
+  "description": "View Style",
+  "createdAt": {
+    "$date": "2024-05-31T13:24:03.008Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:24:03.008Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf7971427a13488c1b37"
+  },
+  "name": "Create Style",
+  "description": "Create Style",
+  "createdAt": {
+    "$date": "2024-05-31T13:24:09.491Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:24:09.491Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf8271427a13488c1b3b"
+  },
+  "name": "Update Style",
+  "description": "Update Style",
+  "createdAt": {
+    "$date": "2024-05-31T13:24:18.906Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:24:18.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cf8971427a13488c1b3f"
+  },
+  "name": "Delete Style",
+  "description": "Delete Style",
+  "createdAt": {
+    "$date": "2024-05-31T13:24:25.871Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:24:25.871Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cfb271427a13488c1b43"
+  },
+  "name": "View Brand",
+  "description": "View Brand",
+  "createdAt": {
+    "$date": "2024-05-31T13:25:06.642Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:25:06.642Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cfb971427a13488c1b47"
+  },
+  "name": "Create Brand",
+  "description": "Create Brand",
+  "createdAt": {
+    "$date": "2024-05-31T13:25:13.087Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:25:13.087Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cfbf71427a13488c1b4b"
+  },
+  "name": "Update Brand",
+  "description": "Update Brand",
+  "createdAt": {
+    "$date": "2024-05-31T13:25:19.734Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:25:19.734Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cfc571427a13488c1b4f"
+  },
+  "name": "Delete Brand",
+  "description": "Delete Brand",
+  "createdAt": {
+    "$date": "2024-05-31T13:25:25.985Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:25:25.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cfd271427a13488c1b53"
+  },
+  "name": "Create Role",
+  "description": "Create Role",
+  "createdAt": {
+    "$date": "2024-05-31T13:25:38.498Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:25:38.498Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cfd871427a13488c1b57"
+  },
+  "name": "View Role",
+  "description": "View Role",
+  "createdAt": {
+    "$date": "2024-05-31T13:25:44.726Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:25:44.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cfec71427a13488c1b5b"
+  },
+  "name": "View Task",
+  "description": "View Task",
+  "createdAt": {
+    "$date": "2024-05-31T13:26:04.114Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:26:04.114Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cff271427a13488c1b5f"
+  },
+  "name": "Create Task",
+  "description": "Create Task",
+  "createdAt": {
+    "$date": "2024-05-31T13:26:10.937Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:26:10.937Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659cfff71427a13488c1b63"
+  },
+  "name": "View Assign Task",
+  "description": "View Assign Task",
+  "createdAt": {
+    "$date": "2024-05-31T13:26:23.107Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:26:23.107Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659d00671427a13488c1b67"
+  },
+  "name": "Create Assign Task",
+  "description": "Create Assign Task",
+  "createdAt": {
+    "$date": "2024-05-31T13:26:30.077Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:26:30.077Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659d00d71427a13488c1b6b"
+  },
+  "name": "Update Assign Task",
+  "description": "Update Assign Task",
+  "createdAt": {
+    "$date": "2024-05-31T13:26:37.458Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:26:37.458Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659d01471427a13488c1b6f"
+  },
+  "name": "Delete Assign Task",
+  "description": "Delete Assign Task",
+  "createdAt": {
+    "$date": "2024-05-31T13:26:44.315Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:26:44.315Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659d01c71427a13488c1b73"
+  },
+  "name": "View User",
+  "description": "View User",
+  "createdAt": {
+    "$date": "2024-05-31T13:26:52.088Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:26:52.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659d02271427a13488c1b77"
+  },
+  "name": "Create User",
+  "description": "Create User",
+  "createdAt": {
+    "$date": "2024-05-31T13:26:58.291Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:26:58.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659d02a71427a13488c1b7b"
+  },
+  "name": "Update User",
+  "description": "Update User",
+  "createdAt": {
+    "$date": "2024-05-31T13:27:06.958Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:27:06.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659d03371427a13488c1b7f"
+  },
+  "name": "Delete User",
+  "description": "Delete User",
+  "createdAt": {
+    "$date": "2024-05-31T13:27:15.007Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:27:15.007Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659d03b71427a13488c1b83"
+  },
+  "name": "View Order",
+  "description": "View Order",
+  "createdAt": {
+    "$date": "2024-05-31T13:27:23.513Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:27:23.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659d04371427a13488c1b87"
+  },
+  "name": "Update Order",
+  "description": "Update Order",
+  "createdAt": {
+    "$date": "2024-05-31T13:27:31.437Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T13:27:31.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6673c33b882b9486cd9cc5dd"
+  },
+  "name": "View Expense Type",
+  "description": "View Expense Type",
+  "createdAt": {
+    "$date": "2024-06-20T05:50:51.028Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T05:50:51.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6673c344882b9486cd9cc5e1"
+  },
+  "name": "Create Expense Type",
+  "description": "Create Expense Type",
+  "createdAt": {
+    "$date": "2024-06-20T05:51:00.732Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T05:51:00.732Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6673c34e882b9486cd9cc5e5"
+  },
+  "name": "Update Expense Type",
+  "description": "Update Expense Type",
+  "createdAt": {
+    "$date": "2024-06-20T05:51:10.918Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T05:51:10.918Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6673c357882b9486cd9cc5e9"
+  },
+  "name": "Delete Expense Type",
+  "description": "Delete Expense Type",
+  "createdAt": {
+    "$date": "2024-06-20T05:51:19.348Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T05:51:19.348Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6673d88f268f5b44ec0c836b"
+  },
+  "name": "View Expense",
+  "description": "View Expense",
+  "createdAt": {
+    "$date": "2024-06-20T07:21:51.805Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T07:21:51.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6673d897268f5b44ec0c836f"
+  },
+  "name": "Create Expense",
+  "description": "Create Expense",
+  "createdAt": {
+    "$date": "2024-06-20T07:21:59.432Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T07:21:59.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6673d89f268f5b44ec0c8373"
+  },
+  "name": "Update Expense",
+  "description": "Update Expense",
+  "createdAt": {
+    "$date": "2024-06-20T07:22:07.052Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T07:22:07.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6673d8a5268f5b44ec0c8377"
+  },
+  "name": "Delete Expense",
+  "description": "Delete Expense",
+  "createdAt": {
+    "$date": "2024-06-20T07:22:13.995Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-20T07:22:13.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6677f6196a6f64a6e628d49e"
+  },
+  "name": "View Profit",
+  "description": "View Profit",
+  "createdAt": {
+    "$date": "2024-06-23T10:16:57.597Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-23T10:16:57.597Z"
+  },
+  "__v": 0
+}]

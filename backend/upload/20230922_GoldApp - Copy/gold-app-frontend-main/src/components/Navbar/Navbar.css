@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color: rgb(44, 43, 43);
+    height: auto;
+    justify-content: space-between;
+    padding: 10px 60px;
+    margin: 0px 0px 5px 0px;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    box-shadow: -6px 6px 24px -9px;
+}
+
+.NavBar-FirstItem {
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.NavBar-SecondItem {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1
+}
+
+.NavBar-SecondItem a {
+    /* color: rgb(173, 169, 169); */
+    text-decoration: none;
+}
+
+.NavBar-ThirdItem {
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px
+}
+
+
+
+.NavbarThirdItem button {
+    background-color: rgb(0, 125, 209);
+    padding: 5px 12px;
+    border-radius: 50px;
+    color: rgb(247, 242, 242);
+    font-size: 11px;
+    cursor: pointer;
+
+
+}
+
+.active {
+    font-weight: bold;
+    color: white;
+}
+
+.unactive {
+    font-weight: 100;
+    color: darkgrey
+}
+
+.container {
+    height: 80px;
+    background-color: rgb(44, 43, 43);
+}
+
+@media only screen and (max-width: 460px) {
+    .Navbar {
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .NavBarSecondItem {
+        width: 100%;
+    }
+}

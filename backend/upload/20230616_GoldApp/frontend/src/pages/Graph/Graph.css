@@ -1,0 +1,37 @@
+.canvasjs-chart-credit {
+  display: none !important;
+}
+
+.graphContainer {
+  width: calc(100vw - 6vmax);
+  margin: 9vmax 3vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.graph {
+  width: 80vw;
+}
+
+.dropDownsFilter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropDownsSelectors {
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .dropDownsFilter {
+    flex-direction: column;
+  }
+  .graph {
+    width: 95vw;
+  }
+}

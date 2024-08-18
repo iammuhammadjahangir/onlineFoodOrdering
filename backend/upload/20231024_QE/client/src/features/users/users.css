@@ -1,0 +1,344 @@
+.user {
+  /* height: 100%; */
+  height: 100%;
+  padding-top: 10px;
+}
+
+/*======================== start of Design for color Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+.user.theme-blue {
+  background-color: #3747db;
+}
+
+.user.theme-blue .contentt-box {
+  margin: 0 auto;
+  /* background-color: #e2f6e1; */
+  color: #222;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.user.theme-blue .contentt-box h3,
+.user.theme-blue .content-box h5 {
+  color: #ffffff;
+}
+
+.user.theme-blue .heading-container {
+  display: flex; /* Display h3 and h5 in a row */
+  flex-direction: row; /* Align h3 and h5 vertically */
+}
+
+.user.theme-blue .heading-container h5 .total-records {
+  background-color: #7883e7; /* Add your desired background color here */
+  color: #393939; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.user.theme-blue .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.user.theme-blue .search-withouInputfields-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  height: 10vh;
+  max-width: 1000px;
+  border-radius: 50px 50px 0 0;
+  /* margin-top: 5px; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-left: 350px;
+  margin-bottom: 10px;
+}
+
+.user.theme-blue .table-container {
+  max-width: 1000px;
+  margin-left: 350px;
+}
+.user.theme-blue .table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.user.theme-blue .table-container th {
+  background-color: #a4b1df;
+  padding: 5px;
+  font: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.user.theme-blue .table-container td {
+  padding: 5px;
+  text-align: center;
+  font: #393939;
+  font-size: 17px;
+}
+
+.user.theme-blue .formInput {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: 40vh;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+.user.theme-blue .formInput {
+  background-color: #ffffff;
+}
+
+.user.theme-blue .UserformInput {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: fit-content;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.user.theme-blue .ui.selection.dropdown .menu > .item span {
+  color: black;
+}
+
+.user.theme-blue .currentPass {
+  display: flex;
+  flex-direction: row;
+  /* width: 60% */
+}
+
+.user.theme-blue .userform1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.user.theme-blue .Userformrow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.user.theme-blue .userDropdownform1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.user.theme-blue .UserformrowLastinput {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0;
+  width: 98vh;
+  height: 10vh;
+  /* Add other input field styles here */
+}
+
+.user.theme-blue .userFormdropdown {
+  width: 80%; /* Adjust the width of each input field as needed */
+  height: 5vh;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+
+.user.theme-blue .dropdownform1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+/* Style the input fields */
+.user.theme-blue .Userformrow input {
+  width: 80%; /* Adjust the width of each input field as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+
+.user.theme-blue .row {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.user.theme-blue .row .form1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.row input {
+  width: 80%; /* Adjust the width of each input field as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+.user.theme-blue .rowupdate {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 30px; */
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.user.theme-blue .profileButton {
+  background-color: #fbbd08;
+  padding: 0px 30px 0px 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  height: 6vh;
+  font-size: 1rem;
+  border-radius: 20px;
+  color: whitesmoke;
+}
+
+.user.theme-blue .userButtons {
+  align-items: center !important;
+  margin-left: 450px;
+}
+
+.user.theme-blue .userButtons .button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.user.theme-blue .userButtons .button-back {
+  background-color: green;
+  color: white;
+  width: 120px;
+  height: 5vh;
+  /* float: left; */
+}
+
+.user.theme-blue .userButtons .button-back:hover {
+  background-color: rgb(1, 76, 1);
+  /* float: left; */
+}
+
+.user.theme-blue .userButtons .button-back:focus {
+  background-color: rgb(1, 76, 1);
+  /* float: left; */
+}
+
+.user.theme-blue .userButtons .button-add-product {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  background-color: rgb(171, 171, 8);
+  margin-left: 20px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  height: 5vh;
+  text-align: center;
+}
+
+.user.theme-blue .userButtons .button-add-product:hover {
+  background-color: rgb(206, 206, 12);
+}
+
+.user.theme-blue .userButtons .button-add-product:focus {
+  background-color: rgb(206, 206, 12);
+}
+
+.user.theme-blue .userProfileButtons {
+  align-items: center !important;
+  margin-left: 450px;
+}
+
+.user.theme-blue .userProfileButtons .button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.user.theme-blue .userProfileButtons .button-back {
+  background-color: green;
+  color: white;
+  width: 120px;
+  height: 5vh;
+  /* float: left; */
+}
+
+.user.theme-blue .userProfileButtons .button-add-product {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  float: inline-start;
+  background-color: rgb(171, 171, 8);
+  margin-left: 20px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  height: 5vh;
+  text-align: center;
+}
+
+.user.theme-blue .userProfileButtons .button-add-product:hover {
+  background-color: rgb(206, 206, 12);
+}
+
+.user.theme-blue .userProfileButtons .button-add-product:focus {
+  background-color: rgb(206, 206, 12);
+}
+/*======================== End of Design for App Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+@media screen and (min-width: 1200px) and (max-width: 1430px) {
+  .user.theme-blue .search-withouInputfields-box {
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #222;
+    border-radius: 8px;
+    padding: 30px 20px 0 20px;
+    height: 10vh;
+    max-width: 1000px;
+    border-radius: 50px 50px 0 0;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 180px;
+    margin-bottom: 10px;
+  }
+
+  .user.theme-blue .table-container {
+    max-width: 1000px;
+    margin-left: 180px;
+  }
+}

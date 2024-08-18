@@ -1,0 +1,88 @@
+/* Slideshow container */
+.slideshowContainer {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  margin: auto;
+  margin-top: 1rem;
+  // z-index: -10;
+
+  .mySlides {
+    display: none;
+
+    img {
+      @include flex(row, center, center);
+      width: 85%;
+      height: 60vh;
+      object-fit: cover;
+      margin: auto;
+      border-radius: 10px;
+      z-index: -10;
+    }
+  }
+
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    @include flex;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: $navyBlue;
+    opacity: 0.7;
+    border-radius: 15px;
+
+    > svg {
+      color: $white;
+      transform: scale(1.3);
+    }
+  }
+
+  .prev {
+    left: 2rem;
+  }
+  .next {
+    right: 2rem;
+  }
+
+  .prev:hover,
+  .next:hover {
+    opacity: 1;
+  }
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 1rem 2px;
+  background-color: $lightgrey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: $grey;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,76 @@
+.categoryContainer {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  // padding-top: 1rem;
+  border-bottom: 1px solid $lightgrey;
+  background-color: $white;
+  z-index: 2;
+  // position: sticky;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 5rem;
+  padding-top: 0.5rem;
+  min-height: 52px;
+
+  > div {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    // top: 100px;
+    @include flex(row, flex-start, center, 2rem);
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    > svg {
+      position: absolute;
+      font-size: 2rem;
+      margin: 0 1rem; /* Add margin around arrow icons */
+
+      &:hover {
+        cursor: pointer;
+        color: $tertiary;
+      }
+    }
+
+    .leftHeaderArrowIcon {
+      left: 0rem;
+    }
+    .rightHeaderArrowIcon {
+      right: 0rem;
+    }
+
+    > button {
+      @include btn(1rem, #e5e5e5, $lightgrey);
+      border-radius: 25px;
+      // font-weight: 700;
+      padding: 0.5rem 1rem;
+      font-family: "Roboto";
+      font-size: 1rem;
+      white-space: nowrap;
+      transition: all 0.5s ease-in-out;
+
+      &:hover {
+        background-color: $Yellow;
+      }
+    }
+
+    .focusCategory {
+      background-color: $Yellow;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .categoryContainer {
+    top: 0rem;
+
+    > div {
+      width: 85%;
+      svg {
+        margin: 0;
+      }
+    }
+  }
+}

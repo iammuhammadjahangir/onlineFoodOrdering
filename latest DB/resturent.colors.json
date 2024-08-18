@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "6612ef6ced62d372ff6853ed"
+  },
+  "name": "Green",
+  "hexCode": "#3a503e",
+  "createdAt": {
+    "$date": "2024-04-07T19:09:32.235Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-15T12:28:37.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661acae6bf2ae04e4a62609a"
+  },
+  "name": "Black",
+  "hexCode": "#000000",
+  "createdAt": {
+    "$date": "2024-04-13T18:11:50.477Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-13T18:11:50.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661acb11bf2ae04e4a6260a4"
+  },
+  "name": "Grey",
+  "hexCode": "#bfbfbf",
+  "createdAt": {
+    "$date": "2024-04-13T18:12:33.288Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-13T18:12:33.288Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661acb34bf2ae04e4a6260ae"
+  },
+  "name": "Orange",
+  "hexCode": "#ff7900",
+  "createdAt": {
+    "$date": "2024-04-13T18:13:08.863Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-13T18:13:08.863Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661acb66bf2ae04e4a6260c2"
+  },
+  "name": "Pink",
+  "hexCode": "#fcc6de",
+  "createdAt": {
+    "$date": "2024-04-13T18:13:58.861Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-13T18:13:58.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661acb8cbf2ae04e4a6260cc"
+  },
+  "name": "Blue",
+  "hexCode": "#a8bcd4",
+  "createdAt": {
+    "$date": "2024-04-13T18:14:36.391Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-13T18:14:36.391Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661acbc6bf2ae04e4a6260d9"
+  },
+  "name": "Silver",
+  "hexCode": "#e5e5e5",
+  "createdAt": {
+    "$date": "2024-04-13T18:15:34.857Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-13T18:15:34.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661acbe9bf2ae04e4a6260e3"
+  },
+  "name": "Red",
+  "hexCode": "#f63400",
+  "createdAt": {
+    "$date": "2024-04-13T18:16:09.224Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-13T18:16:09.224Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661acc1dbf2ae04e4a6260ed"
+  },
+  "name": "Royal Blue",
+  "hexCode": "#1e1b2e",
+  "createdAt": {
+    "$date": "2024-04-13T18:17:01.601Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-13T18:17:01.601Z"
+  },
+  "__v": 0
+}]

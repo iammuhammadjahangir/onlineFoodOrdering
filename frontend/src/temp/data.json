@@ -1,0 +1,166 @@
+[
+  {
+    "category": "Non-Veg",
+    "items": [
+      {
+        "_id": "dsjkksdjfhsdf",
+        "img": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1380&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Platter (With Extra Rice)",
+        "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+        "price": 75000,
+        "category": "Non-Veg"
+      },
+      {
+        "_id": "sdfkjhsdfjk",
+        "img": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=1420&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Chicken Feast",
+        "description": "A feast for chicken lovers with a variety of chicken dishes including grilled, curry, and kebabs",
+        "price": 70000,
+        "category": "Non-Veg"
+      },
+      {
+        "_id": "dsjkksdjfhsdf",
+        "img": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1380&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Platter (With Extra Rice)",
+        "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+        "price": 75000,
+        "category": "Non-Veg"
+      },
+      {
+        "_id": "sdfkjhsdfjk",
+        "img": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=1420&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Chicken Feast",
+        "description": "A feast for chicken lovers with a variety of chicken dishes including grilled, curry, and kebabs",
+        "price": 70000,
+        "category": "Non-Veg"
+      },
+      {
+        "_id": "dsjkksdjfhsdf",
+        "img": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1380&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Platter (With Extra Rice)",
+        "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+        "price": 75000,
+        "category": "Non-Veg"
+      },
+      {
+        "_id": "sdfkjhsdfjk",
+        "img": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=1420&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Chicken Feast",
+        "description": "A feast for chicken lovers with a variety of chicken dishes including grilled, curry, and kebabs",
+        "price": 70000,
+        "category": "Non-Veg"
+      },
+      {
+        "_id": "dsjkksdjfhsdf",
+        "img": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1380&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Platter (With Extra Rice)",
+        "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+        "price": 75000,
+        "category": "Non-Veg"
+      },
+      {
+        "_id": "sdfkjhsdfjk",
+        "img": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=1420&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Chicken Feast",
+        "description": "A feast for chicken lovers with a variety of chicken dishes including grilled, curry, and kebabs",
+        "price": 70000,
+        "category": "Non-Veg"
+      }
+    ]
+  },
+  {
+    "category": "Seafood",
+    "items": [
+      {
+        "_id": "sdfjhsdfjkhs",
+        "img": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Seafood Extravaganza",
+        "description": "A delightful assortment of seafood dishes including prawns, fish curry, calamari, and more",
+        "price": 85000,
+        "category": "Seafood"
+      }
+    ]
+  },
+  {
+    "category": "Italian",
+    "items": [
+      {
+        "_id": "dfhsjkdfhsdjk",
+        "img": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=1498&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Pasta Paradise",
+        "description": "An Italian delight with various pasta options including spaghetti, penne, and ravioli",
+        "price": 60000,
+        "category": "Italian"
+      }
+    ]
+  },
+  {
+    "category": "Japanese",
+    "items": [
+      {
+        "_id": "sdfjksdfhjsd",
+        "img": "https://plus.unsplash.com/premium_photo-1673809798703-6082a015f931?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Sushi Delight",
+        "description": "A Japanese delight with a variety of sushi rolls including maki, nigiri, and sashimi",
+        "price": 90000,
+        "category": "Japanese"
+      }
+    ]
+  },
+
+  {
+    "category": "Mediterranean",
+    "items": [
+      {
+        "_id": "dsfjkhsdjkfh",
+        "img": "https://plus.unsplash.com/premium_photo-1675252369719-dd52bc69c3df?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Mediterranean Delicacy",
+        "description": "A taste of the Mediterranean with dishes like falafel, hummus, and grilled vegetables",
+        "price": 78000,
+        "category": "Mediterranean"
+      }
+    ]
+  },
+  {
+    "category": "Dessert",
+    "items": [
+      {
+        "_id": "dfjhsdkjfh",
+        "img": "https://images.unsplash.com/photo-1529042410759-befb1204b468?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Burger Bonanza",
+        "description": "A variety of gourmet burgers with juicy patties, fresh vegetables, and special sauces",
+        "price": 68000,
+        "category": "Dessert"
+      },
+      {
+        "_id": "dsfkjsdfhjsd",
+        "img": "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Dessert Delight",
+        "description": "Indulge in a variety of sweet treats including cakes, pastries, and ice creams",
+        "price": 55000,
+        "category": "Dessert"
+      }
+    ]
+  },
+  {
+    "category": "Healthy",
+    "items": [
+      {
+        "_id": "dsfkjsdfhkjsd",
+        "img": "https://plus.unsplash.com/premium_photo-1673809798970-30c14cfd0ab6?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Healthy Bowl",
+        "description": "A nutritious bowl filled with fresh vegetables, quinoa, grilled chicken, and a variety of healthy ingredients",
+        "price": 72000,
+        "category": "Healthy"
+      },
+      {
+        "_id": "djfsdkjfhsdjk",
+        "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1381&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Vegetarian Delight",
+        "description": "A variety of delicious vegetarian dishes including paneer tikka, veg kabab, stuffed bell peppers, and more",
+        "price": 65000,
+        "category": "Healthy"
+      }
+    ]
+  }
+]

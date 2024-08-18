@@ -1,0 +1,77 @@
+.dark-theme {
+    --main-heading: #5f99be;
+    --para-clr: #fff;
+    --btn-bg-color: #5f99be;
+    --btn-text-clr: #fff;
+    --bg-clr: #ECECEC;
+}
+
+.light-theme {
+    --main-heading: #5f99be;
+    --para-clr: #333;
+    --btn-bg-color: #111b20;
+    --btn-text-clr: #fff;
+    --bg-clr: #fff;
+}
+
+h1 {
+    font-size: 5rem;
+    color: var(--main-heading)
+}
+
+p {
+    font-size: 2rem;
+    color: var(--para-clr);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a,
+li {
+    font-size: 1.8rem;
+    color: var(--btn-bg-color);
+}
+
+.btn {
+    padding: 1.6rem 3.2rem;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-clr);
+}
+
+section {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg-clr);
+}
+
+.container {
+    max-width: 140rem;
+    margin: 0 auto;
+}
+
+
+.grid {
+    display: grid;
+    gap: 9rem;
+}
+
+.grid-two-column {
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-section-data p {
+    margin: 2rem 0;
+}
+
+.hero-section-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-section-image img {
+    max-height: 60%;
+}

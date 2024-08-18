@@ -1,0 +1,26 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  background-image: url("backgroundImage.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: fixed;
+  /* opacity: 0.8; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.content-container {
+  flex: 1;
+  overflow-y: auto;
+}

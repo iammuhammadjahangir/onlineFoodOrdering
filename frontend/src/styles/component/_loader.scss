@@ -1,0 +1,149 @@
+.absolute {
+  position: absolute;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.nameLoader {
+  display: flex;
+  margin: 0.25em 0;
+}
+
+.w-2 {
+  width: 0.5em;
+}
+
+.dash {
+  animation: dashArray 2s ease-in-out infinite, dashOffset 2s linear infinite;
+}
+
+.spin {
+  animation: spinDashArray 2s ease-in-out infinite, spin 8s ease-in-out infinite,
+    dashOffset 2s linear infinite;
+  transform-origin: center;
+}
+
+.loaderContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  height: 96px;
+  width: 96px;
+  animation: rotate_3922 1.2s linear infinite;
+  background-color: #9b59b6;
+  background-image: linear-gradient(#9b59b6, #84cdfa, #5ad1cd);
+}
+
+.loaderContainer span {
+  position: absolute;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  background-color: #9b59b6;
+  background-image: linear-gradient(#9b59b6, #84cdfa, #5ad1cd);
+}
+
+.loaderContainer span:nth-of-type(1) {
+  filter: blur(5px);
+}
+
+.loaderContainer span:nth-of-type(2) {
+  filter: blur(10px);
+}
+
+.loaderContainer span:nth-of-type(3) {
+  filter: blur(25px);
+}
+
+.loaderContainer span:nth-of-type(4) {
+  filter: blur(50px);
+}
+
+.loaderContainer::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background-color: #fff;
+  border: solid 5px #ffffff;
+  border-radius: 50%;
+}
+
+@keyframes rotate_3922 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes dashArray {
+  0% {
+    stroke-dasharray: 0 1 359 0;
+  }
+
+  50% {
+    stroke-dasharray: 0 359 1 0;
+  }
+
+  100% {
+    stroke-dasharray: 359 1 0 0;
+  }
+}
+
+@keyframes spinDashArray {
+  0% {
+    stroke-dasharray: 270 90;
+  }
+
+  50% {
+    stroke-dasharray: 0 360;
+  }
+
+  100% {
+    stroke-dasharray: 270 90;
+  }
+}
+
+@keyframes dashOffset {
+  0% {
+    stroke-dashoffset: 365;
+  }
+
+  100% {
+    stroke-dashoffset: 5;
+  }
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+
+  12.5%,
+  25% {
+    rotate: 270deg;
+  }
+
+  37.5%,
+  50% {
+    rotate: 540deg;
+  }
+
+  62.5%,
+  75% {
+    rotate: 810deg;
+  }
+
+  87.5%,
+  100% {
+    rotate: 1080deg;
+  }
+}

@@ -1,0 +1,25 @@
+.ratesRow {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0.4vmax auto;
+  font-size: 1vmax;
+  border-bottom: 1px solid grey;
+}
+
+.RatesHighLow {
+  flex: 5;
+  text-align: center;
+}
+.RatesValue {
+  flex: 5;
+  text-align: right;
+  color: #5b7474;
+  font-weight: bold;
+}
+.RateHeading {
+  flex: 3;
+  text-align: right;
+  font-family: "Noto Nastaliq Urdu";
+  color: #006400;
+}

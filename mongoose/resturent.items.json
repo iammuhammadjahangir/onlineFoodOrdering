@@ -1,0 +1,214 @@
+[{
+  "_id": {
+    "$oid": "65c735e62168f17b9eb229c5"
+  },
+  "name": "Platter",
+  "description": "10 Pcs Chicken Tikka, 10 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 6 Pcs Fish Tikka, 6 Pcs Chicken Kabab, 6 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+  "productImage": "upload\\7f0f059c-92b7-4c3e-ac8c-64434081ab72.jpg",
+  "category": {
+    "$oid": "65c60ebca22b75a91f9157e2"
+  },
+  "actualPrice": 0,
+  "offerPrice": 0,
+  "variation": [],
+  "createdAt": {
+    "$date": "2024-02-10T08:37:58.226Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T08:37:58.226Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c737092168f17b9eb229c7"
+  },
+  "name": "Family Platter Half",
+  "description": "5 Pcs Chicken Tikka, 5 Pcs Malai Boti, 1 Chicken Piece Leg / Chest, 3 Pcs Fish Tikka, 3 Pcs Chicken Kabab, 3 Pcs Beef Kabab, 2 Pcs Batair Tikka & Mutton Champ",
+  "productImage": "upload\\a83e6e4d-9a79-4aa7-b644-08104e70a5e2.jpg",
+  "category": {
+    "$oid": "65c60ebca22b75a91f9157e2"
+  },
+  "actualPrice": 3800,
+  "offerPrice": 0,
+  "variation": [],
+  "createdAt": {
+    "$date": "2024-02-10T08:42:49.844Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T08:42:49.844Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c738c12168f17b9eb229d1"
+  },
+  "name": "Daleem Dal Chawal",
+  "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+  "productImage": "upload\\c94f6570-363b-4454-b1ae-4c1be6bcd3de.jpeg",
+  "category": {
+    "$oid": "65c737d12168f17b9eb229c9"
+  },
+  "actualPrice": 200,
+  "offerPrice": 0,
+  "variation": [],
+  "createdAt": {
+    "$date": "2024-02-10T08:50:09.185Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T08:50:09.185Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c738f62168f17b9eb229d3"
+  },
+  "name": "Daleem Dal Chawal ( 1 Shami Kabab) (240)",
+  "description": "A Plate Of Rice With Daleem, Chatni & Salad",
+  "productImage": "upload\\0d418f86-59c2-4087-a603-e4577bf10605.jpeg",
+  "category": {
+    "$oid": "65c737d12168f17b9eb229c9"
+  },
+  "actualPrice": 240,
+  "offerPrice": 0,
+  "variation": [],
+  "createdAt": {
+    "$date": "2024-02-10T08:51:02.422Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T08:51:02.422Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c7392d2168f17b9eb229d5"
+  },
+  "name": "Masala Biryani (100)",
+  "description": "Single Plate Of Rice With 1 Potato",
+  "productImage": "upload\\3bb48925-a9e5-4686-86d7-f568c8074a67.jpeg",
+  "category": {
+    "$oid": "65c737e12168f17b9eb229cb"
+  },
+  "actualPrice": 100,
+  "offerPrice": 0,
+  "variation": [],
+  "createdAt": {
+    "$date": "2024-02-10T08:51:57.956Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T08:51:57.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c747704377aba19f42a67d"
+  },
+  "name": "Chicken Piece",
+  "description": "Chicken Piece",
+  "productImage": "upload\\f4205213-8707-4732-9a5d-1779c23b7045.jpeg",
+  "category": {
+    "$oid": "65c737f22168f17b9eb229cd"
+  },
+  "actualPrice": 380,
+  "offerPrice": 0,
+  "variations": [
+    {
+      "$oid": "65c739ff2168f17b9eb229db"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-02-10T09:52:48.570Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T09:52:48.570Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c7485c4377aba19f42a687"
+  },
+  "name": "Reshmi Kabab",
+  "description": "Chicken",
+  "productImage": "upload\\a14551a1-0803-49fa-a01f-1c920c627dca.jpeg",
+  "category": {
+    "$oid": "65c737f22168f17b9eb229cd"
+  },
+  "actualPrice": 0,
+  "offerPrice": 0,
+  "variations": [
+    {
+      "$oid": "65c7483c4377aba19f42a685"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-02-10T09:56:44.165Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T09:56:44.165Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c748ad4377aba19f42a689"
+  },
+  "name": "Seekh Kabab",
+  "description": "Beef",
+  "productImage": "upload\\e7849d83-a852-4567-b2cb-bda321476a85.jpeg",
+  "category": {
+    "$oid": "65c737f22168f17b9eb229cd"
+  },
+  "actualPrice": 300,
+  "offerPrice": 0,
+  "variations": [
+    {
+      "$oid": "65c7483c4377aba19f42a685"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-02-10T09:58:05.536Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T09:58:05.536Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c7e4b0ad8ce1e2c5bc5c66"
+  },
+  "name": "Seekh Kabab",
+  "description": "Beef",
+  "productImage": "upload\\79cb5cd2-e3ba-4eae-8183-769c7b9d38ed.jpeg",
+  "category": {
+    "$oid": "65c737f22168f17b9eb229cd"
+  },
+  "actualPrice": 0,
+  "offerPrice": 0,
+  "variations": [
+    {
+      "$oid": "65c6221476036988e701917a"
+    },
+    {
+      "$oid": "65ca182a8c86b248a7c68d02"
+    },
+    {
+      "$oid": "65c7483c4377aba19f42a685"
+    },
+    {
+      "$oid": "65ca183b8c86b248a7c68d04"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-02-10T21:03:44.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T21:03:44.181Z"
+  },
+  "__v": 0
+}]

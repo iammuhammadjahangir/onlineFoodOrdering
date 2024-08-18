@@ -1,0 +1,45 @@
+/* Hide the print-only-container class on the frontend */
+.print-only-container {
+  display: none;
+}
+
+/* Show the print-only-container class during printing */
+@media print {
+  .print-only-container {
+    display: block;
+  }
+}
+
+/* CSS file */
+
+/* print-table.css */
+/* Show table header only on the first page */
+@media print {
+table thead {
+  display: table-header-group;
+}
+
+/* Ensure all rows are properly printed */
+table tHead tr {
+  page-break-inside: avoid;
+}
+table tbody tr {
+  page-break-inside: avoid;
+}
+}
+
+
+@media print {
+/* Add a margin at the bottom of every page (adjust the value as needed) */
+.page {
+  margin-bottom: 20px; /* You can change this value as per your requirements */
+}
+
+/* Prevent table rows from breaking across pages */
+table tbody tr {
+  page-break-inside: avoid;
+}
+}
+
+
+

@@ -1,0 +1,78 @@
+.login {
+  width: 80vw;
+  height: 80dvh;
+  margin: 0 auto;
+  padding: 1rem;
+  @include flex(row, center, flex-start, 0);
+  //   background-color: $cartColor;
+
+  .loginDetails {
+    @include flex(column, space-between, center, 0);
+    flex: 2;
+    padding: 1rem;
+    height: 100%;
+    background-color: $background;
+    border-radius: 15px 0 0 15px;
+    h1 {
+      @include heading;
+      font-size: clamp(1.5rem, 0.3043rem + 3.4783vw, 1.8rem);
+      // font-size: 1.8rem;
+      white-space: noWrap;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      font-family: "Roboto";
+      color: $tertiary;
+    }
+
+    p {
+      font-size: clamp(0.8rem, 0.3043rem + 3.4783vw, 1rem);
+
+      font-size: 1rem;
+      font-family: "Roboto";
+      color: $lightgrey;
+      text-align: center;
+    }
+
+    .loginDetailsForm {
+      display: none;
+    }
+
+    .googleLogin {
+      //   width: max-content;
+      width: 20rem;
+      > button {
+        width: 80%;
+        margin: auto;
+        height: 3rem;
+        @include btn(unset, $tertiary, $background);
+        @include flex;
+        border: 1px solid rgb(62, 125, 242);
+        border-radius: 5px;
+        font-size: clamp(0.8rem, 0.3043rem + 3.4783vh, 1.06rem);
+        > svg {
+          background-color: white;
+          width: 30%;
+          height: 100%;
+        }
+        > span {
+          width: 100%;
+          text-align: center;
+          font-family: "Roboto";
+        }
+      }
+    }
+  }
+
+  .svgDetail {
+    flex: 5;
+    height: 100%;
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0 15px 15px 0;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.outerLoginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100dvw;
+  // margin-top: 0rem;
+  background-color: rgba(255, 255, 255, 0.815);
+  > .loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28rem;
+    // height: 75dvh;
+    height: max-content;
+    // padding: 3rem 0;
+    margin: 0 auto;
+
+    @include neumorphism;
+
+    > form {
+      width: 100%;
+      height: 100%;
+      .crediantialsContainer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        //   justify-content: center;
+        align-items: center;
+        gap: 0.7rem;
+        margin-top: 2rem;
+        width: 100%;
+        height: max-content;
+        padding: 2rem;
+
+        > h1 {
+          @include heading;
+          margin: 0 auto;
+          color: $primaryColor;
+        }
+        > .labeAndInputDiv {
+          display: flex;
+          flex-direction: column;
+          gap: 0.4rem;
+          width: 100%;
+          height: max-content;
+        }
+        > .submitButton {
+          width: 100%;
+          height: 3rem;
+          margin-top: 0.8rem;
+          border: none;
+          border-radius: 0.5rem;
+          font-size: 1.2rem;
+          font-weight: 500;
+          color: #fff;
+          background-color: $primaryColor;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          &:hover {
+            opacity: 0.8;
+          }
+          //   @include neumorphism($primaryColor);
+        }
+
+        > p {
+          position: absolute;
+          bottom: 0;
+          right: 0.5rem;
+          font-size: 1rem;
+          font-weight: 500;
+          color: $lightgrey;
+          cursor: pointer;
+          a {
+            color: $primaryColor;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

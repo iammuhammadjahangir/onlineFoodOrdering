@@ -1,0 +1,61 @@
+.localRates {
+  margin-top: 2vmax;
+  margin: 30px auto;
+  width: 80%;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 5px solid rgb(205, 136, 79);
+  /* background: linear-gradient(
+    45deg,
+    rgba(205, 136, 79, 1) 0%,
+    rgba(241, 198, 155, 1) 100%
+  ); */
+}
+
+.localHeaderheading {
+  flex: 1;
+  color: #c3a350;
+  font-family: "Noto Nastaliq Urdu";
+  font-size: 2.5vmax;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2vmax;
+}
+.cardBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 10vmax;
+  margin-top: 3vmax;
+  width: 100%;
+}
+.LocalUpdate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  gap: 0.5vmax;
+  margin-top: 1vmax;
+  border-bottom: 1px solid #5b7474;
+}
+
+.heading {
+  flex: 3;
+  text-align: center;
+  font-family: "Noto Nastaliq Urdu";
+  font-size: 1.3vmax;
+  color: #5b7474;
+}
+.time {
+  flex: 7;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 1vmax;
+}

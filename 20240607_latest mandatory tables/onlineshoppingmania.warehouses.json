@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "664598f2b4e78d1e777bacb0"
+  },
+  "wareHouseCode": "G_001",
+  "wareHouseAddress": "Murree Road ,Rawalpindi",
+  "wareHouseDescription": "Test",
+  "wareHouseType": "store",
+  "wareHousePhoneNo": "+923129486808",
+  "__v": 0
+}]

@@ -1,0 +1,126 @@
+.centered-container {
+  border: 2px solid black;
+  margin: 9vmax 3vmax;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.input-section {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-section > label {
+  font-size: 1.3vmax;
+  display: flex;
+  justify-content: space-between;
+  gap: 3vmax;
+  align-items: center;
+  font-family: "Roboto";
+}
+.input-section > input {
+  width: 12.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all 0.5s ease;
+  font-family: "Roboto";
+  padding: 10px 0;
+  font-size: 1vmax;
+  color: #474747;
+  height: 100%;
+  text-align: center;
+  padding-right: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.shadow-box {
+  padding: 2vmax;
+  margin: 2vmax;
+  width: 30%;
+  border-radius: 20px;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shadow-box > h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-size: 2.5vmax;
+}
+
+/* CSS */
+.button {
+  width: 100%;
+  border-radius: 8px;
+  font-size: 2vmax;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: "Roboto";
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  outline: 0;
+  background-color: rgb(212, 211, 211);
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .centered-container {
+    margin: 9vmax 0;
+  }
+  .shadow-box {
+    width: 80%;
+  }
+  .input-section > label {
+    font-size: 2.5vmax;
+  }
+  .input-section > input {
+    width: 8.5rem;
+    font-size: 2vmax;
+  }
+  .button {
+    padding: 0 40px;
+  }
+}

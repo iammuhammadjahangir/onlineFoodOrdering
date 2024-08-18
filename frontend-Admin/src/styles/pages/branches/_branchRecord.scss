@@ -1,0 +1,14 @@
+.branchContainer {
+  //   @include flex(row);
+  //   width: 100%;
+
+  header {
+    width: 100%;
+    @include flex;
+
+    button {
+      margin-left: auto;
+      width: max-content;
+    }
+  }
+}

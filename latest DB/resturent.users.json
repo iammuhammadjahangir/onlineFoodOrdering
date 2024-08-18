@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "65bc8b81c969db154ebbf476"
+  },
+  "name": "muhammad jahangir",
+  "email": "muhammadjahangir6433@gmail.com",
+  "avatar": "upload\\9b34a43a-8d76-437e-9139-0fd23f4bc350.png",
+  "password": "$2a$10$fSb6bctqeICacYzQRtGCauxHD0SN1VXbDiNlyZU0f.eeZHTob2ak.",
+  "gender": "male",
+  "role": {
+    "$oid": "65bc7b81078841e8b4e2f38e"
+  },
+  "dob": {
+    "$date": "2024-01-29T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2024-02-02T06:28:17.429Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-17T08:14:19.625Z"
+  },
+  "__v": 0,
+  "active": true,
+  "printer": "laser",
+  "resetPasswordExpire": {
+    "$date": "2024-07-17T08:29:19.623Z"
+  },
+  "resetPasswordToken": "effe2d6f505b9962380ca84a9be1c630e4671fd7db3bb3ca2f5e53c0e7f512da",
+  "tableRows": 10
+},
+{
+  "_id": {
+    "$oid": "66977f4b486c37c103a0ceb5"
+  },
+  "name": "Muhammad Jahangir",
+  "email": "muhammadjahangir643@gmail.com",
+  "avatar": {
+    "url": "upload/user/compressed_391f5482-f282-4045-85b5-7811c93ab866.jpeg",
+    "blurHash": "UhRCxnxu_N%M.7j[Rjj[%hj[MxaxbIfQs.f6"
+  },
+  "password": "$2a$10$cqmtBUVwB4F2vBg5QdWZE.UHj.VaRgMdzCgkbVw5euMtpOfc3smza",
+  "gender": "male",
+  "role": {
+    "$oid": "65bc7b81078841e8b4e2f38e"
+  },
+  "dob": {
+    "$date": "2002-06-08T18:00:00.000Z"
+  },
+  "active": true,
+  "shopNo": {
+    "$oid": "65fdc3646c184d8eaa95cf4e"
+  },
+  "printer": "laser",
+  "tableRows": 10,
+  "phoneNo": "+923129486808",
+  "whatsappNo": "+923129486808",
+  "createdAt": {
+    "$date": "2024-07-17T08:22:35.259Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-17T08:22:35.259Z"
+  },
+  "__v": 0
+}]

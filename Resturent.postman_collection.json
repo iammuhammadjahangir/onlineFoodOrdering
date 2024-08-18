@@ -1,0 +1,1234 @@
+{
+	"info": {
+		"_postman_id": "5e797928-9050-44b6-ba1a-2d2f9d6d6eb0",
+		"name": "Resturent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29700792"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Create New User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Muhammad Jahangir",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "muhammadjahangir643@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "avatar",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "jahangir123",
+									"type": "text"
+								},
+								{
+									"key": "gender",
+									"value": "male",
+									"type": "text"
+								},
+								{
+									"key": "role",
+									"value": "65bc7b81078841e8b4e2f38e",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "dob",
+									"value": "2024-01-29",
+									"type": "text"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/C:/Users/HP/Pictures/Screenshots/Screenshot (4).png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"muhammadjahangir643@gmail.com\",\r\n    \"password\":\"jahangirrana123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout User",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"muhammadjahangir643@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Forget Password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"muhammadjahangir643@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/password/forgot",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"password",
+								"forgot"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reset Password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\":\"aliali123\",\r\n    \"confirmPassword\":\"aliali123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/password/reset/927bbee744f795241b5b01347e9d79a17ddebfea",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"password",
+								"reset",
+								"927bbee744f795241b5b01347e9d79a17ddebfea"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "My Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/me",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"oldPassword\":\"aliali123\",\r\n    \"newPassword\":\"jahangirrana123\",\r\n    \"confirmPassword\":\"jahangirrana123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/password/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"password",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update mMy Profile",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/C:/Users/HP/Downloads/angled-waves-v0-4u36ktors1la1.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/me/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"me",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Users -Admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/admin/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"admin",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User By Id -Admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/admin/user/65bc8b81c969db154ebbf476",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"admin",
+								"user",
+								"65bc8b81c969db154ebbf476"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User By Id -Admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"role\":\"65bb9a0d078841e8b4e2f38a\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/admin/user/65bc8b81c969db154ebbf476",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"admin",
+								"user",
+								"65bc8b81c969db154ebbf476"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User By Id -Admin",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/user/admin/user/65bc8b81c969db154ebbf476",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"admin",
+								"user",
+								"65bc8b81c969db154ebbf476"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Roles",
+			"item": [
+				{
+					"name": "Create Role",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"admin\",\r\n    \"description\":\"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/role/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"role",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Roles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/role/get",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"role",
+								"get"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tasks",
+			"item": [
+				{
+					"name": "Post Tasks",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"view Dashboard\",\r\n    \"description\":\"view Dashboard\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/task/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"task",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Tasks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/task/get",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"task",
+								"get"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Assign Task",
+			"item": [
+				{
+					"name": "Create Assign Tasks",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"role\":\"65bb9a0d078841e8b4e2f38a\",\r\n    \"task\":\"65bc7d120d3d096dcda89c47\",\r\n    \"status\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/assignTask/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"assignTask",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Tasks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/assigntask/get",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"assigntask",
+								"get"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Tasks by Role and Tasks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/assigntask/get/65bb9a0d078841e8b4e2f38a/65bc7d120d3d096dcda89c47",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"assigntask",
+								"get",
+								"65bb9a0d078841e8b4e2f38a",
+								"65bc7d120d3d096dcda89c47"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Tasks by Role and Task Name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/assigntask/getByIdandName/65bb9a0d078841e8b4e2f38a?taskName=view Dashboard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"assigntask",
+								"getByIdandName",
+								"65bb9a0d078841e8b4e2f38a"
+							],
+							"query": [
+								{
+									"key": "taskName",
+									"value": "view Dashboard"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Task by Role",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/assigntask/getTaskByRole/65bb9a0d078841e8b4e2f38a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"assigntask",
+								"getTaskByRole",
+								"65bb9a0d078841e8b4e2f38a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "New Category --Admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Fast Food\",\r\n    \"description\":\"Fast Food\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/category/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"category",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Categories --Admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/category/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"category",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Category By Id --Admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/category/get/65c60ebca22b75a91f9157e2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"category",
+								"get",
+								"65c60ebca22b75a91f9157e2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Variation Options",
+			"item": [
+				{
+					"name": "New VariationOptions --Admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"6 kabab\",\r\n    \"price\":780\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/variationOptions/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"variationOptions",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get All VariationOptions --Admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/variationOptions/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"variationOptions",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get VariationOptions by Id --Admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/variationOptions/get/65c613b63ce15e24f497f903",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"variationOptions",
+								"get",
+								"65c613b63ce15e24f497f903"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"price\":301\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/variationOptions/get/65c613b63ce15e24f497f903",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"variationOptions",
+								"get",
+								"65c613b63ce15e24f497f903"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Variations",
+			"item": [
+				{
+					"name": "Create Variations --admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"topping\",\r\n    \"description\":\"Variation\",\r\n    \"isRequired\":false,\r\n    \"variationOptions\":[\r\n        \"65c7480e4377aba19f42a681\",\"65c748194377aba19f42a683\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/variation/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"variation",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Variation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/variation/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"variation",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Variation By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/variation/65c6221476036988e701917a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"variation",
+								"65c6221476036988e701917a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Variation By Id --admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Soft Drink\",\r\n    \"description\":\"testing\",\r\n    \"isRequired\":true,\r\n    \"variationOptions\":[\r\n        \"65c61fd39a18a9ebb295fdec\",\"65c61fdb9a18a9ebb295fdee\",\"65c61fe19a18a9ebb295fdf0\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/variation/65c6221476036988e701917a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"variation",
+								"65c6221476036988e701917a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Items",
+			"item": [
+				{
+					"name": "Create New Items --Admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/C:/Users/HP/Downloads/1700160842.jpeg"
+								},
+								{
+									"key": "name",
+									"value": "Seekh Kabab",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "65c737f22168f17b9eb229cd",
+									"type": "text"
+								},
+								{
+									"key": "actualPrice",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "variations",
+									"value": "[\"65c6221476036988e701917a\",\"65c7483c4377aba19f42a685\"]",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Beef",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/items/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"items",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Items",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/items/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"items",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Items By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/items/65c756de82fa060869014988",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"items",
+								"65c756de82fa060869014988"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Item",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/items/search",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"items",
+								"search"
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "bi",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Item By Id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/C:/Users/HP/Downloads/1699814784.jpeg"
+								},
+								{
+									"key": "name",
+									"value": "sssss",
+									"type": "text"
+								},
+								{
+									"key": "variations",
+									"value": "[\"65c7483c4377aba19f42a685\",\"65c737f22168f17b9eb229c8\"]",
+									"type": "text"
+								},
+								{
+									"key": "actualPrice",
+									"value": "32323",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "category",
+									"value": "65c737f22168f17b9eb229c8",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/items/65c756de82fa060869014988",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"items",
+								"65c756de82fa060869014988"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Item By ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/items/65c762e2f413fa981e5d4dd4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"items",
+								"65c762e2f413fa981e5d4dd4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Image Slider",
+			"item": [
+				{
+					"name": "Upload Slider Image (Multiple))",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "photos",
+									"type": "file",
+									"src": [
+										"/C:/Users/HP/Documents/Currently Working/S2N/frontend/src/assets/carouselImages/img1.jpg",
+										"/C:/Users/HP/Documents/Currently Working/S2N/frontend/src/assets/carouselImages/img2.jpg",
+										"/C:/Users/HP/Documents/Currently Working/S2N/frontend/src/assets/carouselImages/img3.jpg"
+									]
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4500/api/v1/slider/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"slider",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Slider Images",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4500/api/v1/slider/get",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4500",
+							"path": [
+								"api",
+								"v1",
+								"slider",
+								"get"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

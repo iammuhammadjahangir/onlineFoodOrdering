@@ -1,0 +1,217 @@
+/* .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  background-color: #699e67 !important;
+} */
+
+.tableComponent {
+  height: 80vh;
+}
+
+.border-Right {
+  border-right: 1px solid #707070;
+}
+.customTable {
+  border-collapse: separate;
+  border-spacing: 0 10px; /* Adjust the spacing between rows */
+  width: 100%; /* Make the table take full width */
+}
+
+.customTable .TableRow {
+  border-right: 1px solid #707070; /* Adjust the color as needed */
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.customTable .TableCell {
+  border-bottom: none; /* Remove the bottom border */
+}
+
+.customTable .oddRow {
+  background-color: #fbf4f4;
+  padding: 10px; /* Set the background color for odd rows */
+}
+
+.customTable .evenRow {
+  background-color: white; /* Set the background color for even rows */
+  padding: 10px;
+}
+
+.custom-table-pagination .MuiSelect-select {
+  display: none;
+}
+
+/* Add a more specific selector to hide the "Rows per page" dropdown */
+.custom-table-pagination .MuiTablePagination-input {
+  display: none;
+}
+
+/* .customTable .TableHead {
+  background-color: #707070;
+  z-index: 1;
+  font-size: 13px;
+  font-family: "Poppins, sans-serif";
+  font-weight: 550;
+  white-space: nowrap;
+} */
+
+.customTable .TableRow {
+  font-size: 13px;
+  font-family: "Poppins, sans-serif"; /* Set the font size for the table rows */
+  color: #393939; /* Set the text color for the table rows */
+}
+
+.customTable .lastRowCell {
+  border-bottom: 2px solid red;
+  border-right: 1px solid #707070; /* Adjust the border style and color */
+}
+
+.tableHead {
+  background-color: #707070;
+  z-index: 1;
+  font-size: 13px;
+  font-family: "Poppins, sans-serif"; /* Set the font size for the table header */
+  font-weight: 550; /* Set the font weight (500 for medium) */
+  color: #393939; /* Set the text color for the table header */
+  white-space: nowrap;
+}
+
+.tableHead .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  height: 0;
+  width: 0;
+}
+
+.color.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.color.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.company.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.company.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.godown.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.godown.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.shop.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.shop.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.productType.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.productType.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.purchase.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.purchase.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.sale.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.sale.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.transfer.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.transfer.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.expenseType.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.expenseType.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.expense.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.expense.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.user.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.user.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.profit.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.profit.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.productLocation.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.productLocation.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+
+.tableToExcel.theme-blue .customTable .evenRow {
+  background-color: #0b6ab0;
+}
+.tableToExcel.theme-blue .customTable .oddRow {
+  background-color: #d6e5a9;
+}
+.profit.theme-blue
+  .customTable
+  .css-16c50h-MuiInputBase-root-MuiTablePagination-select
+  .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  background-color: #aea9e5 !important;
+}
+
+.Products.theme-blue .customTable .evenRow {
+  background-color: #66ccff;
+}
+.Products.theme-blue .customTable .oddRow {
+  background-color: #ffb85f;
+}
+.App.theme-orange .customTable .evenRow {
+  background-color: #f4dfd6;
+}
+.App.theme-orange .customTable .oddRow {
+  background-color: #f4c9b7;
+}
+
+.App.theme-purple .customTable .evenRow {
+  background-color: #ded0f2;
+}
+.App.theme-purple .customTable .oddRow {
+  background-color: #d0b7f4;
+}
+
+.App.theme-green .customTable .evenRow {
+  background-color: #e2f6e1;
+}
+.App.theme-green .customTable .oddRow {
+  background-color: #c3e3c1;
+}
+
+.App.theme-black .customTable .evenRow {
+  background-color: #d8def4;
+}
+.App.theme-black .customTable .oddRow {
+  background-color: #bec7e7;
+}

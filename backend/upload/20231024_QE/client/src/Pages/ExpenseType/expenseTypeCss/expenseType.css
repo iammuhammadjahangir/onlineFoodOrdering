@@ -1,0 +1,169 @@
+.expenseType {
+  /* height: 100%; */
+  height: 100%;
+  padding-top: 10px;
+}
+
+/*======================== start of Design for color Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+.expenseType.theme-blue {
+  background-color: #0b6ab0;
+}
+.expenseType.theme-blue .contentt-box {
+  margin: 0 auto;
+  /* background-color: #e2f6e1; */
+  color: #222;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.expenseType.theme-blue .contentt-box h3,
+.expenseType.theme-blue .content-box h5 {
+  color: #ffffff;
+}
+
+.expenseType.theme-blue .heading-container {
+  display: flex; /* Display h3 and h5 in a row */
+  flex-direction: row; /* Align h3 and h5 vertically */
+}
+
+.expenseType.theme-blue .heading-container h5 .total-records {
+  background-color: #7883e7; /* Add your desired background color here */
+  color: #393939; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.expenseType.theme-blue .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.expenseType.theme-blue .search-withouInputfields-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  height: 10vh;
+  max-width: 1000px;
+  border-radius: 50px 50px 0 0;
+  /* margin-top: 5px; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-left: 350px;
+  margin-bottom: 10px;
+}
+
+.expenseType.theme-blue .table-container {
+  max-width: 1000px;
+  margin-left: 350px;
+}
+.expenseType.theme-blue .table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.expenseType.theme-blue .table-container th {
+  background-color: #a4b1df;
+  padding: 5px;
+  font: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.expenseType.theme-blue .table-container td {
+  padding: 5px;
+  text-align: center;
+  font: #393939;
+  font-size: 17px;
+}
+.expenseType.theme-blue .formInput {
+  background-color: #ffffff;
+}
+
+.expenseType.theme-blue .row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.expenseType.theme-blue .row .form1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.expenseType.theme-blue .expenseTypeButtons {
+  align-items: center !important;
+  margin-left: 450px;
+}
+
+.expenseType.theme-blue .expenseTypeButtons .button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.expenseType.theme-blue .expenseTypeButtons .button-back {
+  background-color: green;
+  color: white;
+  width: 120px;
+  height: 5vh;
+  /* float: left; */
+}
+
+.expenseType.theme-blue .expenseTypeButtons .button-add-product {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  background-color: rgb(171, 171, 8);
+  margin-left: 20px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  height: 5vh;
+  text-align: center;
+}
+/*======================== End of Design for App Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+
+@media screen and (min-width: 1200px) and (max-width: 1430px) {
+  .expenseType.theme-blue .search-withouInputfields-box {
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #222;
+    border-radius: 8px;
+    padding: 30px 20px 0 20px;
+    height: 10vh;
+    max-width: 1000px;
+    border-radius: 50px 50px 0 0;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 180px;
+    margin-bottom: 10px;
+  }
+
+  .expenseType.theme-blue .table-container {
+    max-width: 1000px;
+    margin-left: 180px;
+  }
+}

@@ -1,0 +1,103 @@
+.printer {
+  height: 100%;
+}
+
+.printer.theme-blue .printerPage {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60vh;
+}
+
+.setting-custom-div-first {
+  margin-left: 20px;
+  padding: 10px;
+  /* margin: 10px 0; */
+  margin-top: 20px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.printer.theme-blue .setting-custom-div-first {
+  background-color: #ffff;
+  cursor: pointer;
+  color: #1e41c1;
+}
+.setting-custom-div-second {
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  /* margin: 10px 0; */
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.customChange-Printer {
+  padding: 10px;
+  /* margin: 10px 0; */
+  margin-left: 250px;
+  background-color: #ff5733;
+  color: white;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.customchange-printersecond {
+  position: absolute;
+  width: 70%;
+  top: 300px;
+  background-color: #ff5733;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 1;
+}
+
+.printer.theme-blue .setting-custom-div-second {
+  background-color: #fff;
+  cursor: pointer;
+  color: #1e41c1;
+
+  .customChange-Printer {
+    background-color: white;
+    cursor: pointer;
+    color: #ececec;
+  }
+
+  .customChange-Printer {
+    background-color: white;
+    cursor: pointer;
+    color: #ececec;
+  }
+}
+
+.customchange-printersecond {
+  position: absolute;
+  width: 70%;
+  top: 300px;
+  background-color: #ffff;
+  color: #1e41c1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 1;
+}

@@ -1,0 +1,70 @@
+.searchContainer {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  .searchBar {
+    margin-top: 2rem;
+    width: 100%;
+    @include flex(row, center, center);
+    > input {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+      background-color: white;
+      border: none;
+      color: rgba(0, 0, 0, 0.637);
+      padding: 1vmax 2vmax;
+      width: 50%;
+      outline: none;
+      border-radius: 20px;
+      font: 300 1.5vmax cursive;
+      box-sizing: border-box;
+      height: 8%;
+    }
+    > svg {
+      transform: scale(2);
+      margin-left: -50px;
+    }
+  }
+  > .SearchContent {
+    margin-top: 2rem;
+    @include flex;
+    flex-wrap: wrap;
+
+    // margin: 1rem auto;
+  }
+  > .pagination {
+    padding-bottom: 3rem;
+    article {
+      @include flex;
+      > button {
+        @include flex;
+        @include btn(0.5rem 1rem, $navyBlue, $white);
+        border-radius: 10px;
+        &:disabled {
+          cursor: not-allowed;
+          opacity: 0.5;
+          color: $lightgrey;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .searchContainer {
+    width: 95%;
+    max-width: 95%;
+    margin-bottom: 5rem;
+
+    .searchBar {
+      input {
+        width: 90%;
+        height: 2rem;
+        font-size: 1rem;
+      }
+
+      svg {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

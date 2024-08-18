@@ -1,0 +1,134 @@
+.profit {
+  height: 100%;
+  padding-top: 10px;
+}
+.profit.theme-blue .contentt-box {
+  margin: 0 auto;
+  /* background-color: #e2f6e1; */
+  color: #222;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profit.theme-blue .heading-container {
+  display: flex; /* Display h3 and h5 in a row */
+  flex-direction: row; /* Align h3 and h5 vertically */
+}
+
+.profit.theme-blue .heading-container h3 {
+  line-height: 1.3;
+  margin: 0;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.profit.theme-blue .heading-container h5 .total-records {
+  background-color: #ffffff; /* Add your desired background color here */
+  color: #3747db; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.profit.theme-blue .heading-container h5 {
+  line-height: 1.5;
+  /* margin: 0; */
+  margin-top: 8px;
+  /* margin-left: 40px; */
+
+  font-size: 16px;
+}
+
+.profit.theme-blue .ui.selection.dropdown .menu > .item span {
+  color: black;
+}
+
+.profit.theme-blue .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  /* margin-left: 10px; */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.profit.theme-blue .search-Purchase-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 10px 0 10px;
+  max-width: 1200px;
+  border-radius: 50px 50px 0 0;
+  /* margin-top: 5px; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profit.theme-blue .boxButton {
+  margin-top: 30px;
+  height: 4vh;
+  font-size: 0.8rem;
+  background-color: green;
+  color: black;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.profit.theme-blue .search-Purchase-box input {
+  margin-top: 30px;
+  height: 5vh;
+  margin-left: 10px;
+}
+
+.profit.theme-blue .datePicker {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  margin: 10px 10px 10px 10px;
+  z-index: 100;
+}
+
+.profit.theme-blue .react-datepicker-wrapper {
+  margin-left: 0px !important;
+  margin-bottom: 20px;
+}
+
+.profit.theme-blue .Purchase-table-container {
+  /* Add styles for the container that holds the table component */
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  background-color: #3747db;
+  border-radius: 4px;
+  max-width: 1200px;
+  padding: 10px;
+  align-items: center;
+}
+
+/* =================== Designing for Profit Invoice =================== */
+.profit.theme-blue .Profit-Invoice-search-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  max-width: 1200px;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profit.theme-blue .Profit-Invoice-search-box input {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-right: 10px;
+  width: 60vh;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

@@ -1,0 +1,242 @@
+.productLocation {
+  /* height: 100%; */
+  height: 100%;
+  padding-top: 10px;
+}
+
+/*======================== start of Design for color Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+.productLocation.theme-blue {
+  background-color: #0b6ab0;
+}
+
+.productLocation.theme-blue .contentt-box {
+  margin: 0 auto;
+  /* background-color: #e2f6e1; */
+  color: #222;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.productLocation.theme-blue .contentt-box h3,
+.productLocation.theme-blue .content-box h5 {
+  color: #ffffff;
+}
+.productLocation.theme-blue .heading-container {
+  display: flex; /* Display h3 and h5 in a row */
+  flex-direction: row; /* Align h3 and h5 vertically */
+}
+
+.productLocation.theme-blue .heading-container h5 .total-records {
+  background-color: #7883e7; /* Add your desired background color here */
+  color: #393939; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.productLocation.theme-blue .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.productLocation.theme-blue .search-withouInputfields-box {
+  background-color: #ffffff;
+}
+
+.productLocation.theme-blue .table-container {
+  max-width: 1200px;
+  margin-left: 250px;
+}
+
+.productLocation.theme-blue .table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.productLocation.theme-blue .table-container th {
+  background-color: #a4b1df;
+  padding: 0px;
+  font: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.productLocation.theme-blue .table-container td {
+  padding: 0px;
+  text-align: center;
+  font: #393939;
+  font-size: 17px;
+}
+.productLocation.theme-blue .formInput {
+  background-color: #ffffff;
+}
+
+.productLocation.theme-blue .row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.productLocation.theme-blue .row .form1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.productLocation.theme-blue .colorbuttons {
+  align-items: center !important;
+  margin-left: 450px;
+}
+
+.productLocation.theme-blue .colorbuttons .button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.productLocation.theme-blue .colorbuttons .button-back {
+  background-color: green;
+  color: white;
+  width: 120px;
+  height: 5vh;
+  /* float: left; */
+}
+
+.productLocation.theme-blue .colorbuttons .button-add-product {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  background-color: rgb(171, 171, 8);
+  margin-left: 20px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  height: 5vh;
+  text-align: center;
+}
+
+/*======================== Design for Product Location Search Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/* Search Designing  */
+.productLocation.theme-blue .search-Product-Location-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 10px 0 10px;
+  max-width: 1200px;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 1200px;
+  margin-left: 250px;
+  margin-bottom: 10px;
+}
+
+.productLocation.theme-blue .search-Product-Location-box input:first-child {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.productLocation.theme-blue .search-Product-Location-box input {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.productLocation.theme-blue .productLocationDropdown1 {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  width: 250px;
+  background-color: #ffffff;
+  color: #222;
+}
+
+.productLocation.theme-blue .productLocationDropdown {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 350px;
+  font: black;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.productLocation.theme-blue .ui.dropdown .menu .selected.item span {
+  color: black;
+}
+
+.productLocation.theme-blue .ui.dropdown .menu > .item span {
+  color: black;
+}
+
+.productLocation.theme-blue .buttonDiv {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.productLocation.theme-blue .buttonProductLocation {
+  background-color: "transparent";
+  border: "1px solid rgba(0, 0, 0, 0.1)";
+  border-radius: "10px 10px 10px 10px";
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: "bold";
+}
+
+/* .search-Purchase-box .datePicker:last-child {
+    margin-right: 10px; 
+  } */
+
+/*======================== End of Design for Purchase Search Box ===========================
+   ============================================================================
+   ============================================================================= */
+
+/*======================== End of Design for App Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+@media screen and (min-width: 1200px) and (max-width: 1430px) {
+  .productLocation.theme-blue .search-Product-Location-box {
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #222;
+    border-radius: 8px;
+    padding: 30px 10px 0 10px;
+    max-width: 1200px;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 1200px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+  }
+
+  .productLocation.theme-blue .table-container {
+    max-width: 1200px;
+    margin-left: 90px;
+  }
+}

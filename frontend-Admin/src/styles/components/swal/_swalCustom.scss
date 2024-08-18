@@ -1,0 +1,14 @@
+// Swal Custom Class
+.variationCustomClass {
+  width: 90%;
+
+  ul {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    li {
+      @include flex(row, space-between, center, 0);
+      font-family: "Roboto";
+    }
+  }
+}

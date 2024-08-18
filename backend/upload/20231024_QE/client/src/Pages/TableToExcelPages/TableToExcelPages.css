@@ -1,0 +1,97 @@
+.tableToExcel {
+  height: 100%;
+  padding-top: 10px;
+}
+
+.tableToExcel.theme-blue .MainDiv {
+  margin-top: 30px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tableToExcel.theme-blue .MainDiv input {
+  width: 200px;
+}
+
+.tableToExcel.theme-blue .MainDiv p {
+  color: azure;
+}
+
+.tableToExcel.theme-blue .tableToExcelButtons {
+  align-items: center !important;
+  margin-left: 0px;
+}
+
+.tableToExcel.theme-blue .tableToExcelButtons .button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.tableToExcel.theme-blue .tableToExcelButtons .button-upload {
+  background-color: green;
+  color: white;
+  width: 150px;
+  height: 5vh;
+  /* float: left; */
+}
+
+.tableToExcel.theme-blue .tableToExcelButtons .button-upload:hover {
+  background-color: rgb(1, 76, 1);
+  /* float: left; */
+}
+
+.tableToExcel.theme-blue .tableToExcelButtons .button-back:focus {
+  background-color: rgb(1, 76, 1);
+  /* float: left; */
+}
+
+.tableToExcel.theme-blue .tableToExcelButtons .button-remove {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  background-color: rgb(171, 171, 8);
+  margin-left: 20px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  height: 5vh;
+  text-align: center;
+}
+
+.tableToExcel.theme-blue .tableToExcelButtons .button-remove:hover {
+  background-color: rgb(206, 206, 12);
+}
+
+.tableToExcel.theme-blue .tableToExcelButtons .button-remove:focus {
+  background-color: rgb(206, 206, 12);
+}
+
+.tableToExcel.theme-blue .table-container {
+  max-width: 800px;
+  margin-top: 30px;
+  /* margin-left: 350px; */
+}
+
+.tableToExcel.theme-blue .table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.tableToExcel.theme-blue .table-container th {
+  background-color: #bec7e7;
+  padding: 0px;
+  text-align: center;
+}
+
+.tableToExcel.theme-blue .table-container td {
+  padding: 0px;
+  text-align: center;
+}
+.tableToExcel.theme-blue .formInput {
+  background-color: #ffffff;
+}

@@ -1,0 +1,30 @@
+/* Define the styles for Table1 */
+.table1 {
+  width: 100%;
+}
+
+.table1 th,
+.table1 td {
+  width: 50px; /* Set the desired width for each column in Table1 */
+  /* You can adjust the width value based on your requirement */
+  /* The columns in Table1 will have a fixed width of 100px */
+}
+
+/* Define the styles for Table2 */
+.table2 {
+  width: 100%;
+}
+
+.table2 th,
+.table2 td {
+  width: 100px; /* Set the desired width for each column in Table2 */
+  /* You can adjust the width value based on your requirement */
+  /* The columns in Table2 will have a fixed width of 150px */
+}
+.customTalbeHead {
+  background-color: #ECECEC;
+}
+
+/* .total {
+  width: "20px" !important;
+} */

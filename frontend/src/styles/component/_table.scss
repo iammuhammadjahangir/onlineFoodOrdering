@@ -1,0 +1,196 @@
+.mainTableContainer {
+  width: 100%;
+  padding-top: 1rem;
+
+  .searchContainer {
+    width: 100%;
+    position: relative;
+
+    > svg {
+      position: absolute;
+      left: 0.5rem;
+      top: 25%;
+      transform: translateY(-50%);
+      transform: scale(1.3);
+      font-size: 1.5rem;
+      opacity: 0.8;
+    }
+
+    > input {
+      width: 100%;
+      height: 3rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid #00000042;
+      border-radius: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #000;
+      outline: none;
+      transition: all 0.3s ease;
+      padding-left: 3rem;
+      &::placeholder {
+        color: #000;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .table th {
+    z-index: 1 !important;
+    font-size: clamp(0.7rem, 0.3043rem + 3.4783vw, 1rem);
+  }
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    max-height: 30%;
+
+    .tableActions {
+      @include flex(row, center, center, 2rem);
+
+      svg {
+        transform: scale(1.5);
+        fill: $tertiary;
+        cursor: pointer;
+      }
+    }
+
+    thead {
+      // position: sticky;
+      background-color: $white !important;
+
+      top: 0;
+      // background-color: $primaryColorLighthover;
+      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    }
+
+    svg {
+      display: inline;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      text-align: left;
+      vertical-align: middle;
+      text-align: center;
+    }
+    tr {
+    }
+
+    th {
+      z-index: 1 !important;
+      font-weight: bold !important;
+      color: #0000009e;
+      font-size: 1.1rem;
+      font-weight: 400;
+      padding: 2rem 1rem;
+      white-space: nowrap;
+    }
+    tbody {
+      z-index: -1;
+      tr {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.093);
+      }
+
+      td {
+        padding: 1rem;
+        // white-space: noWrap;
+        img {
+          width: 4rem;
+          height: 4rem;
+          object-fit: scale-down;
+          border-radius: 10px;
+        }
+        a {
+          text-decoration: none;
+          background-color: rgba(44, 104, 255, 0.455);
+          color: rgba(44, 104, 255);
+          padding: 0.25rem 0.5rem;
+          border-radius: 10px;
+        }
+        button {
+          width: 2rem;
+          height: 2rem;
+          font-size: 1.1rem;
+          border: none;
+          outline: none;
+          background-color: transparent;
+          cursor: pointer;
+          color: rgb(255, 44, 44);
+          &:hover {
+            opacity: 0.6;
+          }
+        }
+        &:first-child {
+          border-left: none;
+        }
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+  }
+}
+
+.mainTableContainer {
+  th {
+    z-index: 100 !important;
+  }
+}
+
+.multiColumnItem {
+  background-color: $lightGreen;
+  margin-bottom: 0.4rem;
+  font-size: clamp(0.5rem, 0.3043rem + 3.4783vw, 1rem);
+  padding: 0.3rem 0.5rem;
+  border-radius: 10px;
+  margin: 0.5rem;
+  @include flex(row, flex-start, flex-start, 1rem);
+  width: fit-content;
+  color: $green;
+}
+
+.colorPreview {
+  display: inline-block;
+  @include square(2rem);
+  border-radius: 50%; /* Makes it a circle, you can remove this for a square */
+  border: 1px solid #00000042;
+  text-align: center;
+}
+
+.tablePagination {
+  @include flex;
+  padding: 2rem;
+  > button {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 115, 255);
+    color: white;
+    &:disabled {
+      background-color: rgba(0, 115, 255, 0.1);
+      cursor: not-allowed;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainTableContainer {
+    .table {
+      th {
+        padding: 1rem 0;
+      }
+      tbody {
+        td {
+          padding: 1rem 0;
+        }
+      }
+    }
+  }
+
+  .multiColumnItem {
+    color: $black;
+  }
+}

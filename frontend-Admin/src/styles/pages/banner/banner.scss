@@ -1,0 +1,11 @@
+.bannerContainer {
+  width: 100%;
+
+  header {
+    @include flex(row, space-between, center, 0);
+
+    button {
+      width: max-content;
+    }
+  }
+}

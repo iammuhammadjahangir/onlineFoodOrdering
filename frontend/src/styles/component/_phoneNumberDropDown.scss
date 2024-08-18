@@ -1,0 +1,146 @@
+.phoneNumber {
+  width: 100%;
+  > .selectBox {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.2588235294);
+    border-radius: 0.5rem;
+
+    .selectedOption {
+      background-color: #eee;
+      border-radius: 0.5rem;
+      overflow: hidden;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .flagAlign {
+        @include flex;
+        position: relative;
+        width: 9rem;
+        padding: 0 2.8rem 0 0.5rem;
+        text-align: center;
+        cursor: pointer;
+      }
+      .flagAlign::after {
+        position: absolute;
+        content: "";
+        right: 0.8rem;
+        top: 35%;
+        transform: translateY(-50%) rotate(45deg);
+
+        width: 0.8rem;
+        height: 0.8rem;
+        border-right: 0.2rem solid rgba(0, 0, 0, 0.25);
+        border-bottom: 0.2rem solid rgba(0, 0, 0, 0.25);
+        transition: 0.2s;
+      }
+    }
+
+    .options {
+      position: absolute;
+      top: 4rem;
+
+      width: 100%;
+      background-color: #fff;
+      border-radius: 0.5rem;
+
+      display: none;
+      transition: display 0.3s ease;
+
+      > .searchBox {
+        background-color: $tertiary;
+        color: #fff;
+        border-radius: 0.5rem 0.5rem 0 0;
+        padding: 1rem 1rem;
+      }
+      > .searchBox::placeholder {
+        color: $black;
+      }
+
+      > ol {
+        list-style: none;
+        max-height: 23rem;
+        overflow: overlay;
+        border-radius: 0 0 25px 25px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+      }
+
+      > ol::-webkit-scrollbar {
+        width: 0.6rem;
+      }
+
+      > ol::-webkit-scrollbar-thumb {
+        width: 0.4rem;
+        height: 3rem;
+        background-color: #ccc;
+        border-radius: 0.4rem;
+      }
+      > ol li {
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+
+      > ol li.hide {
+        display: none;
+      }
+
+      > ol li:not(:last-child) {
+        border-bottom: 0.1rem solid #eee;
+      }
+
+      > ol li:hover {
+        background-color: lightcyan;
+      }
+
+      > ol li .country-name {
+        margin-left: 0.4rem;
+      }
+    }
+    .options::before {
+      position: absolute;
+      content: "";
+      left: 1rem;
+      top: -1.2rem;
+
+      width: 0;
+      height: 0;
+      border: 0.6rem solid transparent;
+      border-bottom-color: $tertiary;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.6rem;
+      font-size: 1.1rem;
+
+      border: 0.1rem solid transparent;
+      outline: none;
+    }
+    input[type="tel"] {
+      border-radius: 0 0.5rem 0.5rem 0;
+    }
+    input:focus {
+      border: 0.1rem solid transparent;
+    }
+    .options.active {
+      display: block;
+      z-index: 1;
+    }
+    input.searchBox:focus {
+      --tw-ring-color: none;
+    }
+  }
+}
+
+.flagAlign {
+  @include flex(row);
+}
+
+.dropDownContainer {
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.RowDiv {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  flex: 1;
+}
+
+.multiItemsStyle {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  width: "100%";
+}
+
+.errorMessageShow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

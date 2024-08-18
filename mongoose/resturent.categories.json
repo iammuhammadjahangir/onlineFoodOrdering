@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "65c60ebca22b75a91f9157e2"
+  },
+  "name": "Platter",
+  "description": "Platter",
+  "createdAt": {
+    "$date": "2024-02-09T11:38:36.908Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-09T11:38:36.908Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c737d12168f17b9eb229c9"
+  },
+  "name": "Daleem Dal Chawal",
+  "description": "Daleem Dal Chawal",
+  "createdAt": {
+    "$date": "2024-02-10T08:46:09.934Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T08:46:09.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c737e12168f17b9eb229cb"
+  },
+  "name": "Karachi Masala Biryani",
+  "description": "Karachi Masala Biryani",
+  "createdAt": {
+    "$date": "2024-02-10T08:46:25.031Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T08:46:25.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c737f22168f17b9eb229cd"
+  },
+  "name": "Our BBQ Selection",
+  "description": "Our BBQ Selection",
+  "createdAt": {
+    "$date": "2024-02-10T08:46:42.384Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T08:46:42.384Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c7380b2168f17b9eb229cf"
+  },
+  "name": "Fast Food",
+  "description": "Fast Food",
+  "createdAt": {
+    "$date": "2024-02-10T08:47:07.083Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T08:47:07.083Z"
+  },
+  "__v": 0
+}]

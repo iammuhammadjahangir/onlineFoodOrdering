@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "65bc8b81c969db154ebbf476"
+  },
+  "name": "muhammad jahangir",
+  "email": "muhammadjahangir643@gmail.com",
+  "avatar": "upload\\9b34a43a-8d76-437e-9139-0fd23f4bc350.png",
+  "password": "$2a$10$fSb6bctqeICacYzQRtGCauxHD0SN1VXbDiNlyZU0f.eeZHTob2ak.",
+  "gender": "male",
+  "role": {
+    "$oid": "65bc7b81078841e8b4e2f38e"
+  },
+  "dob": {
+    "$date": "2024-01-29T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2024-02-02T06:28:17.429Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T14:40:29.626Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,150 @@
+/* .Header {
+  width: calc(100vw - 5vmax);
+  height: auto;
+  background-color: rgb(44, 43, 43);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1vmax;
+  margin: 1vmax;
+  border-radius: 25px;
+}
+
+.logo > img {
+  width: 5vmax;
+}
+
+.headerList > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2vmax;
+  color: white;
+  font-family: "Roboto";
+}
+.headerList > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto";
+}
+
+.headerList > ul > li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+} */
+
+.Header {
+  position: fixed;
+  top: 0; /* Stick it to the top */
+  left: 0;
+  right: 0;
+  max-height: 6vmax;
+  width: calc(100vw - 2vmax);
+
+  display: grid;
+  grid-template-areas: "logo nav";
+
+  /* Cosmetics */
+  background-color: #282c34;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 5;
+  margin: 0 !important;
+  padding: 1vmax;
+}
+
+.Logo {
+  grid-area: logo;
+  height: 50px;
+}
+
+.Nav {
+  display: grid;
+  grid-area: nav;
+  grid-template-columns: repeat(6, auto);
+  align-items: center;
+  justify-items: center;
+}
+.Nav a {
+  color: #fff;
+  font-size: 1.2vmax;
+  font-weight: 500;
+  transition: 0.5s;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+.Nav a:hover {
+  transform: scale(1.1);
+}
+
+.Burger {
+  display: none;
+  grid-area: burger;
+  margin: 0 20px 0 0;
+  padding: 0;
+  justify-self: end;
+  font-size: 40px;
+  border: none;
+  background: none;
+  outline: none;
+  transition: 0.1s;
+}
+.Burger:active {
+  transform: scale(1.2);
+}
+.Nav button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-size: 1.3vmax;
+  color: #fff;
+  font-weight: 600;
+  background-color: #3c6e71;
+  box-shadow: 0px 5px 0px 0px #3c6e71;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 70ms;
+  font-family: "Roboto";
+}
+
+.Nav button:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2px 0px 0px #3c6e71;
+}
+
+@media (max-width: 700px) {
+  .Header {
+    grid-template-areas: "logo burger" "nav nav";
+  }
+  .Nav {
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: none;
+    grid-row-gap: 20px;
+
+    padding: 30px 0 30px;
+    background: rgba(40, 44, 47, 0.95);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .Burger {
+    display: inline;
+  }
+}
+
+.NavAnimation-enter {
+  opacity: 0;
+  transform: scale(0.5);
+}
+.NavAnimation-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 350ms, transform 350ms;
+}
+.NavAnimation-exit {
+  opacity: 1;
+}
+.NavAnimation-exit-active {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 350ms, transform 350ms;
+}

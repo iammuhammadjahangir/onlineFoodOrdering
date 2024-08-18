@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "65fdb1f480e289260dad1e3d"
+  },
+  "wareHouseCode": "G_001",
+  "wareHouseAddress": "Chirah Road, Sadiq Abad, Rawalpindi",
+  "wareHouseDescription": "testing Shop 1",
+  "wareHouseType": "store",
+  "wareHousePhoneNo": "03129486809",
+  "__v": 0
+}]

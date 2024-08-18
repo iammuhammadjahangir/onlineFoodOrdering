@@ -1,0 +1,238 @@
+.godown {
+  /* height: 100%; */
+  height: 100%;
+  padding-top: 10px;
+}
+
+/*======================== start of Design for color Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+.godown.theme-blue {
+  background-color: #0b6ab0;
+}
+
+.godown.theme-blue .contentt-box {
+  margin: 0 auto;
+  /* background-color: #e2f6e1; */
+  color: #222;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.godown.theme-blue .contentt-box > .excelDiv > button {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  max-width: 154px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid rgb(119, 7, 7);
+  color: rgb(119, 7, 7);
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.godown.theme-blue .contentt-box > .excelDiv > button > span > svg {
+  color: rgb(119, 7, 7);
+}
+.godown.theme-blue .contentt-box h3,
+.godown.theme-blue .content-box h5 {
+  color: #ffffff;
+}
+.godown.theme-blue .heading-container {
+  display: flex; /* Display h3 and h5 in a row */
+  flex-direction: row; /* Align h3 and h5 vertically */
+}
+
+.godown.theme-blue .heading-container h5 .total-records {
+  background-color: #7883e7; /* Add your desired background color here */
+  color: #393939; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.godown.theme-blue .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.godown.theme-blue .search-withouInputfields-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  height: 10vh;
+  max-width: 1000px;
+  border-radius: 50px 50px 0 0;
+  /* margin-top: 5px; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-left: 350px;
+  margin-bottom: 10px;
+}
+
+.godown.theme-blue .search-withouInputfields-box {
+  background-color: #ffffff;
+}
+
+.godown.theme-blue .table-container {
+  max-width: 1000px;
+  margin-left: 350px;
+}
+.godown.theme-blue .table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.godown.theme-blue .table-container th {
+  background-color: #bec7e7;
+  padding: 0px;
+  text-align: center;
+}
+
+.godown.theme-blue .table-container td {
+  padding: 0px;
+  text-align: center;
+}
+.godown.theme-blue .formInput {
+  background-color: #ffffff;
+}
+
+.godown.theme-blue .stockFormInput {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: 50vh;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+.godown.theme-blue .row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.godown.theme-blue .row .form1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.godown.theme-blue .dropdownform1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+/* 
+.godown.theme-blue
+  > .stockFormInput
+  > .row
+  > .form1
+  > .ui.active.selection.dropdown
+  > .ui.selection.active.dropdown
+  .menu
+  > .ui.dropdown
+  .menu
+  > .item
+  > span {
+  color: black;
+} */
+
+.godown.theme-blue .ui.dropdown .menu > .item span {
+  color: black;
+}
+
+.godown.theme-blue .godownButtons {
+  align-items: center !important;
+  margin-left: 450px;
+  margin-top: 30px;
+}
+
+.godown.theme-blue .godownButtons .button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.godown.theme-blue .godownButtons .button-back {
+  background-color: green;
+  color: white;
+  width: 120px;
+  height: 5vh;
+  /* float: left; */
+}
+
+.godown.theme-blue .godownButtons .button-back:hover {
+  background-color: rgb(1, 76, 1);
+  /* float: left; */
+}
+
+.godown.theme-blue .godownButtons .button-back:focus {
+  background-color: rgb(1, 76, 1);
+  /* float: left; */
+}
+
+.godown.theme-blue .godownButtons .button-add-product {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  background-color: rgb(171, 171, 8);
+  margin-left: 20px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  height: 5vh;
+  text-align: center;
+}
+
+.godown.theme-blue .godownButtons .button-add-product:hover {
+  background-color: rgb(206, 206, 12);
+}
+
+.godown.theme-blue .godownButtons .button-add-product:focus {
+  background-color: rgb(206, 206, 12);
+}
+/*======================== End of Design for App Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+@media screen and (min-width: 1200px) and (max-width: 1430px) {
+  .godown.theme-blue .search-withouInputfields-box {
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #222;
+    border-radius: 8px;
+    padding: 30px 20px 0 20px;
+    height: 10vh;
+    max-width: 1000px;
+    border-radius: 50px 50px 0 0;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 180px;
+    margin-bottom: 10px;
+  }
+
+  .godown.theme-blue .table-container {
+    max-width: 1000px;
+    margin-left: 180px;
+  }
+}

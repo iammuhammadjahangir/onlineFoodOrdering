@@ -1,0 +1,1688 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  color: #222;
+  padding: 0;
+  height: 100vh;
+}
+
+.theme-options {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/*======================== Design for Form Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/* Styling for the form container */
+.formInput {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: fit-content;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+.stockFormInput {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: 50vh;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+.stockFormInput {
+  display: flex;
+  flex-direction: column;
+}
+/* Apply general styles to the form */
+.formInput {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style each row within the form */
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.dropdownform1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+/* Style the input fields */
+.row input {
+  width: 80%; /* Adjust the width of each input field as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+.dropdown {
+  width: 80%; /* Adjust the width of each input field as needed */
+  height: 5vh;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+
+/* Define your button styles here */
+.buttons {
+  margin-top: 50px;
+  /* margin-left: 500px; */
+}
+
+.button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Define styles for the "back" button */
+.button-back {
+  background-color: green;
+  color: white;
+  width: 120px;
+  /* float: left; */
+}
+
+/* Define styles for the "add product" button */
+.button-add-product {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  background-color: green;
+  margin-left: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Define styles for the clicked state of the "add product" button */
+.button-add-product.clicked {
+  background-color: green;
+  color: white;
+}
+.button-add-product.Notclicked {
+  background-color: rgb(204, 225, 44);
+  color: white;
+}
+/* Optionally, you can define styles for the disabled state of the "add product" button */
+.button-add-product:disabled {
+  background-color: white;
+  color: gray;
+  cursor: not-allowed;
+}
+
+.form.theme-blue .formInput {
+  background-color: #bec7e7;
+}
+
+.form.theme-blue .stockFormInput {
+  background-color: #bec7e7;
+}
+/*======================== End of Design for Form Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for User Form Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/* Styling for the form container */
+.UserformInput {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: fit-content;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+/* Style each row within the form */
+.Userformrow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.userform1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.userDropdownform1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.dropdownform1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+/* Style the input fields */
+.Userformrow input {
+  width: 80%; /* Adjust the width of each input field as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+.UserformrowLastinput {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0;
+  width: 98vh;
+  height: 10vh;
+  /* Add other input field styles here */
+}
+
+.userFormdropdown {
+  width: 80%; /* Adjust the width of each input field as needed */
+  height: 5vh;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+
+/* Define your button styles here */
+.buttons {
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Define styles for the "back" button */
+.button-back {
+  background-color: green;
+  color: white;
+  width: 120px;
+  /* float: left; */
+}
+
+/* Define styles for the "add product" button */
+.button-add-product {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  background-color: green;
+  margin-left: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Define styles for the clicked state of the "add product" button */
+.button-add-product.clicked {
+  background-color: green;
+  color: white;
+}
+.button-add-product.Notclicked {
+  background-color: rgb(204, 225, 44);
+  color: white;
+}
+/* Optionally, you can define styles for the disabled state of the "add product" button */
+.button-add-product:disabled {
+  background-color: white;
+  color: gray;
+  cursor: not-allowed;
+}
+
+.form.theme-blue .formInput {
+  background-color: #bec7e7;
+}
+
+.form.theme-blue .stockFormInput {
+  background-color: #bec7e7;
+}
+/*======================== End of Design for User Form Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/* Add styles for other input fields (field4, field5, field6) if needed */
+
+/*======================== Design for Content Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/* ... your existing CSS ... */
+
+.contentt-box {
+  margin: 0 auto;
+  /* background-color: #e2f6e1; */
+  color: #222;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* New CSS for the heading container and its children */
+.heading-container {
+  display: flex; /* Display h3 and h5 in a row */
+  flex-direction: row; /* Align h3 and h5 vertically */
+}
+
+.heading-container h3 {
+  line-height: 1.3;
+  margin: 0;
+  font-size: 26px;
+}
+
+.heading-container h5 {
+  line-height: 1.5;
+  margin: 0;
+  /* margin-left: 40px; */
+  font-size: 20px;
+}
+
+.heading-container h5 .total-records {
+  background-color: #5faf3b; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.heading-container h5 .rowCount {
+  background-color: #c5eeb4; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  /* margin-left: 10px; */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+/* Add a class for the button styling */
+.button-styled {
+  background-color: none;
+  color: #e06f6f;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  border: 2px solid #d52828;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-styled:hover {
+  background-color: #d52828;
+  color: #d52828;
+}
+
+.excelDiv {
+  height: 2vh;
+}
+
+.download-table-xls-button {
+  background-color: none;
+  color: #e06f6f;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  border: 2px solid #d52828;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+  cursor: pointer;
+  height: fit-content;
+  transition: background-color 0.3s, color 0.3s;
+}
+.download-table-xls-button:hover {
+  background-color: #efc9c9;
+  color: #f1b1b1;
+}
+
+/*========================End of Design for Content Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*========================Start Design for Product Search Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/* Search Designing  */
+.Product-search-box {
+  margin: 0 auto;
+  background-color: #eee;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  max-width: 1000px;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-withouInputfields-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  height: 10vh;
+  max-width: 1000px;
+  border-radius: 50px 50px 0 0;
+  /* margin-top: 5px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Product-search-box input {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Product-search-box input:last-child {
+  margin-right: 0; /* Remove the margin on the last input field */
+}
+
+.Product-table-container {
+  /* Add styles for the container that holds the table component */
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 4px;
+  max-width: 1000px;
+  padding: 10px;
+  align-items: center;
+}
+
+/* Additional styles for the table inside .table-container */
+.Product-table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.Product-table-container th {
+  background-color: #bec7e7;
+  padding: 8px;
+  text-align: center;
+}
+
+.Product-table-container td {
+  padding: 8px;
+  text-align: center;
+}
+
+/*========================End of Design for Search Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for Search Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/* Search Designing  */
+.search-box {
+  margin: 0 auto;
+  background-color: #eee;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  max-width: 1000px;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-withouInputfields-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  height: 10vh;
+  max-width: 1000px;
+  border-radius: 50px 50px 0 0;
+  /* margin-top: 5px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-box input {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-box input:last-child {
+  margin-right: 0; /* Remove the margin on the last input field */
+}
+
+/*======================== End of Design for Search Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for Purchase Search Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/* Search Designing  */
+.search-Purchase-box {
+  margin: 0 auto;
+  background-color: #eee;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 10px 0 10px;
+  max-width: 1200px;
+  border-radius: 50px 50px 0 0;
+  /* margin-top: 5px; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.purchaseDropdown1 {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-left: 5px;
+  width: 120px;
+}
+
+.purchaseDropdown {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  margin-left: 5px;
+  width: 100px;
+}
+
+.datePicker {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  margin: 10px 10px 10px 10px;
+}
+
+.consolidatePurchaseDropdown {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  margin: 10px 10px 10px 10px;
+}
+
+.consolidatedPritnterSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+.printerDropdown {
+  width: 100px;
+  height: 5vh;
+  margin-right: 20px;
+}
+
+.consolidatePrintButton {
+  margin-left: 10px;
+}
+.buttonPurchase {
+  background-color: "transparent";
+  border: "1px solid rgba(0, 0, 0, 0.1)";
+  border-radius: "10px 10px 10px 10px";
+  font-weight: "bold";
+}
+
+.consolidateMainTableDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.consolidateLaserQuantity {
+  display: flex;
+  flex-direction: row;
+}
+
+.consolidateLaserFirstRecordDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50vh;
+}
+
+.consolidateLaserQuantity {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.consolidateLaserProductCode {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+/*======================== End of Design for Purchase Search Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for Setting Component===========================
+ ============================================================================
+ ============================================================================= */
+
+.settingMaindiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70vh;
+}
+
+.settingFirstDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.setting-custom-div-first {
+  margin-left: 20px;
+  padding: 10px;
+  /* margin: 10px 0; */
+  background-color: #ff5733;
+  color: white;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.setting-custom-div-second {
+  margin-left: 20px;
+  padding: 10px;
+  /* margin: 10px 0; */
+  background-color: #ff5733;
+  color: white;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.customChange-Printer {
+  padding: 10px;
+  /* margin: 10px 0; */
+  margin-left: 250px;
+  background-color: #ff5733;
+  color: white;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.customchange-printersecond {
+  position: absolute;
+  width: 70%;
+  top: 300px;
+  background-color: #ff5733;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 1;
+}
+
+.printerPage {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60vh;
+}
+
+.printerPage-custom-div-first {
+  display: flex;
+  flex-direction: row;
+}
+
+.setting-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 10px;
+}
+
+.setting-input-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.setting-input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* printer Setting */
+.printer-setting-div {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #ff5733;
+  color: white;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px; /* Increase the font size as desired */
+}
+
+.printer-third-div {
+  position: absolute;
+  width: 70%;
+  top: 300px;
+  background-color: #ff5733;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 1;
+}
+/* Responsive styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .printer-setting-div {
+    width: 100%; /* Full width for smaller screens */
+  }
+  .printer-third-div {
+    width: 70%;
+    top: 300px; /* Adjust for smaller screens */
+  }
+}
+
+/*======================== End of Design for Setting Component ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for Product Location Search Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/* Search Designing  */
+.search-Product-Location-box {
+  margin: 0 auto;
+  background-color: #eee;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 10px 0 10px;
+  max-width: 1200px;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-Product-Location-box input:first-child {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.search-Product-Location-box input {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.productLocationDropdown1 {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  padding: 10px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  width: 250px;
+  background-color: #ffffff;
+}
+
+.productLocationDropdown {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 350px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+.buttonDiv {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+.buttonProductLocation {
+  background-color: "transparent";
+  border: "1px solid rgba(0, 0, 0, 0.1)";
+  border-radius: "10px 10px 10px 10px";
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-weight: "bold";
+}
+
+/* .search-Purchase-box .datePicker:last-child {
+  margin-right: 10px; 
+} */
+
+/*======================== End of Design for Purchase Search Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for Purchase Table Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+.Purchase-table-container {
+  /* Add styles for the container that holds the table component */
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 4px;
+  max-width: 1200px;
+  padding: 10px;
+  align-items: center;
+}
+
+/* Additional styles for the table inside .table-container */
+.Purchase-table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.Purchase-table-container th {
+  background-color: #bec7e7;
+  padding: 8px;
+  text-align: center;
+}
+
+.Purchase-table-container td {
+  padding: 8px;
+  text-align: center;
+}
+
+/*======================== End For Design for Table Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for Table Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+.table-container {
+  /* Add styles for the container that holds the table component */
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 4px;
+  max-width: 1000px;
+  padding: 10px;
+  align-items: center;
+}
+
+/* Additional styles for the table inside .table-container */
+.table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.table-container th {
+  background-color: #bec7e7;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-container td {
+  padding: 8px;
+  text-align: center;
+}
+
+/*======================== End For Design for Table Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for App Theme-blue Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/* ... your existing CSS for different themes ... */
+
+.App.theme-blue {
+  background-color: #3747db;
+  .search-box {
+    background-color: #ffffff;
+    h3,
+    h5 {
+      color: 1e41c1;
+    }
+    p {
+      color: #000;
+    }
+  }
+  .UserformInput {
+    background-color: #d8def4;
+  }
+  .setting-custom-div-first {
+    background-color: #d8def4;
+    cursor: pointer;
+    color: #1e41c1;
+  }
+  .customChange-Printer {
+    background-color: #d8def4;
+    cursor: pointer;
+    color: #1e41c1;
+  }
+  .setting-custom-div-second {
+    background-color: #d8def4;
+    cursor: pointer;
+    color: #1e41c1;
+  }
+  .search-Purchase-box {
+    background-color: #d8def4;
+  }
+  .search-withouInputfields-box {
+    background-color: #d8def4;
+  }
+  .formInput {
+    background-color: #d8def4;
+  }
+
+  .stockFormInput {
+    background-color: #d8def4;
+  }
+  .Purchase-table-container table {
+    width: 100%; /* Ensure the table takes up the full width of its container */
+    border-collapse: collapse;
+  }
+
+  .Purchase-table-container th {
+    background-color: #bec7e7;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .Purchase-table-container td {
+    padding: 8px;
+    text-align: center;
+  }
+}
+
+.App.theme-blue .contentt-box h3,
+.App.theme-blue .content-box h5 {
+  color: #1e41c1;
+}
+.App.theme-blue .table-container th {
+  background-color: #899de7;
+  padding: 8px;
+  text-align: center;
+}
+
+.App.theme-blue .heading-container h5 .total-records {
+  background-color: #899de7; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.App.theme-blue .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  /* margin-left: 10px; */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+/*======================== End of Design for App Theme-blue Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Product Activity of Design for App   ===========================
+ ============================================================================
+ ============================================================================= */
+
+.productActivityFormInput {
+  background-color: #d8def4;
+  padding: 20px;
+  width: 181vh;
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: fit-content;
+  margin-left: 100px;
+  margin-right: 200px;
+  /* margin-top: 50px; */
+}
+
+.productActivityRow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.productActivityRow input {
+  width: fit-content; /* Adjust the width of each input field as needed */
+  /* padding: 10px; */
+  border: 1px solid #ccc;
+  /* margin-bottom: 10px; */
+  margin: 0 20px 0 0;
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+.productActivityform1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0px 10px 0;
+  width: 60%;
+}
+
+.productActivityDatePicker {
+  flex: 1; /* Distribute available space evenly among the input fields */
+  /* margin: 0px 10px 10px 10px; */
+  margin: 0 20px 0 0;
+  width: fit-content;
+}
+
+.react-datepicker-wrapper {
+  margin-left: 20px;
+}
+
+.productActivityDropdown {
+  width: 80%; /* Adjust the width of each input field as needed */
+  height: 5vh;
+  padding: 10px;
+  margin-left: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  font-size: 16px;
+  /* Add other input field styles here */
+}
+
+.productActivityLabel {
+  margin-left: 20px;
+}
+
+.productActivity-Heading-container {
+  display: flex; /* Display h3 and h5 in a row */
+  flex-direction: row; /* Align h3 and h5 vertically */
+  margin-top: 30px;
+}
+
+.productActivity-Heading-container h3 {
+  line-height: 1.3;
+  margin-left: 100px;
+  font-size: 26px;
+}
+
+.productActivityTableSection {
+  margin: 0 30px 30px 30px;
+}
+/* .ui.selection.dropdown {
+  min-width: 14em;
+} */
+
+.product-Activity-table-section {
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 40vh;
+  background-color: #d8def4;
+}
+/*======================== End of Product Activity of Design for App ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for App Theme-white Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+.App.theme-white {
+  background-color: #ececec;
+  .search-box {
+    background-color: white;
+    h3,
+    h5 {
+      color: 1e41c1;
+    }
+    p {
+      color: #000;
+    }
+  }
+  .UserformInput {
+    background-color: white;
+  }
+  .customChange-Printer {
+    background-color: white;
+    cursor: pointer;
+    color: #ececec;
+  }
+
+  .setting-custom-div-first {
+    background-color: white;
+    cursor: pointer;
+    color: #000;
+  }
+  .setting-custom-div-second {
+    background-color: white;
+    cursor: pointer;
+    color: #000;
+  }
+  .search-Purchase-box {
+    background-color: white;
+  }
+  .search-withouInputfields-box {
+    background-color: white;
+  }
+  .formInput {
+    background-color: white;
+  }
+
+  .stockFormInput {
+    background-color: white;
+  }
+
+  .Purchase-table-container table {
+    width: 100%; /* Ensure the table takes up the full width of its container */
+    border-collapse: collapse;
+  }
+
+  .Purchase-table-container th {
+    background-color: #bec7e7;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .Purchase-table-container td {
+    padding: 8px;
+    text-align: center;
+  }
+}
+
+.App.theme-white .contentt-box h3,
+.App.theme-white .content-box h5 {
+  color: #1e41c1;
+}
+.App.theme-white .table-container th {
+  background-color: #ececec;
+  padding: 8px;
+  text-align: center;
+}
+
+.App.theme-white .heading-container h5 .total-records {
+  background-color: #899de7; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.App.theme-white .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  /* margin-left: 10px; */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+/*========================End of Design for App Theme-white Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for App Theme-orange Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+.App.theme-orange {
+  background-color: #f4c9b7;
+  .search-box {
+    background-color: #f4dfd6;
+    h3,
+    h5 {
+      color: #b64b1e;
+    }
+    p {
+      color: #000;
+    }
+  }
+  .UserformInput {
+    background-color: #f4dfd6;
+  }
+  .customChange-Printer {
+    background-color: #f4dfd6;
+    cursor: pointer;
+    color: #f4c9b7;
+  }
+  .setting-custom-div-first {
+    background-color: #f4dfd6;
+    cursor: pointer;
+    color: #f4c9b7;
+  }
+  .setting-custom-div-second {
+    background-color: #f4dfd6;
+    cursor: pointer;
+    color: #f4c9b7;
+  }
+  .search-Purchase-box {
+    background-color: #f4dfd6;
+  }
+  .search-withouInputfields-box {
+    background-color: #f4dfd6;
+  }
+  .formInput {
+    background-color: #f4dfd6;
+  }
+
+  .stockFormInput {
+    background-color: #f4dfd6;
+  }
+
+  .Purchase-table-container table {
+    width: 100%; /* Ensure the table takes up the full width of its container */
+    border-collapse: collapse;
+  }
+
+  .Purchase-table-container th {
+    background-color: #f4dfd6;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .Purchase-table-container td {
+    padding: 8px;
+    text-align: center;
+  }
+}
+
+.App.theme-orange .contentt-box h3,
+.App.theme-orange .content-box h5 {
+  color: #b64b1e;
+}
+.App.theme-orange .table-container th {
+  background-color: #f4c9b7;
+  padding: 8px;
+  text-align: center;
+}
+
+.App.theme-orange .heading-container h5 .total-records {
+  background-color: #d2a18c; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.App.theme-orange .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  /* margin-left: 10px; */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+/*======================== End of Design for App Theme-orange Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for App Theme-purple Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+.App.theme-purple {
+  background-color: #d0b7f4;
+  color: #000;
+  .search-box {
+    background-color: #ded0f2;
+    h3,
+    h5 {
+      color: #ded0f2;
+    }
+    p {
+      color: #000;
+    }
+  }
+  .UserformInput {
+    background-color: #ded0f2;
+  }
+  .customChange-Printer {
+    background-color: #ded0f2;
+    cursor: pointer;
+    color: #d0b7f4;
+  }
+  .setting-custom-div-first {
+    background-color: #ded0f2;
+    cursor: pointer;
+    color: #7852ae;
+  }
+  .setting-custom-div-second {
+    background-color: #ded0f2;
+    cursor: pointer;
+    color: #7852ae;
+  }
+  .search-Purchase-box {
+    background-color: #ded0f2;
+  }
+  .search-withouInputfields-box {
+    background-color: #ded0f2;
+  }
+  .formInput {
+    background-color: #ded0f2;
+  }
+
+  .stockFormInput {
+    background-color: #ded0f2;
+  }
+
+  .Purchase-table-container table {
+    width: 100%; /* Ensure the table takes up the full width of its container */
+    border-collapse: collapse;
+  }
+
+  .Purchase-table-container th {
+    background-color: #d0b7f4;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .Purchase-table-container td {
+    padding: 8px;
+    text-align: center;
+  }
+}
+
+.App.theme-purple .contentt-box h3,
+.App.theme-purple .content-box h5 {
+  color: #7852ae;
+}
+.App.theme-purple .table-container th {
+  background-color: #d0b7f4;
+  padding: 8px;
+  text-align: center;
+}
+
+.App.theme-purple .heading-container h5 .total-records {
+  background-color: #7852ae; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.App.theme-purple .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  /* margin-left: 10px; */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+/*========================End of Design for App Theme-purple Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for App Theme-green Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+.App.theme-green {
+  background-color: #c3e3c1;
+  .search-box {
+    background-color: #e2f6e1;
+    h3,
+    h5 {
+      color: #5faf3b;
+    }
+    p {
+      color: #000;
+    }
+  }
+  .UserformInput {
+    background-color: #e2f6e1;
+  }
+  .customChange-Printer {
+    background-color: #e2f6e1;
+    cursor: pointer;
+    color: #c3e3c1;
+  }
+  .setting-custom-div-first {
+    background-color: #e2f6e1;
+    cursor: pointer;
+    color: #5faf3b;
+  }
+  .setting-custom-div-second {
+    background-color: #e2f6e1;
+    cursor: pointer;
+    color: #5faf3b;
+  }
+  .search-Purchase-box {
+    background-color: #e2f6e1;
+  }
+  .search-withouInputfields-box {
+    background-color: #e2f6e1;
+  }
+  .formInput {
+    background-color: #e2f6e1;
+  }
+
+  .stockFormInput {
+    background-color: #e2f6e1;
+  }
+
+  .Purchase-table-container table {
+    width: 100%; /* Ensure the table takes up the full width of its container */
+    border-collapse: collapse;
+  }
+
+  .Purchase-table-container th {
+    background-color: #e2f6e1;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .Purchase-table-container td {
+    padding: 8px;
+    text-align: center;
+  }
+}
+
+.App.theme-green .contentt-box h3,
+.App.theme-green .content-box h5 {
+  color: #5faf3b;
+}
+.App.theme-green .table-container th {
+  background-color: #c3e3c1;
+  padding: 8px;
+  text-align: center;
+}
+
+/*======================== End of Design for App Theme-green Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+/*======================== Design for App Theme-black Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+
+.App.theme-black {
+  background-color: #5c5c5c;
+  .search-box {
+    background-color: #333;
+    h3,
+    h5 {
+      color: #ffffff;
+    }
+    p {
+      color: #ccc;
+    }
+  }
+  .UserformInput {
+    background-color: #333;
+  }
+  .customChange-Printer {
+    background-color: #333;
+    cursor: pointer;
+    color: #ccc;
+  }
+  .setting-custom-div-first {
+    background-color: #333;
+    cursor: pointer;
+    color: #ccc;
+  }
+  .setting-custom-div-second {
+    background-color: #333;
+    cursor: pointer;
+    color: #ccc;
+  }
+  .search-Purchase-box {
+    background-color: #333;
+  }
+  .search-withouInputfields-box {
+    background-color: #333;
+  }
+}
+
+.App.theme-black .contentt-box h3,
+.App.theme-black .content-box h5 {
+  color: #ffffff;
+}
+
+/*======================== End of Design for App Theme-black Container Box ===========================
+ ============================================================================
+ ============================================================================= */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .productActivityFormInput {
+    margin-left: 100px;
+    margin-right: 100px;
+    /* height: 40vh; */
+    background-color: #d8def4;
+    height: fit-content;
+    /* background-color: #d8def4;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: fit-content;
+    margin-left: 100px;
+    margin-right: 100px; */
+  }
+  .productActivityRow {
+    display: flex;
+    flex-direction: row;
+    /* width: fit-content; */
+    margin-left: 30px;
+    margin-right: 100px;
+    margin-bottom: 0; /* Adjust the spacing between rows as needed */
+  }
+
+  .productActivityform1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0px 10px 0;
+    /* width: 30%; */
+  }
+
+  .productActivityRow input {
+    /* Adjust the width of each input field as needed */
+    /* padding: 10px; */
+    width: 15vh;
+    border: 1px solid #ccc;
+    /* margin-bottom: 10px; */
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+    font-size: 16px;
+    /* Add other input field styles here */
+  }
+  .productActivityLabel {
+    margin-left: 10px;
+  }
+
+  .ui.selection.dropdown {
+    min-width: 10em;
+  }
+  .productActivityDropdown {
+    /* width: 80%;  */
+    width: 30%;
+    height: 5vh;
+    padding: 10px;
+    margin-left: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    font-size: 16px;
+    /* Add other input field styles here */
+  }
+}
+
+@media screen and (max-width: 999px) {
+  /* Define responsive styles for screens up to 768px wide */
+  .contentt-box {
+    padding: 20px;
+    flex-direction: column; /* Adjust layout for smaller screens */
+  }
+  .search-box {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .search-withouInputfields-box {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .formInput {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 80vh;
+    width: 40vh;
+    margin-left: 70px;
+    margin-right: 200px;
+    margin-top: 50px;
+  }
+
+  .stockFormInput {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 90vh;
+    width: 40vh;
+    margin-left: 70px;
+    margin-right: 200px;
+    margin-top: 50px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-bottom: 0; /* Adjust the spacing between rows as needed */
+  }
+
+  .row input {
+    width: 30vh; /* Adjust the width of each input field as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    /* Add other input field styles here */
+  }
+  .productActivityFormInput {
+    background-color: #d8def4;
+    padding: 20px;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: fit-content;
+    margin-left: 100px;
+    margin-right: 200px;
+    /* margin-top: 50px; */
+  }
+  .productActivityRow {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-bottom: 0; /* Adjust the spacing between rows as needed */
+  }
+
+  .dropdown {
+    width: 30vh; /* Adjust the width of each input field as needed */
+    /* height: 5vh; */
+    padding: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    font-size: 16px;
+    /* Add other input field styles here */
+  }
+
+  .buttons {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    max-width: 100%; /* Make the container take up full width on small screens */
+    overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+  }
+}

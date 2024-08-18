@@ -1,0 +1,149 @@
+.dragDropImages {
+  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset,
+    rgba(247, 163, 169, 0.3) 0px 0px 0px 3px; // #f7a3a9
+  max-width: 50rem;
+  margin: 2rem auto;
+  border-radius: 0.625rem;
+  overflow: hidden;
+
+  > .dragArea {
+    height: 15rem;
+    border-radius: 0.5rem;
+    border: 0.125rem dashed $primaryColor;
+    color: $primaryColorLight;
+    background-color: $greyishWhite;
+    @include flex(row, center, center, 0);
+    user-select: none;
+    --webkit-user-select: none;
+    margin-top: 1rem;
+
+    > .clickable {
+      cursor: pointer;
+      color: $darkBlue;
+      text-decoration: underline;
+    }
+    > .visible {
+      font-size: 20rem;
+    }
+
+    > input {
+      display: none;
+    }
+    > .dragDropImages {
+      &.onDrop,
+      &.dragover {
+        .visible {
+          display: none;
+        }
+      }
+    }
+  }
+
+  > .container {
+    width: 100%;
+    height: max-content;
+    @include flex(row, center, flex-start, 0.5rem);
+    flex-wrap: wrap;
+    max-height: max-content;
+    overflow-y: auto;
+    margin-top: 2rem;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    > .image {
+      @include square(7rem);
+      margin-right: 0.5rem;
+      position: relative;
+      margin-bottom: 0.5rem;
+
+      > img {
+        @include square(7rem);
+        border-radius: 0.3125rem;
+        object-fit: cover;
+      }
+
+      > span {
+        position: absolute;
+        z-index: 999;
+        top: -0.125rem;
+        right: 0.5625rem;
+        font-size: 1.25rem;
+        cursor: pointer;
+        color: $white;
+        transform: scale(1.5);
+        transition: all 0.5s ease;
+
+        &:hover {
+          transform: scale(1.75);
+          color: $primaryColor;
+        }
+      }
+    }
+  }
+}
+
+// For Images professional
+.imageContainer {
+  width: 100%;
+  @include flex(row, flex-start, flex-start, 0.5rem);
+  flex-wrap: wrap;
+  // margin-top: 1rem;
+  // margin-bottom: 1rem;
+
+  .imageSelectContainer {
+    width: 100%;
+
+    .selction {
+      @include flex(row, flex-start, center, 0);
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      height: 3rem;
+
+      p {
+        padding: 10px;
+        text-align: left;
+        flex: 3;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        font-size: 0.876rem !important;
+        font-family: "Roboto";
+        opacity: 0.8;
+      }
+      span {
+        flex: 1;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 0.876rem !important;
+        font-family: "Roboto";
+        color: $grey;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          color: $primaryColor;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .errorImage {
+    height: max-content;
+    width: 100%;
+    @include flex(row, center, flex-start, 0);
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    color: $red;
+    font-size: 0.776rem !important;
+    opacity: 0.7;
+
+    b {
+      font-weight: bolder !important;
+      opacity: 1;
+    }
+  }
+}

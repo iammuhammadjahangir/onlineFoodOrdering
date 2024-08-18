@@ -1,0 +1,1028 @@
+.dashboardContainer {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+
+  .topDashBoardContainer {
+    width: 100%;
+    @include flex(row, space-between, center, 0);
+    height: 10%;
+    background-color: $white;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    > .timezoneContainer {
+      > input {
+        width: 220px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        color: rgba(1, 1, 1, 0.6);
+      }
+    }
+
+    > .brandContainer {
+      @include flex(row, flex-end, center);
+
+      > div {
+        @include flex(column, flex-end, center, 0);
+        h3 {
+          font-size: 1.5rem;
+          color: $grey;
+          align-self: flex-end;
+          font-family: "Roboto";
+          font-weight: bold;
+        }
+
+        > span {
+          @include flex(row, center, center, 0);
+          font-size: 0.9rem;
+          color: $lightgrey;
+          align-self: flex-end;
+          font-family: "Roboto";
+          font-weight: 100;
+          background-color: #fafafa;
+          padding: 0.2rem 0.5rem;
+          border-radius: 5px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        p {
+          align-self: flex-end;
+          font-size: 1.2rem;
+          font-family: "Roboto";
+          font-weight: 100;
+          color: $lightgrey;
+        }
+      }
+
+      img {
+        @include square(60px);
+        border-radius: 10px;
+      }
+    }
+  }
+
+  //   order Summary
+  .orderSummaryContainer {
+    width: 100%;
+    @include flex(row, flex-start, center, 0);
+    background-color: $white;
+    // border-radius: 0 0 20px 20px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    > .orderSummaryItem {
+      @include flex(column, center, center, 0.2rem);
+      flex: 1;
+
+      h1 {
+        font-size: 1rem;
+        font-family: "Roboto";
+        font-weight: bold;
+        color: $grey;
+        opacity: 0.8;
+      }
+
+      p {
+        font-family: "Poppins";
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: $grey;
+        // @include flex(row, center, center, 0);
+
+        span {
+          font-size: 0.9rem;
+          color: $lightgrey;
+          margin-right: 0.3rem;
+        }
+      }
+
+      h3 {
+        font-size: 0.9rem;
+        font-family: "Roboto";
+        color: $lightgrey;
+        // font-weight: bold;
+      }
+    }
+  }
+
+  .graphsData {
+    width: 100%;
+    height: 100%;
+    @include flex(row, center, center, 1rem);
+    margin-top: 1rem;
+
+    .newCustomers {
+      flex: 1;
+      width: 33%;
+      background-color: $white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      height: 15rem;
+      padding: 0.5rem 1.5rem;
+      margin: 0 auto;
+    }
+
+    .paymentTypeSummary {
+      flex: 1;
+      width: 33%;
+      background-color: $white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      height: 15rem;
+      padding: 0.5rem 1.5rem;
+      margin: 0 auto;
+      @include flex(column, space-between, center, 0);
+      padding-bottom: 3rem;
+
+      > section {
+        width: 100%;
+      }
+    }
+
+    .orderSummary {
+      flex: 1;
+      width: 33%;
+      background-color: $white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      height: 15rem;
+
+      padding: 0.5rem 1.5rem;
+      margin: 0 auto;
+
+      .topBar {
+        // width: max-content;
+        @include flex(row, center, center, 0);
+        margin-bottom: 0.5rem;
+        border: 1px solid rgba(100, 100, 111, 0.1);
+        padding: 2px;
+        border-radius: 5px;
+
+        article {
+          width: 25%;
+          border-right: 1px solid rgba(100, 100, 111, 0.1);
+          padding: 10px; // Optional: Add padding for better spacing inside the article
+        }
+
+        &:last-child {
+          border-right: none;
+        }
+
+        p {
+          font-size: 1rem;
+          font-family: "Roboto";
+          font-weight: bold;
+          color: $grey;
+          opacity: 0.8;
+          text-align: center;
+        }
+
+        h1 {
+          font-size: 0.9rem;
+          font-family: "Roboto";
+          font-weight: bold;
+          color: $lightgrey;
+          opacity: 0.8;
+        }
+      }
+
+      .highlightedValues {
+        width: 100%;
+        @include flex(column, center, center, 0.2rem);
+        // margin-bottom: 1rem;
+        // padding: 0.5rem;
+        // border-radius: 5px;
+        // background-color: #f5f5f5;
+
+        article {
+          width: 100%;
+          @include flex(row, flex-start, center, 0);
+          // border-right: 1px solid rgba(100, 100, 111, 0.1);
+
+          > section {
+            padding: 10px 20px; // Optional: Add padding for better spacing inside the article
+            @include flex(row, space-between);
+            flex: 2;
+            border-radius: 5px;
+
+            h1 {
+              font-size: 1.1rem;
+              font-family: "Roboto";
+              font-weight: 600;
+              color: $grey;
+            }
+
+            p {
+              text-align: center;
+              width: max-content;
+              padding: 5px 10px;
+              color: $white;
+              font-weight: 600;
+              border-radius: 5px;
+            }
+          }
+          .greenContainer {
+            background-color: #e8faec;
+
+            p {
+              background-color: #2bc155;
+            }
+          }
+          .orangeContainer {
+            background-color: #fef3f1;
+
+            p {
+              background-color: #ff6a4a;
+            }
+          }
+
+          h4 {
+            flex: 1;
+            text-align: center;
+            color: blue;
+            opacity: 0.7;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+
+    //   Top Products
+
+    h1 {
+      font-size: 2rem;
+      font-family: "Roboto";
+      font-weight: bold;
+      color: $lightgrey;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      // font-family: "Roboto";
+      font-weight: bolder;
+      color: #000;
+      opacity: 0.8;
+      text-align: center;
+    }
+  }
+
+  // Section No 4
+  .liveDataDetails {
+    margin-top: 1rem;
+    width: 100%;
+    height: 20rem;
+    @include flex(row, center, center, 1rem);
+
+    .liveOrderManagement {
+      flex: 2;
+      background-color: $white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 0.5rem 3.5rem;
+      height: 100%;
+      margin: 0 auto;
+
+      .mainTableContainer {
+        height: 17rem;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th {
+          font-size: 0.9rem;
+          font-family: "Roboto";
+          font-weight: bold;
+          color: $cartColor;
+          background-color: $white;
+          opacity: 0.7;
+          text-align: left;
+          padding: 0.2rem 0.5rem;
+          z-index: 100;
+        }
+
+        td {
+          font-size: 0.9rem;
+          font-family: "Roboto";
+          font-weight: 100;
+          color: $grey;
+          opacity: 0.8;
+          text-align: left;
+          padding: 0.5rem;
+        }
+
+        tr {
+          border-bottom: 1px solid rgba(100, 100, 111, 0.1);
+        }
+
+        .dashBoardTableImageDetails {
+          @include flex(row, flex-start, center, 0.5rem);
+          > div {
+            @include flex(column, flex-start, flex-start, 0.5rem);
+            margin-left: 0.3rem;
+            width: 80%;
+          }
+          // background-color: red;
+        }
+      }
+    }
+
+    .dailyTrendingMenus {
+      flex: 1;
+      background-color: $white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      height: 100%;
+      padding: 0.5rem 1.5rem;
+      margin: 0 auto;
+
+      .dailyTrendingMainContainer {
+        height: 17rem;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // Section No 5
+  .section5 {
+    width: 100%;
+    height: 20rem;
+    @include flex(row, center, center, 1rem);
+    margin-top: 1rem;
+
+    .deviceType {
+      flex: 1;
+      background-color: $white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 0.5rem 1.5rem;
+      margin: 0 auto;
+      height: 100%;
+    }
+
+    .dailyOrderValue {
+      flex: 2;
+      background-color: $white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 0.5rem 1.5rem;
+      margin: 0 auto;
+      height: 100%;
+
+      canvas {
+        width: 100%;
+        height: 90% !important;
+      }
+    }
+  }
+
+  // Section No 6
+  .section6 {
+    width: 100%;
+    height: 30rem;
+    @include flex(row, center, center, 1rem);
+    margin-top: 1rem;
+
+    .deliveryType {
+      flex: 2;
+      background-color: $white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 0.5rem 1.5rem;
+      margin: 0 auto;
+      height: 100%;
+
+      > section {
+        height: 100%;
+        @include flex(column);
+      }
+    }
+
+    .topProducts {
+      margin: 0 auto;
+      background-color: $white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 0.5rem 1.5rem;
+      height: 100%;
+
+      flex: 2;
+    }
+  }
+
+  .topProducts {
+    background-color: $white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0.5rem 1.5rem;
+    width: 30%;
+    height: 26.5rem;
+
+    flex: 1;
+  }
+}
+
+.paymentTypeContainer {
+  width: 100%;
+  @include flex(column, space-between);
+  padding: 0.5rem 1rem;
+
+  > section {
+    width: 100%;
+    @include flex(row, flex-start, center, 2rem);
+    margin: 0 1rem;
+
+    span {
+      margin-left: auto;
+    }
+
+    svg {
+      transform: scale(3);
+      padding: 3px;
+      border-radius: 5px;
+    }
+
+    article {
+      h5 {
+        font-size: 1rem;
+        font-family: "Roboto";
+        font-weight: bolder;
+        color: $black;
+        // opacity: 0.8;
+      }
+
+      > span {
+        font-size: 0.8rem;
+        font-weight: normal;
+        color: $grey;
+        margin-left: 2px;
+        opacity: 0.7;
+      }
+    }
+
+    > span {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: $grey;
+      opacity: 0.8;
+    }
+  }
+
+  .yellow {
+    svg {
+      background-color: #ffefd3;
+      color: #fecc80;
+    }
+  }
+
+  .orange {
+    svg {
+      background-color: #fef3f1;
+      color: #ff6a4a;
+    }
+  }
+
+  .red {
+    svg {
+      background-color: #fde2e2;
+      color: #f77070;
+    }
+  }
+  > h5 {
+    font-size: 0.9rem;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: $grey;
+    opacity: 0.8;
+  }
+  > div {
+    background-color: rgb(217, 217, 217);
+    border-radius: 20px;
+    height: 0.5rem;
+    flex: none;
+    > div {
+      border-radius: 20px;
+      height: 100%;
+    }
+  }
+  > span {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+}
+
+.headingGraphData {
+  font-size: 1.3rem;
+  // font-family: "Roboto";
+  font-weight: bolder;
+  color: #000;
+  opacity: 0.8;
+  text-align: center;
+}
+
+// dailyTrendingMenuCart
+.dailyTrendingMenuCart {
+  width: 100%;
+  @include flex(row, flex-start, center, 1rem);
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  padding-bottom: 0;
+  background-color: $white;
+  border-radius: 10px;
+  // margin-bottom: 1rem;
+  // height: 17%;
+  // overflow: scroll;
+
+  img {
+    @include square(55px);
+    border-radius: 10px;
+  }
+
+  > div {
+    @include flex(column, flex-start, flex-start, 0.5rem);
+    margin-left: 0.3rem;
+
+    h3 {
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      font-family: "Roboto";
+      font-weight: bold;
+      color: $grey;
+      opacity: 0.9;
+    }
+    span {
+      font-size: 0.8rem;
+      font-family: "Roboto";
+      font-weight: bold;
+      color: $cartColor;
+      opacity: 1;
+    }
+  }
+
+  section {
+    margin-left: auto;
+    @include flex(column, flex-end, flex-end, 0.5rem);
+
+    h1 {
+      font-size: 1.2rem;
+      font-family: "Roboto";
+      font-weight: bold;
+      color: $cartColor;
+      opacity: 0.9;
+    }
+
+    p {
+      font-size: 0.9rem;
+      font-family: "Roboto";
+      font-weight: bold;
+      color: $grey;
+      opacity: 0.7;
+    }
+  }
+}
+
+// Skeleton Loading
+
+// Line Graph Skeleton
+.dashboardContainer {
+  .lineGraphSkeleton {
+    margin-top: 0.4rem;
+    display: flex;
+    position: relative;
+    height: 70%;
+    width: 100%;
+    background: #f0f0f0; // Optional background for contrast
+
+    .lineGraphSkeleton-verticals,
+    .lineGraphSkeleton-horizontals {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .skeleton-line-vertical,
+      .skeleton-line-horizontal {
+        background-color: #ccc;
+      }
+
+      .skeleton-line-vertical {
+        width: 2px;
+        height: 100%;
+      }
+
+      .skeleton-line-horizontal {
+        height: 2px;
+        width: 100%;
+      }
+    }
+
+    .lineGraphSkeleton-line {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+
+      .skeleton-line-point {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ccc;
+      }
+    }
+  }
+}
+
+// Payment Type Skeleton
+.paymentTypeSummarySkeleton {
+  margin-top: 0.4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  .paymentTypeContainerSkeleton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    > div {
+      width: 100%;
+      @include flex(row, flex-start, center, 1rem);
+
+      // :last-child {
+      //   margin-left: auto;
+      // }
+    }
+
+    .skeleton-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #ccc;
+    }
+
+    .paymentTypeContentSkeleton {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+
+      .skeleton-text {
+        background-color: #ccc;
+        height: 1rem;
+        border-radius: 4px;
+      }
+    }
+
+    .skeleton-barContainer {
+      // flex: 1;
+      height: 40px;
+      width: 30px;
+      background-color: #f0f0f0;
+      border-radius: 4px;
+      position: relative;
+      margin-left: auto;
+
+      .skeleton-bar {
+        height: 100%;
+        background-color: #ccc;
+        width: 30px;
+        border-radius: 10px;
+        transition: width 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
+.skeleton-barContainerLoading {
+  flex: 1;
+  height: 40px;
+  width: 30px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  position: relative;
+  margin-left: auto;
+
+  .skeleton-bar {
+    height: 100%;
+    background-color: #ccc;
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+}
+
+// Order Summary Skeleton Data
+.orderSummarySkeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1rem;
+
+  .headingGraphDataSkeleton {
+    height: 1.5rem;
+    background-color: #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+
+  .topBarSkeleton {
+    display: flex;
+    width: 100%;
+    gap: 0rem;
+
+    .topBarItemSkeleton {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+
+      .skeleton-text {
+        background-color: #ccc;
+        height: 0.5rem;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .highlightedValuesSkeleton {
+    @include flex(column);
+    width: 100%;
+
+    gap: 0.2rem;
+
+    .highlightedItemSkeleton {
+      width: 100%;
+      flex: 1;
+      @include flex(row, flex-start, center, 0.5rem);
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+
+      .highlightedContainerSkeleton {
+        @include flex(row, space-between, center);
+        flex: 2;
+        gap: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 4px;
+        // height: 80px;
+
+        &.green {
+          background-color: #e0f7e0;
+        }
+
+        &.orange {
+          background-color: #fde0e0;
+        }
+
+        .skeleton-text {
+          background-color: #ccc;
+          height: 1.5rem;
+          border-radius: 4px;
+          margin-bottom: 0;
+        }
+      }
+
+      .skeleton-text {
+        background-color: #ccc;
+        height: 1rem;
+        border-radius: 4px;
+        width: 60px;
+      }
+    }
+  }
+}
+
+// .skeleton-loader {
+.skeleton-text {
+  height: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #ddd;
+  animation: skeletonLoading 1.5s infinite;
+}
+
+.skeleton-rect {
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #ddd;
+  animation: skeletonLoading 1.5s infinite;
+}
+
+.skeleton-circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #ddd;
+  animation: skeletonLoading 1.5s infinite;
+}
+
+// Live order Skeleton
+.liveOrderManagement {
+  flex: 2;
+  background-color: $white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 0.5rem 3.5rem;
+  height: 100%;
+  margin: 0 auto;
+
+  .mainTableContainer {
+    height: 17rem;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th {
+      font-size: 0.9rem;
+      font-family: "Roboto";
+      font-weight: bold;
+      color: $cartColor;
+      background-color: $white;
+      opacity: 0.7;
+      text-align: left;
+      padding: 0.2rem 0.5rem;
+      z-index: 100;
+
+      > div {
+        width: 80% !important;
+        margin: 0;
+        border-radius: 10px;
+      }
+    }
+
+    td {
+      font-size: 0.9rem;
+      font-family: "Roboto";
+      font-weight: 100;
+      color: $grey;
+      opacity: 0.8;
+      text-align: left;
+      padding: 0.5rem;
+      position: relative;
+
+      &.skeleton-cell {
+        background: #e0e0e0;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+    }
+
+    .skeletonRow {
+      td {
+        .dashBoardTableImageDetails {
+          display: flex;
+          align-items: center;
+
+          .skeleton-image {
+            width: 50px;
+            height: 50px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            margin-right: 0.5rem;
+          }
+
+          div {
+            display: flex;
+            flex-direction: column;
+
+            .skeleton-text {
+              height: 20px;
+              background-color: #e0e0e0;
+              border-radius: 4px;
+              margin: 0.2rem 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.skeleton-image {
+  width: 60px;
+  height: 60px;
+}
+
+.skeleton-text {
+  height: 16px;
+  // margin: 6px 0;
+}
+
+.skeleton-text.short {
+  width: 50px;
+}
+
+.skeleton-text.long {
+  width: 80px;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #f5f5f5;
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}
+
+.skeleton-cell {
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+// Daily trending Menu Skeleton
+.dailyTrendingMenusSkeleton {
+  box-shadow: none !important;
+  padding-left: 0;
+  padding-right: 0;
+  .dailyTrendingMainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+
+    .dailyTrendingMenuCart.skeleton {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      padding: 0;
+      border-radius: 8px;
+      width: 100%;
+      margin: 0;
+
+      .skeleton-image {
+        @include square(55px);
+        background-color: #e0e0e0;
+        border-radius: 8px;
+        margin-right: 1rem;
+      }
+
+      .skeleton-text-container {
+        flex: 1;
+
+        .skeleton-text {
+          height: 20px;
+          background-color: #e0e0e0;
+          border-radius: 4px;
+          margin: 0.2rem 0;
+        }
+      }
+
+      .skeleton-index {
+        text-align: center;
+        width: 60px;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        .skeleton-text {
+          height: 20px;
+          background-color: #e0e0e0;
+          border-radius: 4px;
+          margin: 0.2rem 0;
+        }
+      }
+    }
+  }
+}
+
+// }
+
+@keyframes skeletonLoading {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}

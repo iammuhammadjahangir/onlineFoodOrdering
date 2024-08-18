@@ -1,0 +1,275 @@
+{
+	"info": {
+		"_postman_id": "408d1ff4-a055-42b9-a643-bfb2aa33b749",
+		"name": "GoldApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26087778",
+		"_collection_link": "https://www.postman.com/crimson-trinity-853659/workspace/book-app-task/collection/26087778-408d1ff4-a055-42b9-a643-bfb2aa33b749?action=share&source=collection_link&creator=26087778"
+	},
+	"item": [
+		{
+			"name": "Customers",
+			"item": [
+				{
+					"name": "get Customers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/customers/get",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"customers",
+								"get"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post Customer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fName\":\"Muhammad\",\r\n    \"lName\" :\"Jahangir\",\r\n    \"phoneNo\" :\"031234324\",\r\n    \"cellNo\" :\"322378\",\r\n    \"address\":\"dagshbsf ajfjhsf\",\r\n    \"city\":\"Rawalinfi\",\r\n    \"status\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/customers/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"customers",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Customer",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/customers/update/64d380bbe8e7c162102cf84a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"customers",
+								"update",
+								"64d380bbe8e7c162102cf84a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Customer",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/customers/delete/64d3930fc48f4b2fd624ce44",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"customers",
+								"delete",
+								"64d3930fc48f4b2fd624ce44"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get customer by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/customers/get/64d380bbe8e7c162102cf84a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"customers",
+								"get",
+								"64d380bbe8e7c162102cf84a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Get All user",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/goldapp/getAllUser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"goldapp",
+								"getAllUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{   \"firstName\":\"Muhammad\",\r\n    \"lastName\":\"ali\", \r\n    \"emailAddress\":\"20-arid-617@student.uaar.edu.pk\", \r\n    \"password\":\"ak123\", \r\n    \"confirmPassword\":\"ak123\" }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/goldapp/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"goldapp",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SignIn User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"emailAddress\":\"20-ARID-617@student.uaar.edu.pk\",\r\n    \"password\":\"ak123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/goldapp/signin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"goldapp",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Roles",
+			"item": [
+				{
+					"name": "Post Roles",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"roleName\":\"admin\",\r\n    \"roleDescription\":\"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/role/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"role",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Roles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/role/get",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"role",
+								"get"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

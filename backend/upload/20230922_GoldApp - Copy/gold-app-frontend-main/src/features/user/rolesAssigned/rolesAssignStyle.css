@@ -1,0 +1,27 @@
+.modelStyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  background-color: #fff;
+  background-color: whitesmoke;
+  border: 2px solid #000;
+  box-shadow: 24;
+  padding: 4px;
+}
+
+.flexDirection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.spinner {
+  width: 100%;
+  height: 100vh;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

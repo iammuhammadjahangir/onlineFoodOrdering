@@ -1,0 +1,137 @@
+.registerContainer {
+  width: 100%;
+  height: max-content;
+  padding: 0.5rem 1rem;
+
+  .registerInnerContainer {
+    @include flex(row, space-between, center, 1rem);
+    width: calc(100% - 2rem);
+    margin: auto;
+    flex-wrap: wrap;
+    overflow-y: auto; // Allow vertical scrolling if content exceeds container height
+    height: max-content; // Set height to max-content
+
+    > .leftRegister {
+      @include flex(column, center, center);
+      flex: 1;
+
+      > .personalDetails {
+        @include flex(column, center, center, 0);
+        width: 100%;
+        > .imageContainer {
+          position: relative;
+          width: 13rem;
+          height: 13rem;
+          border-radius: 50%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          z-index: 1;
+
+          > img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+          }
+        }
+
+        > .extraInfo {
+          width: 100%;
+          @include flex(column, flex-start, flex-start, 0);
+
+          .personal {
+            width: 100%;
+            @include flex;
+
+            .personalContainer {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    .rightRegister {
+      flex: 1;
+      height: 100%;
+      width: 100%;
+      @include flex(column, space-between, center, 0);
+
+      > .phoneContainer {
+        width: 100%;
+        @include flex(row, flex-start, flex-start, 1.5rem);
+      }
+
+      > .shopContainer {
+        width: 100%;
+        @include flex(column, flex-start, flex-start, 0);
+      }
+
+      .dobpos {
+        width: 100%;
+        @include flex(row, flex-start, flex-start, 1.5rem);
+
+        > .dob {
+          width: 100%;
+          @include flex(column, flex-start, flex-start, 0.4rem);
+        }
+        > .pos {
+          width: 100%;
+          @include flex(column, flex-start, flex-start, 0.4rem);
+        }
+      }
+
+      .printerTable {
+        width: 100%;
+        @include flex(row, flex-start, flex-start, 1.5rem);
+
+        > .printer {
+          width: 100%;
+          @include flex(column, flex-start, flex-start, 0.4rem);
+        }
+
+        > .table {
+          width: 100%;
+          @include flex(column, flex-start, flex-start, 0.4rem);
+        }
+      }
+
+      .password {
+        width: 100%;
+        @include flex(row, flex-start, flex-start, 1.5rem);
+      }
+
+      > .actionButton {
+        width: 100%;
+        @include flex(row, center, center, 2rem);
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+  }
+}
+
+.registerInnerContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.ReactImagePickerEditor {
+  > .place-image {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+.curtain {
+  border-radius: 50% !important;
+}

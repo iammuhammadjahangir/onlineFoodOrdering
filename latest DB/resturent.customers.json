@@ -1,0 +1,169 @@
+[{
+  "_id": "S00xXwsbjGQcoePQnheKY7cv7SE2",
+  "name": "Muhammad Jahangir",
+  "avatar": "upload/customer/compressed_a377ebfa-e7e8-403e-871b-af40169b7e3c.jpeg",
+  "email": "muhammadjahangir643@gmail.com",
+  "phoneNo": "+923129486808",
+  "gender": "male",
+  "dob": {
+    "$date": "2024-07-15T10:13:30.835Z"
+  },
+  "address": [
+    {
+      "addressDetail": "test Data 2",
+      "city": "Islamabad Bahria Enclave",
+      "area": "Sector I",
+      "_id": {
+        "$oid": "6698b2f35dc41045c99394bf"
+      }
+    },
+    {
+      "addressDetail": "sasasasas",
+      "city": "Islamabad Bahria Enclave",
+      "area": "Sector I",
+      "_id": {
+        "$oid": "6698b2ff5dc41045c99394c8"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698de9d5dc41045c99394ef"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e11fdd0d1e0398de1a94"
+      }
+    }
+  ],
+  "paymentOptions": [],
+  "wishList": [],
+  "createdAt": {
+    "$date": "2024-07-15T08:09:26.422Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T09:32:15.318Z"
+  },
+  "__v": 7
+},
+{
+  "_id": "WgC3o2ALmIhBAMbK7R9FzeSH4Y0h",
+  "name": "Muhammad Jahangir",
+  "email": "muhammadjahangir6433@gmail.com",
+  "phoneNo": "+923129486808",
+  "gender": "",
+  "dob": null,
+  "address": [
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e140dd0d1e0398de1a98"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e75de879e577527d9de6"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e783f045789524f0715d"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e7dcf045789524f0716c"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e7faf045789524f07178"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e810f045789524f07185"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e81bf045789524f0719b"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e83bf045789524f071aa"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e898f045789524f071ba"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698e8cbf045789524f071cb"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698eb13f045789524f071e5"
+      }
+    },
+    {
+      "addressDetail": "ewewwe",
+      "city": "Islamabad Ali Pur",
+      "area": "Balti Colony",
+      "_id": {
+        "$oid": "6698eb17f045789524f071f8"
+      }
+    }
+  ],
+  "paymentOptions": [],
+  "wishList": [],
+  "createdAt": {
+    "$date": "2024-07-18T09:32:48.448Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-18T10:14:47.534Z"
+  },
+  "__v": 11
+}]

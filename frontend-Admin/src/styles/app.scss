@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Roboto, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  user-select: none;
+  background-color: #f2f2f2;
+
+  &.modal-active {
+    overflow: hidden;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.error {
+  color: rgba(255, 0, 0, 0.514);
+  font-size: 1rem;
+  // font-weight: 500;
+  height: 29px;
+  padding-left: 0.5rem;
+}
+.p-2\.5 {
+  padding: 0.8rem 2.5rem;
+}
+
+[type="text"]:focus {
+  --tw-ring-color: none;
+  --tw-ring-offset-shadow: none;
+  --tw-ring-shadow: "none";
+}
+
+.green {
+  color: #00ff00;
+}
+
+.red {
+  color: #ff0000;
+}
+// Creating the variables
+$primaryColor: #3498db; // Blue
+$primaryColorLight: #85c1e9; // Light Blue
+$primaryColorLighthover: rgba(
+  133,
+  193,
+  233,
+  0.4
+); // Light Blue with transparency
+$secondaryColor: #aed6f1; // Soft Blue
+$greyishWhite: rgb(245, 245, 245); // Slightly lighter greyish white
+$white: #ffffff; // White
+$black: #000000; // Black
+$grey: rgba(64, 64, 64); // Darker grey
+$lightgrey: #cccccc; // Light grey
+$greyHover: rgba(0, 0, 0, 0.2); // Black with transparency for hover effect
+$lightgreyborder: #b3b3b3; // Border grey
+$navyBlue: #34495e; // Dark navy blue
+$darkBlue: #2c3e50; // Darker blue
+$cartColor: #f5b041; // Orange
+$red: #e74c3c; // Bright red
+$green: rgb(46, 204, 113); // Bright green
+$sharpGreen: #00ff00;
+$lightGreen: rgba(46, 204, 113, 0.2); // Bright green with transparency
+
+// //Creating the variables
+// $primaryColor: #f26671;
+// $primaryColorLight: #f7a3a9;
+// $primaryColorLighthover: rgba(247, 163, 169, 0.4);
+// $secondaryColor: #f7c6ca;
+// $greyishWhite: rgb(247, 247, 247);
+// $white: #fff;
+// $black: #000;
+// $grey: rgba(46, 46, 46);
+// $lightgrey: #a7a7a7;
+// $greyHover: rgba(0, 0, 0, 0.2);
+// $lightgreyborder: #717171;
+// $navyBlue: #40679e;
+// $darkBlue: #1b3c73;
+// $cartColor: bisque;
+// $red: red;
+// $green: rgb(78, 241, 78);
+// $lightGreen: rgba(0, 238, 0, 0.2);
+
+//importing the mixins
+@import "mixin";
+@import "header";
+@import "table";
+@import "tooltip";
+@import "input";
+@import "phoneNumber";
+@import "button";
+@import "components/lazyLoadImage";
+@import "components/gallery/sliderImage";
+@import "components/dragDropImages";
+@import "components/switchButton";
+@import "components/localeDropDown";
+@import "components/swal/swalCustom";
+@import "components/customModel";
+@import "components/datePicker";
+@import "components/weekDaysPicker";
+@import "pages/variationOptions";
+@import "pages/dashboard/dashboard";
+@import "login";
+@import "registerUser";
+@import "profile";
+@import "user";
+@import "pages/variation";
+@import "pages/category";
+@import "pages/product";
+@import "pages/uploadSliderImage";
+@import "pages/banner/banner.scss";
+@import "pages/banner/newBanner";
+@import "pages/discounts/bulkCategoryDiscount";
+@import "pages/discounts/promoCodeDiscount";
+@import "pages/branches/createBranch";
+@import "pages/branches/branchRecord";
+
+.showPasswordContainer {
+  width: 100%;
+  padding-left: 0, 5rem;
+  @include flex(row, flex-start, center, 1rem);
+
+  > input {
+    border-radius: 5px;
+  }
+  > label {
+    font-family: "Roboto";
+    opacity: 0.9;
+  }
+}
+
+.pageHeading {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  font-weight: 600;
+  margin: 0;
+  color: $primaryColor;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // height: 100vh;
+  width: 98vw;
+
+  > .centeredContainer {
+    min-height: 90vh;
+    width: 97vw;
+    overflow-x: inherit;
+    margin-top: 55px;
+    padding: 5px;
+    background-color: #000;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    // overflow-y: auto;
+  }
+}
+
+.pagination {
+  padding-bottom: 3rem;
+  article {
+    @include flex;
+    > button {
+      @include flex;
+      @include btn(0.5rem 1rem, $navyBlue, $white);
+      border-radius: 10px;
+      &:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+        color: $lightgrey;
+      }
+    }
+  }
+}
+
+[type="radio"]:checked::before {
+  background-color: $primaryColor;
+  background-image: none;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.textDirecion {
+  direction: rtl;
+}
+.error {
+  text-align: left;
+  color: red;
+  font-size: 0.876rem !important;
+  font-family: "Roboto";
+  opacity: 0.7;
+}
+// @media (max-width: 1024px) {
+//   .mainContainer {
+//     margin-top: 17rem;
+//   }
+// }
+
+// .center {
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }

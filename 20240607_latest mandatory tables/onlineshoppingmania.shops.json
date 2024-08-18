@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "66459c727fd16ca6f3a0b5cf"
+  },
+  "shopCode": "S_001",
+  "shopAddress": "N-68 Waris Khan, Murree Road, Rawalpindi",
+  "shopDescription": "Main Shop",
+  "wareHouseId": "664598f2b4e78d1e777bacb0",
+  "shopType": "shop",
+  "shopPhoneNo": "+923330960444",
+  "__v": 0
+}]

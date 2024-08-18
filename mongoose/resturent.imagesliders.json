@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "65cda8550468a7c078815c0c"
+  },
+  "filename": "317cb4b6-f6ec-483a-a465-7e45757b1c34.jpg",
+  "originalname": "img1.jpg",
+  "path": "upload\\slider\\317cb4b6-f6ec-483a-a465-7e45757b1c34.jpg",
+  "size": 2777057,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cda8550468a7c078815c0d"
+  },
+  "filename": "e874b237-a11b-4d2b-8a8b-45626d22aba8.jpg",
+  "originalname": "img2.jpg",
+  "path": "upload\\slider\\e874b237-a11b-4d2b-8a8b-45626d22aba8.jpg",
+  "size": 1891795,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cda8550468a7c078815c0e"
+  },
+  "filename": "abd74f64-4000-47b4-86ff-38f699074c1c.jpg",
+  "originalname": "img3.jpg",
+  "path": "upload\\slider\\abd74f64-4000-47b4-86ff-38f699074c1c.jpg",
+  "size": 1617184,
+  "__v": 0
+}]

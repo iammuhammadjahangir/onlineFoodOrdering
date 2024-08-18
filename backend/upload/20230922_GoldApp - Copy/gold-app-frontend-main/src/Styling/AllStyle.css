@@ -1,0 +1,77 @@
+/* NavigationButtons.module.css */
+.stackContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 3px; /* Adjust this value as needed */
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #707070; /* Adjust the color value as needed */
+    font-family:'Poppins', sans-serif;
+  }
+
+.stack2Container {
+    display: flex;
+    gap: 5px;
+    flex-direction:"row";
+    font-family:'Poppins', sans-serif;
+}
+
+.div1Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Poppins', sans-serif;
+} 
+
+.typograpgy {
+    font-size: 45px;
+    color: #000000;
+    font-family:'Poppins' ;
+}
+/* .typograpgy2 {
+    background-color: #62cb67;
+    margin-left: 20px;
+    font-size: 21px;
+    color: #ffffff;
+    padding-top: 5px;
+    font-family:'Poppins', ;
+} */
+.typograpgy3 {
+    background-color: #ffffff;
+    font-size: 21px;
+    color: #393939;
+    padding: 5px;
+    font-family:'Poppins', ;
+}
+.iconContainer{
+    font-size: 5px
+}  
+.dashContainer {
+   font-size: 20;
+   color: #707070; /* Adjust this value as needed */
+   font-family:'Poppins', ;
+  }
+.buttonText {
+    color: 'error';
+    font-size: 20px; /* Adjust the color value as needed */
+  }
+
+.buttonText2 {
+    background-color: #62cb67; /* Adjust the color value as needed */
+  color: white;
+  font-size: 21px;
+  }
+
+  .custom-swal-popup {
+    background-color: #ECECEC; /* Set the background color here */
+  }
+
+  .ui.left.icon.input .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  

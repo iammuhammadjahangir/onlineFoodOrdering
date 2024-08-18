@@ -1,0 +1,37 @@
+/* .parent-container {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+  }
+
+  .parent-container {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+
+.Hello {
+  margin: 0px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.HeaderStyle {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.parent-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.table-cell {
+  border-right: 1px solid #707070;
+  padding: 10px;
+}
+
+MuiTableRow-root:last-child th {
+  border: 1px solid;
+}

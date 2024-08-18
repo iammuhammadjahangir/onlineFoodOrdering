@@ -1,0 +1,105 @@
+.filled {
+  background-color: $primaryColor;
+  white-space: nowrap;
+  color: $white;
+  font-weight: bold;
+  font-family: "Roboto";
+  // @include heading;
+  @include flex;
+  font-size: 0.776rem;
+  border: 1px solid $primaryColor;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    opacity: 0.7;
+  }
+  svg {
+    transform: scale(1.5);
+  }
+}
+
+.outlined {
+  background-color: transparent;
+  white-space: nowrap;
+
+  color: $primaryColor;
+  // font-weight: bold;
+  font-family: "Roboto";
+  // @include heading;
+  @include flex;
+  font-size: 0.776rem;
+  border: 1px solid $primaryColor;
+  padding: 5px 5px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $primaryColor;
+    color: $white;
+  }
+  svg {
+    transform: scale(1.5);
+  }
+}
+
+// model butotn/* Base button styles *//* Button.scss *//* Button.scss */
+.cssbuttons-io {
+  display: inline-block;
+  padding-left: 10px;
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  border-radius: 0.8em;
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+  background: transparent; /* Transparent for the background to let inline style control it */
+
+  .icon {
+    width: 1.2em;
+    height: 1.2em;
+  }
+
+  .text {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8em 1.2em 0.8em 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 100%;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.3); /* Default before color with opacity */
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1), background 0.4s;
+  }
+
+  &:hover::before {
+    background: rgba(
+      0,
+      0,
+      0,
+      0.3
+    ); /* Change the opacity to make it visible on hover */
+    transform: translate3d(100%, 0, 0);
+  }
+
+  &:active::before {
+    background: rgba(0, 0, 0, 0.5); /* Darker opacity on active */
+  }
+}

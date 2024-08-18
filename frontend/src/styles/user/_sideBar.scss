@@ -1,0 +1,75 @@
+.userContainer {
+  // @include mixin.grid(1fr 4fr, 2rem);
+  //use above for use keyword
+
+  @include grid(1fr 4fr, 2rem);
+  height: 100vh;
+  background-color: $greyishWhite;
+  > aside {
+    width: 100%;
+    background-color: white;
+    padding: 0 1rem;
+    z-index: 9;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    > div {
+      margin: 2rem 1rem;
+      > h5 {
+        @include heading(2px);
+        opacity: 0.8;
+        margin: 1rem 0;
+      }
+      > ul {
+        @include flex(column, unset, unset, 0.5rem);
+        list-style: none;
+        > li {
+          padding: 0.5rem 1rem;
+          border-radius: 10px;
+          a {
+            color: rgba(0, 0, 0, 0.825);
+            font-size: clamp(0.5rem, 0.3043rem + 3.4783vh, 1rem);
+            @include flex(row, unset);
+          }
+        }
+      }
+    }
+  }
+}
+
+#hamburger {
+  display: grid;
+  place-items: center;
+  @include square(3rem);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: $Yellow;
+  position: fixed;
+  // top: 5rem;
+  left: 0.5rem;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 9;
+}
+
+#closeSidebar {
+  width: 80%;
+  margin: 1rem auto;
+  display: block;
+  padding: 0.75rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: $Yellow;
+  color: white;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  // Code inside the media query
+  .userContainer {
+    @include grid(1fr, 2rem);
+  }
+}

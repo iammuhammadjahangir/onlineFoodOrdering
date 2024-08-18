@@ -1,0 +1,111 @@
+.role {
+  /* height: 100%; */
+  height: 100%;
+  padding-top: 10px;
+}
+
+/*======================== start of Design for color Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+.role.theme-blue {
+  background-color: #3747db;
+}
+
+.role.theme-blue .contentt-box h3,
+.role.theme-blue .content-box h5 {
+  color: #ffffff;
+}
+
+.role.theme-blue .heading-container h5 .total-records {
+  background-color: #7883e7; /* Add your desired background color here */
+  color: #393939; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.role.theme-blue .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.role.theme-blue .search-withouInputfields-box {
+  background-color: #ffffff;
+}
+
+.role.theme-blue .table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.role.theme-blue .table-container th {
+  background-color: #a4b1df;
+  padding: 5px;
+  font: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.role.theme-blue .table-container td {
+  padding: 5px;
+  text-align: center;
+  font: #393939;
+  font-size: 17px;
+}
+.role.theme-blue .formInput {
+  background-color: #ffffff;
+}
+
+.role.theme-blue .row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.role.theme-blue .row .form1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.role.theme-blue .colorbuttons {
+  align-items: center !important;
+  margin-left: 450px;
+}
+
+.role.theme-blue .colorbuttons .button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.role.theme-blue .colorbuttons .button-back {
+  background-color: green;
+  color: white;
+  width: 120px;
+  height: 5vh;
+  /* float: left; */
+}
+
+.role.theme-blue .colorbuttons .button-add-product {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  background-color: rgb(171, 171, 8);
+  margin-left: 20px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  height: 5vh;
+  text-align: center;
+}
+/*======================== End of Design for App Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */

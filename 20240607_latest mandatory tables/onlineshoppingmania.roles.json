@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "657ad9baa55562062018248a"
+  },
+  "__v": 0,
+  "description": "superAdmin",
+  "name": "superAdmin"
+},
+{
+  "_id": {
+    "$oid": "657ae3c2e496e4ef82cdc823"
+  },
+  "description": "Administrator",
+  "name": "Administrator"
+},
+{
+  "_id": {
+    "$oid": "657ae3fce496e4ef82cdc824"
+  },
+  "description": "Admins",
+  "name": "Admins",
+  "updatedAt": {
+    "$date": "2024-07-05T10:39:39.605Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66597b8bc0908c9df0afc983"
+  },
+  "name": "Website Manager",
+  "description": "Website Manager",
+  "createdAt": {
+    "$date": "2024-05-31T07:26:03.221Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T07:26:03.221Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66597b96c0908c9df0afc987"
+  },
+  "name": "Order Manager",
+  "description": "Order Manager",
+  "createdAt": {
+    "$date": "2024-05-31T07:26:14.783Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-31T07:26:14.783Z"
+  },
+  "__v": 0
+}]

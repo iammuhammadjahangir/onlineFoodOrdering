@@ -1,0 +1,99 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.rmpureweight {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.autoRadio {
+  width: 150px;
+}
+
+.paymentMethod {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.pondWeight {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+  flex: 1;
+}
+
+.radioText {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+#paymentLabel {
+  width: 50%;
+  flex: 1;
+}
+
+.pureWeight {
+  flex: 1;
+}
+
+.paymentLabelChoice {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+@media only screen and (max-width: 460px) {
+  .form {
+    width: 90%;
+  }
+
+  #paymentLabel {
+    width: 50%;
+    font-size: 100%;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .pureCashGroup {
+    gap: 20px;
+  }
+
+  .paymentMethod {
+    align-items: center;
+  }
+
+  .paymentLabelChoice {
+    flex-direction: row !important;
+    width: 44%;
+    gap: 30px;
+  }
+
+  .rmpureweight {
+    gap: 50px;
+  }
+
+  .radioText {
+    width: 44%;
+  }
+}
+.centerDiv {
+  margin: 0 auto;
+  width: 80%;
+}

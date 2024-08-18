@@ -1,0 +1,115 @@
+.custom-div {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #ff5733;
+  color: white;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  /* Increase the font size as desired */
+}
+
+.custom-third-div {
+  position: absolute;
+  width: 70%;
+  top: 300px;
+  background-color: #ff5733;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 1;
+}
+
+/* New styles for input fields */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 10px;
+}
+
+.input-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
+
+.language {
+  height: 100%;
+}
+
+.language .theme-blue .printerPage {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60vh;
+}
+
+.language.theme-blue .setting-custom-div-first {
+  background-color: #ffff;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #1e41c1;
+  align-items: center;
+  margin-left: 660px;
+}
+
+.language.theme-blue .setting-custom-div-second {
+  background-color: #fff;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #1e41c1;
+
+  .customChange-Printer {
+    background-color: white;
+    cursor: pointer;
+    color: #ececec;
+  }
+
+  .customChange-Printer {
+    background-color: white;
+    cursor: pointer;
+    color: #ececec;
+  }
+}
+
+.language.theme-blue .ui.dropdown .menu .active.item span {
+  color: black;
+}
+
+.language.theme-blue .ui.dropdown .menu > .item span {
+  color: black;
+}
+
+.language.theme-blue .ui.labeled.icon.button {
+  width: 20vh;
+}
+.customchange-printersecond {
+  position: absolute;
+  width: 70%;
+  top: 300px;
+  background-color: #ffff;
+  color: #1e41c1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 1;
+}

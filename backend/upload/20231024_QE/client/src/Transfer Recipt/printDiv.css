@@ -1,0 +1,12 @@
+/* Hide the print-only-container class on the frontend */
+.print-only-container {
+    display: none;
+  }
+  
+  /* Show the print-only-container class during printing */
+  @media print {
+    .print-only-container {
+      display: block;
+    }
+  }
+  

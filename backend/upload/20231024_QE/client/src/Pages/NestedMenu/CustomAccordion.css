@@ -1,0 +1,30 @@
+/* HorizontalMenu.css */
+.horizontal-menu {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.sub-items-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px; /* Add margin to create a gap between the dashboard and sub-items */
+}
+/* HorizontalMenu.css */
+/* .sub-items-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: var(--click-position, 0px);
+  transform: translateX(-100%);
+} */
+.dashboard-button {
+  /* Your styles for the Dashboard button */
+  padding: 0%
+}
+
+.sub-item-button {
+  /* Your styles for the sub-item buttons */
+  padding: 0%
+}

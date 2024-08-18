@@ -1,0 +1,97 @@
+/* Default styles for custom-div */
+.setting {
+  height: 100%;
+}
+
+.setting.theme-blue .settingMaindiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70vh;
+}
+
+.setting.theme-blue .settingFirstDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.setting.theme-blue .setting-custom-div-first {
+  margin-left: 20px;
+  padding: 10px;
+  /* margin: 10px 0; */
+  background-color: #ffff;
+  cursor: pointer;
+  color: black;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.setting.theme-blue .setting-custom-div-second {
+  margin-left: 20px;
+  padding: 10px;
+  cursor: pointer;
+  /* margin: 10px 0; */
+  background-color: #fff;
+  color: black;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.custom-div {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #ff5733;
+  color: white;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px; /* Increase the font size as desired */
+}
+
+.custom-third-div {
+  position: absolute;
+  width: 70%;
+  top: 300px;
+  background-color: #ff5733;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 1;
+}
+/* Responsive styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .custom-div {
+    width: 100%; /* Full width for smaller screens */
+  }
+}
+
+/* Adjust the top value for different screen sizes using media queries */
+@media (max-width: 768px) {
+  .custom-third-div {
+    width: 70%;
+    top: 300px; /* Adjust for smaller screens */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .custom-third-div {
+    width: 70%;
+    top: 350px; /* Adjust for medium-sized screens */
+  }
+}

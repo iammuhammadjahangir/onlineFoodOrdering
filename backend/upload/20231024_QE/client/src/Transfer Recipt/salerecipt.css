@@ -1,0 +1,32 @@
+.main_heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 5px;
+  background-color: transparent !important;
+  font-family: "Times New Roman", Times, serif !important;
+  border-radius: 15px;
+  padding: 0 10px;
+  display: inline-block;
+  color: #f1b248 !important;
+  margin: 20px 0 !important;
+}
+
+.style {
+  display: flex;
+  gap: 50px;
+  padding: 0 7px;
+}
+
+.custom-dropdown {
+  position: relative;
+  z-index: 0;
+}
+
+.custom-dropdown .text {
+  flex-direction: column;
+}
+
+.custom-dropdown .label {
+  order: 1;
+  margin-top: 0.5em;
+}

@@ -1,0 +1,96 @@
+table {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+  table-layout: fixed;
+}
+
+thead th {
+  border-bottom: 2px solid black;
+  width: 50px;
+}
+
+tbody td {
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+}
+
+td {
+  letter-spacing: 1px;
+  line-height: 3;
+  width: 50px;
+}
+
+tr td:nth-child(5),
+tr td:nth-child(6) {
+  text-align: center;
+}
+
+tr th:nth-child(5),
+tr th:nth-child(6) {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  margin: 30px;
+}
+
+.button > * {
+  margin-right: 20px;
+  width: 30px;
+}
+
+.customerReport {
+  display: flex;
+  gap: 20px;
+}
+
+.customerReport > :nth-child(2) {
+  text-align: center;
+}
+
+.searchBar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dateSearch {
+  display: flex;
+  flex-basis: 40%;
+  gap: 20px;
+}
+
+.datePicker {
+  padding: 10px;
+}
+
+.dateSearchBtn {
+  flex-basis: 27%;
+}
+
+.resetBtn {
+  flex-basis: 10%;
+  padding: 8px 0px 8px 0px !important;
+}
+
+@media only screen and (max-width: 460px) {
+  table {
+    width: 230%;
+  }
+}
+
+.modelStyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  background-color: #fff;
+  background-color: whitesmoke;
+  border: 2px solid #000;
+  box-shadow: 24;
+  padding: 4px;
+}

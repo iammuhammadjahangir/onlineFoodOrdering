@@ -1,0 +1,58 @@
+.guideContainer {
+  margin: 9vmax 6vmax;
+  padding: 1vmax 0.4vmax;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: white;
+}
+
+.MainHeader {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vmax;
+  color: #c3a350;
+
+  border-top: 1px solid #e6c99a;
+  border-bottom: 1px solid #e6c99a;
+}
+
+.trading {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  font-family: "Noto Nastaliq Urdu";
+}
+.trading > h2 {
+  width: 100%;
+  color: #c3a350;
+  font-size: 2vmax;
+  gap: 0.5vmax;
+  margin-top: 1vmax;
+}
+.trading > p {
+  list-style: disc outside none !important;
+  display: inline;
+  color: #5c503d;
+  margin-left: 15px; /* Add space between the bullet and the text */
+  font-size: 1vmax;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.trading > p::before {
+  content: "\2022"; /* Unicode character for a bullet (disc) */
+  display: inline-block; /* Make the bullet display inline */
+  width: 10px; /* Optional: Adjust the width of the bullet */
+}
+
+@media (max-width: 700px) {
+  .guideContainer {
+    margin: 9vmax 1vmax;
+  }
+}

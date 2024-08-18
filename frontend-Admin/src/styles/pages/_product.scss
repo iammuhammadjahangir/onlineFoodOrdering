@@ -1,0 +1,308 @@
+.productContainer {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-family: "Roboto";
+
+  > header {
+    @include flex(row, space-between, center, 1rem);
+
+    > button {
+      width: max-content;
+    }
+  }
+}
+
+.newProduct {
+  width: 100%;
+  height: 100%;
+  @include flex(column, flex-start, flex-start, 0);
+  position: relative;
+
+  .newProductContainer {
+    width: 100%;
+    height: 100%;
+
+    form {
+      width: 95%;
+      height: 100%;
+
+      margin: 0 auto;
+      margin-top: 1rem;
+
+      @include flex(row, flex-start, flex-start, 1rem);
+
+      .productImageContainer {
+        .curtain {
+          border-radius: 50px !important;
+        }
+      }
+
+      .detailsSection {
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+
+        .nameDescription {
+          @include flex(row, flex-start, flex-start, 0.5rem);
+        }
+
+        .boolOptions {
+          @include flex(column, flex-start, flex-start, 0.5rem);
+
+          .firstRow,
+          .secondRow,
+          .thirdRow {
+            width: 100%;
+            @include flex(row, flex-start, flex-start, 0.5rem);
+
+            div {
+              width: 50%;
+              @include flex(row, space-between, center, 0.5rem);
+              padding: 5px 2px;
+              border-radius: 5px;
+              border: 1px solid rgba(0, 0, 0, 0.1);
+
+              h3,
+              label {
+                font-family: "Roboto";
+                font-size: 0.876rem !important;
+                font-weight: 500;
+                margin-bottom: 0.3rem;
+              }
+
+              .btn-switch {
+                height: 38px !important;
+              }
+            }
+          }
+        }
+
+        .priceContainer {
+          width: 100%;
+          @include flex(row, center, center, 0.5rem);
+
+          .fieldset-container {
+            width: 70%;
+            padding: 0.2rem 0.6rem;
+          }
+
+          .radioGroup {
+            @include flex;
+          }
+          .input-radio {
+            box-shadow: 0px 0px 0px 1px #6d6d6d;
+            // font-size: 3em;
+            width: 15px;
+            height: 15px;
+            margin-right: 7px;
+
+            border: 1px solid #fff;
+            background-clip: border-box;
+            border-radius: 50%;
+            appearance: none !important;
+            transition: background-color 0.3s, box-shadow 0.3s;
+          }
+          label {
+            font-size: 0.776rem;
+            display: flex;
+            margin: 0px 15px;
+            padding: 0 !important;
+            font-family: "Roboto";
+            font-weight: 500;
+            margin-bottom: 0.3rem;
+          }
+
+          .on:checked {
+            box-shadow: 0px 0px 0px 1px #00eb27;
+            background-color: #51ff6e;
+          }
+          .off:checked {
+            box-shadow: 0px 0px 0px 1px #eb0000;
+            background-color: #ff5151;
+          }
+        }
+
+        .timeWithCalerioes,
+        .priority,
+        .barcodeSKU,
+        .MapPosID {
+          @include flex(row, flex-start, flex-start, 0.5rem);
+        }
+
+        .variationSection {
+          width: 100%;
+
+          .new {
+            width: 100%;
+            @include flex(column, flex-start, flex-start, 0.5rem);
+          }
+
+          // .lastElement {
+          //   margin-bottom: 5rem;
+          // }
+        }
+
+        .imageContainer {
+          @include flex(column, flex-start, flex-start, 0.3rem);
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+          }
+          p {
+            font-family: "Roboto";
+            font-size: 0.876rem !important;
+            font-weight: 500;
+            margin-bottom: 0.3rem;
+          }
+        }
+
+        .imageContainerSection {
+          margin-bottom: 5rem;
+        }
+      }
+
+      .fieldset-container {
+        display: flex;
+        align-items: flex-start;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        padding: 1rem;
+      }
+      .legend {
+        font-weight: bold;
+        margin-right: auto;
+        // padding: 10px;
+        text-align: right;
+        font-size: 1rem;
+      }
+
+      .labeAndInputDiv {
+        @include flex(column, flex-start, flex-start, 0);
+
+        label,
+        h3 {
+          font-family: "Roboto";
+          font-size: 0.876rem !important;
+          font-weight: 500;
+          margin-bottom: 0.3rem;
+        }
+
+        input {
+          height: 2.5rem !important;
+          border-radius: 5px !important;
+          border: 1px solid $lightgrey !important;
+          font-family: "Roboto" !important;
+          font-size: 0.876rem !important;
+        }
+      }
+
+      .personalContainer {
+        @include flex(column, flex-start, flex-start, 0);
+
+        h3 {
+          font-family: "Roboto";
+          font-size: 0.876rem !important;
+          font-weight: 500;
+          margin-bottom: 0.3rem;
+        }
+
+        div {
+          justify-content: flex-start !important;
+          input {
+            border-radius: 5px !important;
+            font-family: "Roboto" !important;
+            font-size: 0.876rem !important;
+          }
+          // @include flex(, flex-start, center, 0.5rem);
+        }
+      }
+      .button-modal {
+        position: absolute;
+        bottom: -15px;
+        right: -20px;
+        // background-color: $primaryColor;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        @include flex;
+      }
+    }
+  }
+}
+
+.imageContainerSection {
+  margin: 20px 0;
+
+  .imageGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .imageWrapper {
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+      z-index: 1;
+    }
+
+    .deleteButton {
+      position: absolute;
+      height: max-content;
+      width: max-content;
+      top: 5px;
+      right: 5px;
+      background: rgba(255, 0, 0, 0.7);
+      border: none;
+      color: white;
+      padding: 5px 8px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 12px;
+      z-index: 2;
+    }
+  }
+
+  .imageSelectContainer {
+    margin-top: 15px;
+    .selction {
+      display: flex;
+      align-items: center;
+      p {
+        margin: 0;
+      }
+      .select {
+        margin-left: 10px;
+        color: #007bff;
+        // cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+
+  .errorImage {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+  }
+}

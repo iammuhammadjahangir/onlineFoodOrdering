@@ -1,0 +1,146 @@
+.calculatorContainerMain {
+  border: 2px solid black;
+  margin: 9vmax 3vmax;
+  padding: 2vmax 0.5vmax;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.calculatorMainHeader {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-size: 2.5vmax;
+}
+.calculatorsubHeading {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vmax;
+  color: #2a3037;
+}
+.calculatorContainer {
+  padding: 2vmax;
+  border: 7px double black;
+  background-color: #e9e9e9;
+  border-radius: 10px;
+  width: auto;
+}
+.offer,
+.gold,
+.value,
+.weight,
+.totalAmount {
+  font-size: 1.3vmax;
+  display: flex;
+  justify-content: space-between;
+  gap: 3vmax;
+  align-items: center;
+  font-family: "Roboto";
+}
+/*Styling Selectbox*/
+.dropdown {
+  width: 12.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all 0.5s ease;
+  font-family: "Roboto";
+  padding: 10px 0;
+  font-size: 1vmax;
+  color: #474747;
+  height: 100%;
+  text-align: center;
+  padding-right: 5px;
+}
+
+/* CSS */
+.buttonCal {
+  width: 100%;
+  align-items: center;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: "Roboto";
+  font-size: 1.6vmax;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonCal:hover {
+  outline: 0;
+  background-color: #474747;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .calculatorContainerMain {
+    margin: 9vmax 1vmax;
+  }
+  .calculatorsubHeading {
+    font-size: 1.3vmax;
+    text-align: center;
+  }
+  .calculatorContainer {
+    width: 80%;
+  }
+  .offer,
+  .gold,
+  .value,
+  .weight,
+  .totalAmount {
+    font-size: 2vmax;
+  }
+  .dropdown {
+    width: 20vmax !important;
+    font-size: 2vmax;
+  }
+  .buttonCal {
+    font-size: 2vmax;
+    background-color: #111;
+    color: white;
+  }
+  .buttonCal:hover {
+    background-color: #2a3037;
+  }
+}
+
+@media (min-width: 768px) {
+  .buttonCal {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .dropdown {
+    width: 70px;
+  }
+}

@@ -1,0 +1,161 @@
+.profileContainer {
+  padding: 1rem 5rem;
+  width: 100%;
+  height: max-content;
+
+  > .prodileInnerContainer {
+    @include flex(row, space-between, center, 1rem);
+    width: calc(100% - 2rem);
+    margin: auto;
+    flex-wrap: wrap;
+    overflow-y: auto; // Allow vertical scrolling if content exceeds container height
+    height: max-content; // Set height to max-content
+
+    > .leftProfile {
+      @include flex(column, center, center);
+      flex: 1;
+
+      > .personalDetails {
+        @include flex(column, center, center, 0);
+        width: 100%;
+        > .imageContainer {
+          position: relative;
+          width: 13rem;
+          height: 13rem;
+          border-radius: 50%;
+          display: flex;
+          align-items: flex-end;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          z-index: 1;
+
+          > img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+          }
+
+          > .badge {
+            position: absolute;
+            top: 5px; /* Adjust this value as needed */
+            right: 50px; /* Adjust this value as needed */
+            z-index: 10;
+
+            svg {
+              transform: scale(1.2);
+            }
+          }
+        }
+
+        > .designation {
+          @include flex(column, center, center, 0);
+          font-size: 1.3rem;
+          font-weight: 500;
+
+          > h3 {
+            @include heading;
+            font-family: "Roboto";
+          }
+
+          > h2 {
+            font-size: 1rem;
+            font-weight: bold;
+            color: $lightgrey;
+          }
+
+          > p {
+            @include heading;
+            opacity: 0.7;
+          }
+        }
+        > .extraInfo {
+          width: 100%;
+          @include flex(column, flex-start, flex-start, 0);
+
+          > .details {
+            > h3 {
+              @include heading;
+              font-size: 1.3rem;
+              font-weight: bold;
+              margin-bottom: 0.3rem;
+            }
+
+            > .extraInfoShadow {
+              @include flex(row, flex-start, center, 0);
+              width: max-content;
+              padding: 0.3rem 1rem;
+              border-radius: 0.5rem;
+              box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+              margin-bottom: 1rem;
+
+              > h2 {
+                // @include heading;
+                font-size: 1rem;
+                // font-weight: bold;
+                // margin-bottom: 0.3rem;
+              }
+            }
+
+            > .extraInfoShadow {
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+
+    .rightProfile {
+      flex: 1;
+      height: 100%;
+      width: 100%;
+      @include flex(column, space-between, center, 0);
+
+      > .rightDetails {
+        width: 100%;
+        > .details {
+          @include flex(column, flex-start, flex-start, 0);
+
+          > h3 {
+            @include heading;
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 0.3rem;
+          }
+
+          > .shop,
+          > .printer,
+          > .tableRows,
+          > .join {
+            @include flex(row, flex-start, center, 0);
+            width: max-content;
+            padding: 0.3rem 1rem;
+            border-radius: 0.5rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-bottom: 1rem;
+
+            > h2 {
+              // @include heading;
+              font-size: 1rem;
+              // font-weight: bold;
+              // margin-bottom: 0.3rem;
+            }
+          }
+
+          > .printer {
+            text-transform: capitalize;
+          }
+        }
+      }
+      > .actionButton {
+        @include flex(row, center, center, 2rem);
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+.prodileInnerContainer::-webkit-scrollbar {
+  display: none;
+}

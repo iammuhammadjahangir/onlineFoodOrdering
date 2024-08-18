@@ -1,0 +1,79 @@
+.imageWrapper {
+  width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+
+  > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+  }
+  &:hover::before {
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+
+  &:hover img {
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 2;
+  }
+}
+
+.blurLoad {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
+
+.blurLoad.loaded {
+  opacity: 1;
+}
+
+.blurLoad::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: pulse 2.5s infinite;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.1
+  ); /* Adjust the color and opacity as needed */
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.blurLoad.loaded::before {
+  animation: none;
+  content: none;
+}

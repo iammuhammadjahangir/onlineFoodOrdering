@@ -1,0 +1,138 @@
+.variationContainer {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-family: "Roboto";
+
+  > header {
+    @include flex(row, space-between, center, 1rem);
+
+    > button {
+      width: max-content;
+    }
+  }
+}
+
+.newSubOption {
+  width: 100%;
+  height: 100%;
+  @include flex(column, flex-start, flex-start, 0);
+  position: relative;
+
+  form {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    @include flex(column, space-between, center, 0);
+
+    > div {
+      width: 100%;
+      > section {
+        width: 100%;
+      }
+    }
+    .mainOptionContainer {
+      width: 100%;
+      @include flex(row, space-between, center, 0.5rem);
+
+      .btn-switch {
+        white-space: nowrap;
+      }
+
+      .col {
+        width: 70%;
+      }
+
+      label {
+        font-family: "Roboto";
+        font-size: 0.876rem !important;
+        font-weight: 500;
+        // margin-bottom: 0.3rem;
+        width: max-content;
+      }
+    }
+    .newOptionMessage {
+      @include flex(row, flex-start, center);
+      width: max-content;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-radius: 8px;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.887rem !important;
+      font-weight: 400;
+
+      color: #333;
+      cursor: pointer;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.15);
+        border-color: rgba(0, 0, 0, 0.3);
+      }
+
+      img {
+        // margin-right: 8px;
+      }
+    }
+    .optionsContainer {
+      padding-left: 2rem;
+
+      @include flex(row, flex-start-flex-start, 1rem);
+
+      .col {
+        @include flex(row, flex-start, center, 1rem);
+      }
+    }
+
+    svg {
+      transform: scale(1.5);
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .labeAndInputDiv {
+      @include flex(column, flex-start, flex-start, 0);
+
+      label {
+        font-family: "Roboto";
+        font-size: 0.876rem !important;
+        font-weight: 500;
+        margin-bottom: 0.3rem;
+      }
+
+      input {
+        height: 2.5rem !important;
+        border-radius: 5px !important;
+        border: 1px solid #000 !important;
+        font-family: "Roboto" !important;
+        font-size: 0.876rem !important;
+      }
+    }
+
+    .button-modal {
+      @include flex(row, flex-end, center, 0.8rem);
+      width: 100%;
+      position: sticky;
+      bottom: -20px;
+      margin-top: auto;
+      margin-left: auto;
+      width: 100%;
+      padding: 1rem 0;
+      background-color: #f7f7f7;
+      border-radius: 0 0 8px 8px;
+    }
+  }
+
+  .error {
+    text-align: left;
+    color: red;
+    font-size: 0.776rem !important;
+    font-family: "Roboto";
+    opacity: 0.7;
+    height: 15px;
+  }
+}

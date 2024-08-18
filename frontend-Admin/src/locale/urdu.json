@@ -1,0 +1,74 @@
+{
+  "user": "صارفین",
+  "newUsers": "نئے صارفین",
+  "viewUsers": "صارفین کو دیکھیں",
+  "records": "ریکارڈز",
+  "items": "مصنوعات",
+  "variation": "تغیرات",
+  "variationOptions": "تغیرات کے اختیارات",
+  "category": "قسم",
+
+  "addItem": "آئٹم شامل کریں۔",
+  "updateItem": "آئٹم کو اپ ڈیٹ کریں۔",
+  "addOptions": "اختیارات شامل کریں۔",
+  "addVariations": "تغیرات شامل کریں۔",
+  "uploadImages": "Upload Images",
+
+  "deleteConfirmationText": "کیا آپ اس ریکارڈ کو حذف کرنا چاہتے ہیں؟",
+  "deleteButtonText": "حذف کریں۔",
+  "cancelButtonText": "منسوخ کریں۔",
+  "savedButtonText": "ریکارڈ کامیابی سے حذف ہو گیا۔",
+  "cancelDialogueText": "تبدیلیاں محفوظ نہیں ہیں۔",
+  "confirmButtonText": "OK",
+
+  "goToFirstPage": "پہلے صفحہ پر جائیں۔",
+  "goToLastPage": "آخری صفحہ پر جائیں۔",
+  "previousPage": "سابقہ ​​صفحہ",
+  "nextPage": "اگلا صفحہ",
+
+  "createVariationOption": "تغیر کا اختیار بنائیں",
+  "optionName": "آپشن کا نام",
+  "enterVariationOptionName": "تغیر کے اختیار کا نام درج کریں۔",
+  "optionPrice": "آپشن کی قیمت",
+  "enterVariationOptionPrice": "تغیر کے اختیار کی قیمت درج کریں۔",
+
+  "updateVariationOption": "تغیر کے اختیار کو اپ ڈیٹ کریں۔",
+
+  "variations": "تغیرات",
+  "updateVariation": "تغیرات کو اپ ڈیٹ کریں۔",
+  "variationName": "تغیر کا نام",
+  "enterVariationName": "تغیر کا نام درج کریں۔",
+  "variationDescription": "تغیر کی تفصیل",
+  "enterVariationDescription": "تغیرات کی تفصیل درج کریں۔",
+
+  "categories": "قسم",
+  "addCategory": "زمرہ شامل کریں۔",
+  "createCategory": "زمرہ بنائیں",
+  "categoryName": "قسم کا نام",
+  "enterCategoryName": "زمرہ کا نام درج کریں۔",
+  "categoryDescription": "زمرہ کی تفصیل",
+  "enterCategoryDescription": "زمرہ کی تفصیل درج کریں۔",
+
+  "updateCategory": "زمرہ کو اپ ڈیٹ کریں۔",
+
+  "products": "مصنوعات",
+  "addProducts": "مصنوعات شامل کریں۔",
+  "createProduct": "پروڈکٹ بنائیں",
+  "productName": "پروڈکٹ کا نام",
+  "enterProductName": "پروڈکٹ کا نام درج کریں۔",
+  "updateProduct": "پروڈکٹ کو اپ ڈیٹ کریں۔",
+
+  "description": "تفصیل",
+  "enterProductDescription": "مصنوعات کی تفصیل درج کریں۔",
+  "actualPrice": "اصل قیمت",
+  "enterActualPrice": "اصل قیمت درج کریں۔",
+  "offerPrice": "پیشکش کی قیمت",
+  "enterOfferPrice": "پیشکش کی قیمت درج کریں۔",
+
+  "sliderImages": "Slider Images",
+  "addSliderImage": "Add Slider Image",
+  "uploadSliderImages": "Upload Slider Images",
+  "dropImagesHere": "Drop Images Here",
+  "dragandDopImagesHereOr": "Drag and Drop Images Here or",
+  "browse": "Browse Images"
+}

@@ -1,0 +1,227 @@
+.productType {
+  /* height: 100%; */
+  height: 100%;
+  padding-top: 10px;
+}
+
+/*======================== start of Design for color Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+.productType.theme-blue {
+  background-color: #0b6ab0;
+}
+
+.productType.theme-blue .contentt-box {
+  margin: 0 auto;
+  /* background-color: #e2f6e1; */
+  color: #222;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.productType.theme-blue .contentt-box > .excelDiv > button {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  max-width: 184px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid rgb(119, 7, 7);
+  color: rgb(119, 7, 7);
+  justify-content: space-between;
+  /* background-color: rgb(119, 7, 7); */
+  /* border-color: rgb(119, 7, 7); */
+  border-radius: 4px;
+}
+
+.productType.theme-blue .contentt-box > .excelDiv > button > span > svg {
+  color: rgb(119, 7, 7);
+}
+
+.productType.theme-blue .contentt-box h3,
+.productType.theme-blue .content-box h5 {
+  color: #ffffff;
+}
+.productType.theme-blue .heading-container {
+  display: flex; /* Display h3 and h5 in a row */
+  flex-direction: row; /* Align h3 and h5 vertically */
+}
+
+.productType.theme-blue .heading-container h5 .total-records {
+  background-color: #7883e7; /* Add your desired background color here */
+  color: #393939; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  margin-left: 10px;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.productType.theme-blue .heading-container h5 .rowCount {
+  background-color: white; /* Add your desired background color here */
+  color: #222; /* Add your desired text color here */
+  padding: 2px 5px; /* Add padding to create spacing around the background color */
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+}
+
+.productType.theme-blue .excelDiv {
+  height: 2vh;
+}
+
+.productType.theme-blue .download-table-xls-button {
+  background-color: none;
+  color: #e06f6f;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  border: 2px solid #d52828;
+  border-radius: 4px; /* Optionally, add border radius for rounded corners */
+  cursor: pointer;
+  height: fit-content;
+  transition: background-color 0.3s, color 0.3s;
+}
+.productType.theme-blue .download-table-xls-button:hover {
+  background-color: #efc9c9;
+  color: #f1b1b1;
+}
+
+.productType.theme-blue .search-withouInputfields-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  padding: 30px 20px 0 20px;
+  height: 10vh;
+  max-width: 1000px;
+  border-radius: 50px 50px 0 0;
+  /* margin-top: 5px; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-left: 350px;
+  margin-bottom: 10px;
+}
+
+.productType.theme-blue .table-container {
+  max-width: 1000px;
+  margin-left: 350px;
+}
+
+.productType.theme-blue .table-container table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse;
+}
+
+.productType.theme-blue .table-container th {
+  background-color: #a4b1df;
+  padding: 0px;
+  font: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.productType.theme-blue .table-container td {
+  padding: 0px;
+  text-align: center;
+  font: #393939;
+  font-size: 17px;
+}
+.productType.theme-blue .formInput {
+  background-color: #ffffff;
+}
+
+.productType.theme-blue .row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 0; /* Adjust the spacing between rows as needed */
+}
+
+.productType.theme-blue .row .form1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.productType.theme-blue .productTypeButtons {
+  align-items: center !important;
+  margin-left: 450px;
+}
+
+.productType.theme-blue .productTypeButtons .button {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.productType.theme-blue .productTypeButtons .button-back {
+  background-color: green;
+  color: white;
+  width: 120px;
+  height: 5vh;
+  /* float: left; */
+}
+
+.productType.theme-blue .productTypeButtons .button-back:hover {
+  background-color: rgb(1, 76, 1);
+  /* float: left; */
+}
+
+.productType.theme-blue .productTypeButtons .button-back:focus {
+  background-color: rgb(1, 76, 1);
+  /* float: left; */
+}
+
+.productType.theme-blue .productTypeButtons .button-add-product {
+  font-size: 17px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  /* float: center; */
+  border: none;
+  background-color: rgb(171, 171, 8);
+  margin-left: 20px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  height: 5vh;
+  text-align: center;
+}
+
+.productType.theme-blue .productTypeButtons .button-add-product:hover {
+  background-color: rgb(206, 206, 12);
+}
+
+.productType.theme-blue .productTypeButtons .button-add-product:focus {
+  background-color: rgb(206, 206, 12);
+}
+/*======================== End of Design for App Theme-blue Container Box ===========================
+     ============================================================================
+     ============================================================================= */
+@media screen and (min-width: 1200px) and (max-width: 1430px) {
+  .productType.theme-blue .search-withouInputfields-box {
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #222;
+    border-radius: 8px;
+    padding: 30px 20px 0 20px;
+    height: 10vh;
+    max-width: 1000px;
+    border-radius: 50px 50px 0 0;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 180px;
+    margin-bottom: 10px;
+  }
+
+  .productType.theme-blue .table-container {
+    max-width: 1000px;
+    margin-left: 180px;
+  }
+}
